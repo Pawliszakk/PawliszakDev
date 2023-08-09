@@ -6,6 +6,7 @@
 	font-size: 1.6rem;
 	color: var(--main-white);
 	overflow: hidden;
+	margin: 0 0.2em;
 }
 .link::before {
 	position: absolute;

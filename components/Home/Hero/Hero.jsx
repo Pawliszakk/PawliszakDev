@@ -5,8 +5,9 @@ import { Typewriter } from 'react-simple-typewriter';
 const Hero = () => {
 	const typeWriterWords = [
 		' Web Designer',
+		'Frontend Developer',
 		' Web Developer',
-		' Frontend Developer',
+		'React Frontend Developer',
 	];
 	return (
 		<section className={classes.hero}>
@@ -18,17 +19,18 @@ const Hero = () => {
 						Hi, I'm <span className={classes.headName}>Oskar</span>
 					</h1>
 					<p>
-					I am	<Typewriter
+						I am
+						<Typewriter
 							loop={10}
 							typeSpeed={100}
 							cursor
 							words={typeWriterWords}
 						/>
 					</p>
-				</div>
-				<div className={classes.links}>
-					<LinkButton href="/contact">Contact</LinkButton>
-					<LinkButton href="/about-me">About Me</LinkButton>
+					<div className={classes.links}>
+						<LinkButton href="/contact">Contact</LinkButton>
+						<LinkButton href="/about-me">About Me</LinkButton>
+					</div>
 				</div>
 			</div>
 		</section>
