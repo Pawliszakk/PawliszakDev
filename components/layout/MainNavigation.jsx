@@ -5,7 +5,7 @@ import classes from './MainNavigation.module.css';
 import { useRouter } from 'next/router';
 
 const MainNavigaiton = () => {
-	const [isNavActive, setIsNavActive] = useState(true);
+	const [isNavActive, setIsNavActive] = useState(FontFaceSetLoadEvent);
 	const [isNavScrolled, setIsNavScrolled] = useState(false);
 
 	const router = useRouter();
