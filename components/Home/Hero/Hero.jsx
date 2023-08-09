@@ -7,7 +7,7 @@ const Hero = () => {
 		' Web Designer',
 		' Frontend Developer',
 		' Web Developer',
-		' React Frontend Developer',
+		' React Developer',
 	];
 	return (
 		<section className={classes.hero}>
