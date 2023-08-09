@@ -18,7 +18,7 @@ const Hero = () => {
 						Hi, I'm <span className={classes.headName}>Oskar</span>
 					</h1>
 					<p>
-						{'I am'}
+						I am&apos;
 						<Typewriter
 							loop={10}
 							typeSpeed={100}
