@@ -5,9 +5,9 @@ import { Typewriter } from 'react-simple-typewriter';
 const Hero = () => {
 	const typeWriterWords = [
 		' Web Designer',
-		'Frontend Developer',
+		' Frontend Developer',
 		' Web Developer',
-		'React Frontend Developer',
+		' React Frontend Developer',
 	];
 	return (
 		<section className={classes.hero}>
