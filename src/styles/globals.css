@@ -8,6 +8,7 @@
 	--main-color: #003140;
 	--main-color-darker: #00222c;
 	--main-white: #fff;
+	--main-cta: #ff4900;
 }
 html {
 	font-size: 62.5%;
@@ -16,6 +17,9 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+main {
+	margin-top: 10vh;
+}
 a {
 	text-decoration: none;
 }

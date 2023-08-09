@@ -8,54 +8,55 @@
 	height: 10vh;
 	width: 100%;
 	background-color: var(--main-color-darker);
+	/* background-color: #0e0d0d; */
 	color: var(--main-white);
+}
+.header .active {
+	background-color: var(--main-color-darker);
 }
 .header a {
 	color: var(--main-white);
 }
 .logo {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	padding: 0 0.5em;
+	font-weight: bold;
 }
-.hamburger {
-	display: none;
+.logo a {
+	transition: color 0.3s;
 }
-.list{
-    display: flex;
-    list-style: none;
+.logo:hover a {
+	color: var(--main-cta);
 }
-
 
 @media (max-width: 768px) {
-	.hamburger {
-		display: block;
+	.header {
+		padding: 0;
 	}
-	.hamburger {
-		padding: 0 0.5em;
+}
+@media (min-width: 576px) {
+	.logo {
+		font-size: 3rem;
 	}
-	.navigation {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 90vh;
-		margin-top: 10vh;
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-		background-color: var(--main-color);
-		transition: transform 0.5s ease-in-out;
-		transform: translateX(110%);
+}
+@media (min-width: 992px) {
+	.logo {
+		font-size: 3.5rem;
 	}
-	.active {
-		transform: translateX(0);
+}
+@media (min-width: 1200px) {
+	.header {
+		padding: 0 5%;
 	}
-	.list {
-		list-style-type: none;
-		margin-top: 2rem;
+}
+@media (min-width: 1400px) {
+	.header {
+		padding: 0 10%;
+	}
+	.logo {
+		font-size: 4rem;
 	}
 	.list li {
-		font-size: 4rem;
-		padding: 1em;
+		font-size: 2.4rem;
 	}
 }
