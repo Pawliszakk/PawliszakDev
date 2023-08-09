@@ -22,7 +22,7 @@ const MainNavigaiton = () => {
 
 	useEffect(() => {
 		window.addEventListener('scroll', handleNavScroll);
-	}, [handleNavScroll]);
+	}, []);
 
 	return (
 		<header className={navBarClasses}>
