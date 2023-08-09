@@ -1,6 +1,7 @@
 .hamburger {
 	display: none;
 }
+
 .navigation {
 	margin-right: 2rem;
 }
@@ -67,7 +68,9 @@
 	.list {
 		list-style-type: none;
 		flex-direction: column;
-		margin-top: 2rem;
+
+		margin: 2rem auto 0 auto;
+		text-align: center;
 	}
 	.list li {
 		font-size: 4rem;

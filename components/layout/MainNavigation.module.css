@@ -7,11 +7,13 @@
 	left: 0;
 	height: 10vh;
 	width: 100%;
-	background-color: var(--main-color-darker);
-	/* background-color: #0e0d0d; */
+	z-index: 10;
+	background: transparent;
+
 	color: var(--main-white);
+	transition: background-color 0.4s;
 }
-.header .active {
+.headerScrolled {
 	background-color: var(--main-color-darker);
 }
 .header a {

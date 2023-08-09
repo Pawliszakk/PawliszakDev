@@ -15,11 +15,10 @@ html {
 }
 body {
 	font-family: 'Lato', sans-serif;
+	height: 200vh;
 }
 
-main {
-	margin-top: 10vh;
-}
+
 a {
 	text-decoration: none;
 }
