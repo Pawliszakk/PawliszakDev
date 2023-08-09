@@ -18,7 +18,6 @@ const Hero = () => {
 							loop={10}
 							typeSpeed={100}
 							delaySpeed={2000}
-							cursor
 							cursorStyle="|"
 							words={[' Web Designer', ' Web Developer', ' Frontend Developer']}
 						/>
