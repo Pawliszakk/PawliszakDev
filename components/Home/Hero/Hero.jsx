@@ -4,9 +4,9 @@ import classes from './Hero.module.css';
 import { Typewriter } from 'react-simple-typewriter';
 const Hero = () => {
 	const typeWriterWords = [
-		' Web Designer',
-		' Web Developer',
-		' Frontend Developer',
+		'I am Web Designer',
+		'I am Web Developer',
+		'I am Frontend Developer',
 	];
 	return (
 		<section className={classes.hero}>
@@ -18,7 +18,6 @@ const Hero = () => {
 						Hi, I'm <span className={classes.headName}>Oskar</span>
 					</h1>
 					<p>
-						&apos;I am&apos;
 						<Typewriter
 							loop={10}
 							typeSpeed={100}
