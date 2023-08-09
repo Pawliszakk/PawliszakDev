@@ -9,7 +9,9 @@ const Hero = () => {
 			<div className={classes.container}>
 				<Blob />
 				<div className={classes.textContainer}>
-					<h1>Hi, im Oskar</h1>
+					<h1>
+						Hi, im <span>Oskar</span>
+					</h1>
 					<p>Im frontend Developer</p>
 				</div>
 				<div className={classes.links}>

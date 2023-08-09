@@ -3,6 +3,7 @@
 	height: 100vh;
 	width: 100%;
 	background-image: url('/assets/heroBg.jpg');
+	background-attachment: fixed;
 	background-size: cover;
 	display: flex;
 	justify-content: flex-start;
@@ -16,7 +17,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.75);
 	z-index: -1;
 }
 .links {
@@ -39,6 +40,9 @@
 .textContainer p {
 	font-size: 2rem;
 }
+.textContainer span {
+	color: var(--main-cta);
+}
 
 @media (min-width: 400px) {
 	.textContainer h1 {
@@ -60,9 +64,9 @@
 }
 @media (min-width: 1200px) {
 	.textContainer h1 {
-		font-size: 6rem;
+		font-size: 5rem;
 	}
 	.textContainer p {
-		font-size: 3rem;
+		font-size: 2.6rem;
 	}
 }
