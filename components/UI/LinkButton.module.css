@@ -1,11 +1,31 @@
 .link {
+	position: relative;
 	background-color: var(--main-cta);
 	border-radius: 5px;
 	padding: 0.5em 1em;
 	font-size: 1.6rem;
 	color: var(--main-white);
+	overflow: hidden;
 }
-
+.link::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100px;
+	background-image: linear-gradient(
+		-90deg,
+		rgba(255, 255, 255, 0.3),
+		rgba(255, 255, 255, 0)
+	);
+	transform: rotate(20deg);
+	transform: translateX(-120%);
+	transition: transform 0.3s;
+}
+.link:hover::before {
+	transform: translateX(150%);
+}
 @media (min-width: 400px) {
 	.link {
 		font-size: 2rem;
