@@ -5,7 +5,9 @@
 	border-radius: 50%;
 	overflow: hidden;
 	box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
-	animation: blob 5s ease-in-out infinite;
+	animation: blob 5s ease-in-out infinite, show 1.2s 0.5s ease-in-out forwards;
+
+	opacity: 0;
 }
 
 @keyframes blob {
@@ -19,7 +21,14 @@
 		border-radius: 60% 40% 30% 70%/60% 30%;
 	}
 }
-
+@keyframes show {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 @media (min-width: 400px) {
 	.container {
 		width: 350px;

@@ -24,6 +24,8 @@
 	display: flex;
 	justify-content: space-around;
 	margin-top: 3em;
+	opacity: 0;
+	animation: show 1s 2s ease-in-out forwards;
 }
 .container {
 	margin-top: 15vh;
@@ -33,14 +35,19 @@
 	color: var(--main-white);
 }
 .textContainer h1 {
+	opacity: 0;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
 	font-size: 3rem;
+	animation: show 1s 1.2s ease-in-out forwards;
 }
 .textContainer p {
+	opacity: 0;
+	animation: show 1s 1.5s ease-in-out forwards;
 	font-size: 2rem;
 }
-.textContainer span {
+
+.headName {
 	color: var(--main-cta);
 }
 
@@ -68,5 +75,14 @@
 	}
 	.textContainer p {
 		font-size: 2.6rem;
+	}
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
 	}
 }
