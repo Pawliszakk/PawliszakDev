@@ -4,7 +4,9 @@
 	width: 100%;
 	background-image: url('/assets/heroBg.jpg');
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 10%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
