@@ -1,12 +1,13 @@
 .container {
 	position: relative;
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	border-radius: 50%;
 	overflow: hidden;
 	box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
 	animation: blob 5s ease-in-out infinite;
 }
+
 @keyframes blob {
 	0% {
 		border-radius: 60% 40% 30% 70%/60% 30%;
@@ -16,5 +17,18 @@
 	}
 	100% {
 		border-radius: 60% 40% 30% 70%/60% 30%;
+	}
+}
+
+@media (min-width: 400px) {
+	.container {
+		width: 350px;
+		height: 350px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 450px;
+		height: 450px;
 	}
 }
