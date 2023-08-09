@@ -66,19 +66,6 @@
 		font-size: 2.5rem;
 	}
 }
-@media (min-width: 992px) {
-	.container h1 {
-		padding-top: 0.5em;
-	}
-}
-@media (min-width: 1200px) {
-	.textContainer h1 {
-		font-size: 5rem;
-	}
-	.textContainer p {
-		font-size: 2.6rem;
-	}
-}
 
 @keyframes show {
 	from {
@@ -90,6 +77,9 @@
 }
 
 @media (min-width: 992px) {
+	.container h1 {
+		padding-top: 0.5em;
+	}
 	.hero {
 		justify-content: center;
 	}
@@ -105,6 +95,10 @@
 	.textContainer {
 		margin-top: 2rem;
 	}
+	.links {
+		margin-top: 5.5rem;
+		gap: 2rem;
+	}
 }
 @media (min-width: 1200px) {
 	.container {
@@ -113,5 +107,8 @@
 
 	.textContainer h1 {
 		font-size: 6rem;
+	}
+	.textContainer p {
+		font-size: 2.6rem;
 	}
 }
