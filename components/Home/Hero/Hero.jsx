@@ -3,6 +3,11 @@ import Blob from './Blob';
 import classes from './Hero.module.css';
 import { Typewriter } from 'react-simple-typewriter';
 const Hero = () => {
+	const typeWriterWords = [
+		' Web Designer',
+		' Web Developer',
+		' Frontend Developer',
+	];
 	return (
 		<section className={classes.hero}>
 			<div className={classes.shadow}></div>
@@ -17,9 +22,8 @@ const Hero = () => {
 						<Typewriter
 							loop={10}
 							typeSpeed={100}
-							delaySpeed={2000}
-							cursorStyle="|"
-							words={[' Web Designer', ' Web Developer', ' Frontend Developer']}
+							cursor
+							words={typeWriterWords}
 						/>
 					</p>
 				</div>
