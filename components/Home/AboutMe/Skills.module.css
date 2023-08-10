@@ -24,7 +24,7 @@
 	height: 300px;
 	border-radius: 50%;
 	overflow: hidden;
-	background-image: url('/assets/backgroundcode.jpg');
+	background-image: url('/assets/backgroundcode.JPG');
 	animation: floatingAvatar 4s linear infinite, blob 5s ease-in-out infinite;
 	transform: translateY(0);
 	box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
