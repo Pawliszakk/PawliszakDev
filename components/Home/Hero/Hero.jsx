@@ -24,6 +24,7 @@ const Hero = () => {
 							loop={10}
 							typeSpeed={100}
 							cursor
+							delaySpeed={1700}
 							words={typeWriterWords}
 						/>
 					</p>
