@@ -7,6 +7,8 @@ const Blob = () => {
 				src="/assets/avatar.jpg"
 				alt="An image showing web developer"
 				fill
+				priority
+				sizes="100%"
 			/>
 		</div>
 	);
