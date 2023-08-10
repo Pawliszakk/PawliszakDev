@@ -8,7 +8,7 @@
 	align-items: center;
 	flex-direction: column;
 	padding: 1rem;
-	box-shadow: 8px 8px 24px -11px rgba(66, 68, 90, 1);
+	box-shadow: 8px 8px 24px -11px rgb(160, 157, 157);
 	transition: transform 0.3s;
 }
 .skill:hover {
