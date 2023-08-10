@@ -34,6 +34,7 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
+			<div className={`${classes.block} block`}></div>
 		</section>
 	);
 };

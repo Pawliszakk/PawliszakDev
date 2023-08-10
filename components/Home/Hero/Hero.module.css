@@ -1,6 +1,6 @@
 .hero {
 	position: relative;
-	height: 100vh;
+	height: 105vh;
 	width: 100%;
 	background-image: url('/assets/heroBg.jpg');
 	background-attachment: fixed;
@@ -30,7 +30,7 @@
 	animation: show 1s 2s ease-in-out forwards;
 }
 .container {
-	margin-top: 15vh;
+	margin-top: 10vh;
 }
 .textContainer {
 	text-align: center;
@@ -51,6 +51,11 @@
 
 .headName {
 	color: var(--main-cta);
+}
+.block {
+	background-color: var(--main-white);
+	bottom: 0;
+	left: -10%;
 }
 
 @media (min-width: 400px) {
@@ -87,7 +92,7 @@
 		background-color: rgba(0, 0, 0, 0.85);
 	}
 	.container {
-		margin-top: 0;
+		margin-top: -3rem;
 		display: flex;
 		flex-direction: row-reverse;
 		gap: 10rem;

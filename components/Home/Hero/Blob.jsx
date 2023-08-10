@@ -5,7 +5,7 @@ const Blob = () => {
 		<div className={classes.container}>
 			<Image
 				src="/assets/avatar.jpg"
-				alt="An image showing web developer"
+				alt="Iphone Emote of Web developer on code background"
 				fill
 				priority
 				sizes="100%"

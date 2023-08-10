@@ -9,16 +9,50 @@
 	--main-color-darker: #00222c;
 	--main-white: #fff;
 	--main-cta: #ff4900;
+	/* --main-color: #000a0e;
+	--main-color-darker: #0f0f0f;
+	--main-white: #fff;
+	--main-cta: #ff4900; */
 }
 html {
 	font-size: 62.5%;
 }
 body {
 	font-family: 'Lato', sans-serif;
-	height: 200vh;
 }
-
-
+section {
+	padding: 3em 0;
+}
 a {
 	text-decoration: none;
+}
+
+.block {
+	position: absolute;
+	height: 40px;
+	width: 50%;
+	transform: skew(45deg);
+}
+.section-title {
+	position: relative;
+	text-align: center;
+	font-size: 3rem;
+}
+.section-title::before {
+	position: absolute;
+	content: '';
+	height: 3px;
+	width: 30px;
+	bottom: -5px;
+	margin: 0 auto;
+}
+@media (min-width: 576px) {
+	.section-title {
+		font-size: 3.5rem;
+	}
+}
+@media (min-width: 992px) {
+	.section-title {
+		font-size: 4rem;
+	}
 }
