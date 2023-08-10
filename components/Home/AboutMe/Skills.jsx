@@ -4,7 +4,8 @@ import Image from 'next/image';
 import LinkButton from '../../UI/LinkButton';
 import useDisplay from '@/hooks/useDisplay';
 import SkillsList from './SkillsList';
-
+import { FaReact } from 'react-icons/fa';
+import { SiNextdotjs } from 'react-icons/si';
 const Skills = () => {
 	const [avatar, setAvatar] = useState('/assets/avatarMac.png');
 	const handleMouseEnter = () => setAvatar('/assets/avatarLike.png');
@@ -27,6 +28,8 @@ const Skills = () => {
 			>
 				<LinkButton href="about-me">About Me</LinkButton>
 			</div>
+			<FaReact className={`${classes.decoration} ${classes.reactIcon}`} />
+			<SiNextdotjs className={`${classes.decoration} ${classes.nextIcon}`} />
 		</section>
 	);
 };

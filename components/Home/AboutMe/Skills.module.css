@@ -1,11 +1,15 @@
 .skills {
+	position: relative;
 	background-color: var(--main-color);
+	background-color: #dedede;
 }
 .skills h2 {
 	color: #fff;
+	color: var(--main-color);
 }
 .skills h2::before {
 	background-color: #fff;
+	background-color: var(--main-color);
 }
 .container {
 	margin-top: 3rem;
@@ -18,7 +22,12 @@
 	position: relative;
 	width: 300px;
 	height: 300px;
+	border-radius: 50%;
 	overflow: hidden;
+	background-image: url('/assets/backgroundCode.jpg');
+	animation: floatingAvatar 4s linear infinite, blob 5s ease-in-out infinite;
+	transform: translateY(0);
+	box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .button {
@@ -28,6 +37,64 @@
 	margin: 4rem auto 0 auto;
 }
 
+.decoration {
+	position: absolute;
+	color: var(--main-color);
+	opacity: 0.8;
+}
+.reactIcon {
+	width: 90px;
+	height: 90px;
+	bottom: 5%;
+	right: 10%;
+	animation: rotateRight 30s linear infinite;
+}
+.nextIcon {
+	width: 60px;
+	height: 60px;
+	top: 15%;
+	left: 10%;
+	animation: rotateLeft 30s linear infinite;
+}
+@keyframes rotateRight {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotateLeft {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes floatingAvatar {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(5px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+@keyframes blob {
+	0% {
+		border-radius: 60% 40% 30% 70%/60% 30%;
+	}
+	50% {
+		border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+	}
+	100% {
+		border-radius: 60% 40% 30% 70%/60% 30%;
+	}
+}
 @media (min-width: 576px) {
 	.image {
 		width: 400px;
