@@ -14,9 +14,7 @@ const AboutMe = () => {
 						sizes="100%"
 					/>
 				</div>
-                <div className={classes.skills}>
-                        
-                </div>
+				<div className={classes.skills}></div>
 			</div>
 		</section>
 	);
