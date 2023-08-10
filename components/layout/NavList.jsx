@@ -3,8 +3,9 @@ import { Sling as Hamburger } from 'hamburger-react';
 import classes from './NavList.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import useDisplay from '@/hooks/useDisplay';
 const NavList = ({ isNavActive, mobileNavHandler }) => {
-	const [isMobile, setIsMobile] = useState(null);
+	const isMobile = useDisplay();
 	const router = useRouter();
 	const links = [
 		{ href: '/', name: 'Home' },
@@ -12,17 +13,6 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 		{ href: '/projects', name: 'Projects' },
 		{ href: '/contact', name: 'Contact' },
 	];
-	const screenXHandler = () => {
-		if (window.innerWidth > 768) {
-			setIsMobile(false);
-		} else {
-			setIsMobile(true);
-		}
-	};
-	useEffect(() => {
-		window.addEventListener('resize', screenXHandler);
-		screenXHandler();
-	}, [screenXHandler]);
 
 	const linkis = links.map((link) => (
 		<li
