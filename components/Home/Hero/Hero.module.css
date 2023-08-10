@@ -46,7 +46,7 @@
 .textContainer p {
 	opacity: 0;
 	animation: show 1s 1.5s ease-in-out forwards;
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 .headName {

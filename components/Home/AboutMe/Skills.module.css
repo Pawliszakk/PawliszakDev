@@ -2,6 +2,7 @@
 	position: relative;
 	background-color: var(--main-color);
 	background-color: #dedede;
+	padding: 7rem 0;
 }
 .skills h2 {
 	color: #fff;
@@ -28,6 +29,7 @@
 	animation: floatingAvatar 4s linear infinite, blob 5s ease-in-out infinite;
 	transform: translateY(0);
 	box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+	z-index: 2;
 }
 
 .button {
@@ -105,10 +107,7 @@
 @media (min-width: 992px) {
 	.container {
 		flex-direction: row;
-	}
-}
-@media (min-width: 1200px) {
-	.container {
 		justify-content: space-around;
 	}
 }
+
