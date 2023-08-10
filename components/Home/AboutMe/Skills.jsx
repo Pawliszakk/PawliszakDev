@@ -17,7 +17,12 @@ const Skills = () => {
 			<h2 className="section-title">My Skills</h2>
 			<div className={classes.container}>
 				<div className={classes.image}>
-					<Image src={avatar} fill sizes="100%" />
+					<Image
+						src={avatar}
+						alt="PawliszakDev Iphone memoji avatar"
+						fill
+						sizes="100%"
+					/>
 				</div>
 				<SkillsList />
 			</div>

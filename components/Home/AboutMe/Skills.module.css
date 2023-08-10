@@ -2,6 +2,7 @@
 	position: relative;
 	background-color: var(--main-color);
 	background-color: #dedede;
+
 	padding: 7rem 0;
 }
 .skills h2 {
@@ -37,7 +38,6 @@
 	display: flex;
 	justify-content: center;
 	margin: 4rem auto 0 auto;
-
 }
 
 .decoration {
@@ -111,4 +111,3 @@
 		justify-content: space-around;
 	}
 }
-
