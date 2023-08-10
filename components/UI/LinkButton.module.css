@@ -7,6 +7,7 @@
 	color: var(--main-white);
 	overflow: hidden;
 	margin: 0 0.2em;
+	z-index: 2;
 }
 .link::before {
 	position: absolute;
