@@ -12,7 +12,7 @@ const Skills = () => {
 	const isMobile = useDisplay();
 
 	return (
-		<section className={classes.Skills}>
+		<section className={classes.skills}>
 			<h2 className="section-title">My Skills</h2>
 			<div className={classes.container}>
 				<div className={classes.image}>

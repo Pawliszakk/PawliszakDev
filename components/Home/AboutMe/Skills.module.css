@@ -1,8 +1,11 @@
+.skills {
+	background-color: var(--main-color);
+}
 .skills h2 {
-	color: var(--main-color-darker);
+	color: #fff;
 }
 .skills h2::before {
-	background-color: var(--main-color-darker);
+	background-color: #fff;
 }
 .container {
 	margin-top: 3rem;
