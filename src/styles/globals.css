@@ -3,16 +3,14 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	scroll-behavior: smooth;
 }
 :root {
 	--main-color: #003140;
 	--main-color-darker: #00222c;
 	--main-white: #fff;
 	--main-cta: #ff4900;
-	/* --main-color: #000a0e;
-	--main-color-darker: #0f0f0f;
-	--main-white: #fff;
-	--main-cta: #ff4900; */
+
 }
 html {
 	font-size: 62.5%;
