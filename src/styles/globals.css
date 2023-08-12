@@ -10,10 +10,28 @@
 	--main-color-darker: #00222c;
 	--main-white: #fff;
 	--main-cta: #ff4900;
-
 }
 html {
 	font-size: 62.5%;
+	scrollbar-width: thin;
+	scrollbar-color: var(--main-color-darker), var(--main-color);
+}
+html::-webkit-scrollbar {
+	width: 1vw;
+}
+html::-webkit-scrollbar-thumb {
+	background-color: #fff;
+	border-radius: 100vw;
+
+}
+html::-webkit-scrollbar-thumb:hover {
+	background-color: var(--main-cta);
+}
+html::-webkit-scrollbar-track {
+	background: var(--main-color);
+}
+html::-webkit-scrollbar-track:hover {
+	background-color: var(--main-color-darker);
 }
 body {
 	font-family: 'Lato', sans-serif;
