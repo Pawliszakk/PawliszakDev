@@ -5,7 +5,7 @@
 	align-items: center;
 	flex-direction: column;
 	height: 90vh;
-	background-image: url('/assets/heroBg.JPG');
+	background-image: url('/assets/heroBg.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
