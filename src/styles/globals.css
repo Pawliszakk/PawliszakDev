@@ -17,7 +17,7 @@ html {
 	scrollbar-color: var(--main-color-darker), var(--main-color);
 }
 html::-webkit-scrollbar {
-	width: 1vw;
+	width: 0.5vw;
 }
 html::-webkit-scrollbar-thumb {
 	background-color: #fff;
