@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Contact from '../../../components/Contact/Contact';
 
 const ContactPage = () => {
 	return (
@@ -7,7 +8,7 @@ const ContactPage = () => {
 				<title>PawliszakDev - Contact</title>
 				<meta name="description" content="Choose your way to contact me!" />
 			</Head>
-			<h1>Contact</h1>
+			<Contact />
 		</>
 	);
 };

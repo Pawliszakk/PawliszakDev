@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Projects from '../../../components/Projects/Projects';
 const ProjectsPage = () => {
 	return (
 		<>
@@ -6,7 +7,7 @@ const ProjectsPage = () => {
 				<title>PawliszakDev - Projects</title>
 				<meta name="description" content="Take a closer look at my projects!" />
 			</Head>
-			<h1>About Me</h1>
+			<Projects/>
 		</>
 	);
 };

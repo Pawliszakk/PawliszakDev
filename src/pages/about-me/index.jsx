@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import AboutMe from '../../../components/AboutMe/AboutMe';
 const AboutMePage = () => {
 	return (
 		<>
@@ -9,7 +10,7 @@ const AboutMePage = () => {
 					content="Let's get to know each other a little more"
 				/>
 			</Head>
-			<h1>About Me</h1>
+			<AboutMe />
 		</>
 	);
 };
