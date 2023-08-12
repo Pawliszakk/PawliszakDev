@@ -1,0 +1,19 @@
+.footer {
+	height: 10vh;
+	background-color: var(--main-color-darker);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2em;
+}
+.footer a {
+	text-decoration: none;
+	font-size: 2rem;
+	color: #fff;
+}
