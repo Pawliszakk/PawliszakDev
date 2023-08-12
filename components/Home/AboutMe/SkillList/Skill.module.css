@@ -3,18 +3,17 @@
 	height: 80px;
 	background-color: #eee;
 	margin: 1em 0;
-	/* border-radius: 50%; */
 	border-radius: 7px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	padding: 1rem;
-	box-shadow: 8px 8px 24px -11px rgb(160, 157, 157);
+	box-shadow: 8px 8px 24px -11px rgb(65, 63, 63);
 	transition: transform 0.3s;
 }
 .skill:hover {
-	transform: scale(1.05);
+	transform: scale(1.1);
 }
 .skill p {
 	padding: 0.3em 0;

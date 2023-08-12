@@ -1,17 +1,16 @@
 .skills {
 	position: relative;
-	background-color: var(--main-color);
 	background-color: #dedede;
-
+	background-color: var(--main-color);
+	overflow: hidden;
 	padding: 7rem 0;
+	z-index: 0;
 }
 .skills h2 {
 	color: #fff;
-	color: var(--main-color);
 }
 .skills h2::before {
 	background-color: #fff;
-	background-color: var(--main-color);
 }
 .container {
 	margin-top: 3rem;
@@ -20,7 +19,6 @@
 	flex-direction: column;
 	align-items: center;
 }
-
 
 .button {
 	width: 210px;
@@ -34,19 +32,25 @@
 	color: var(--main-color);
 	opacity: 0.8;
 }
+
 .reactIcon {
-	width: 90px;
-	height: 90px;
-	bottom: 5%;
-	right: 10%;
+	color: #fff;
+	width: 700px;
+	height: 700px;
+	bottom: -10rem;
+	right: -20rem;
 	animation: rotateRight 30s linear infinite;
+	z-index: -1;
+	opacity: 0.2;
 }
 .nextIcon {
-	width: 60px;
-	height: 60px;
-	top: 15%;
-	left: 10%;
-	animation: rotateLeft 30s linear infinite;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 2rem;
+	color: #fff;
+	opacity: 0.3;
+	animation: rotateLeft 20s linear infinite;
 }
 @keyframes rotateRight {
 	from {
@@ -69,5 +73,12 @@
 	.container {
 		flex-direction: row;
 		justify-content: space-around;
+	}
+	.reactIcon {
+		width: 1000px;
+		height: 1000px;
+		bottom: 0;
+		right: 0;
+		animation-duration: 60s;
 	}
 }

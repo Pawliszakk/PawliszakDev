@@ -4,6 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
 	return (
 		<footer className={classes.footer}>
+			<div className={`${classes.block} block`}></div>
 			<nav>
 				<Link href="/" className={classes.link}>
 					Home

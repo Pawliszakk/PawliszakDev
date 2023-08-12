@@ -3,7 +3,7 @@ import classes from './Skills.module.css';
 import AvatarBlob from '../../UI/AvatarBlob';
 import LinkButton from '../../UI/LinkButton';
 import useDisplay from '@/hooks/useDisplay';
-import SkillsList from './SkillsList';
+import SkillsList from './SkillList/SkillsList';
 import { FaReact } from 'react-icons/fa';
 import { SiNextdotjs } from 'react-icons/si';
 const Skills = () => {
