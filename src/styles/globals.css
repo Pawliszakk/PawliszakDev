@@ -22,7 +22,6 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
 	background-color: #fff;
 	border-radius: 100vw;
-
 }
 html::-webkit-scrollbar-thumb:hover {
 	background-color: var(--main-cta);

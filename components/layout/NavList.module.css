@@ -17,7 +17,9 @@
 	padding: 0.1em 0.5em;
 	white-space: nowrap;
 	z-index: 0;
+	transition: color 1s;
 }
+
 .list li::after {
 	content: '';
 	position: absolute;
@@ -32,8 +34,10 @@
 	z-index: -1;
 	border-radius: 3px;
 }
+
 .list li:hover a {
 	color: black;
+	color: var(--main-cta);
 }
 .list li:hover::after {
 	transform: scaleY(1);
@@ -41,6 +45,7 @@
 .list li.activeLink a {
 	color: var(--main-cta);
 }
+
 @media (max-width: 768px) {
 	.hamburger {
 		display: block;
