@@ -45,9 +45,7 @@
 	.hamburger {
 		display: block;
 	}
-	.hamburger {
-		padding: 0 0.5em;
-	}
+
 	.navigation {
 		position: absolute;
 		top: 0;
