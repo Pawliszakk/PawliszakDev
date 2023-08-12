@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import classes from './Skills.module.css';
-import Image from 'next/image';
+import AvatarBlob from '../../UI/AvatarBlob';
 import LinkButton from '../../UI/LinkButton';
 import useDisplay from '@/hooks/useDisplay';
 import SkillsList from './SkillsList';
@@ -16,14 +16,7 @@ const Skills = () => {
 		<section className={classes.skills}>
 			<h2 className="section-title">My Skills</h2>
 			<div className={classes.container}>
-				<div className={classes.image}>
-					<Image
-						src={avatar}
-						alt="PawliszakDev Iphone memoji avatar"
-						fill
-						sizes="100%"
-					/>
-				</div>
+				<AvatarBlob image={avatar} alt="Avatar of pawliszakDev" />
 				<SkillsList />
 			</div>
 			<div

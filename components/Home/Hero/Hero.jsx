@@ -1,5 +1,6 @@
+import AvatarBlob from '../../UI/AvatarBlob';
 import LinkButton from '../../UI/LinkButton';
-import Blob from './Blob';
+
 import classes from './Hero.module.css';
 import { Typewriter } from 'react-simple-typewriter';
 const Hero = () => {
@@ -13,7 +14,10 @@ const Hero = () => {
 		<section className={classes.hero}>
 			<div className={classes.shadow}></div>
 			<div className={classes.container}>
-				<Blob />
+				<AvatarBlob
+					image="/assets/avatarBlink.png"
+					alt="avatar of pawliszakDev"
+				/>
 				<div className={classes.textContainer}>
 					<h1>
 						Hi, I'm <span className={classes.headName}>Oskar</span>

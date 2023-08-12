@@ -1,0 +1,47 @@
+.image {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-image: url('/assets/avatarBackground.jpg');
+	animation: floatingAvatar 4s linear infinite, blob 5s ease-in-out infinite;
+	transform: translateY(0);
+	box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+	z-index: 2;
+}
+
+@media (min-width: 576px) {
+	.image {
+		width: 400px;
+		height: 400px;
+	}
+}
+@media (min-width: 1200px) {
+	.image {
+		width: 450px;
+		height: 450px;
+	}
+}
+@keyframes blob {
+	0% {
+		border-radius: 60% 40% 30% 70%/60% 30%;
+	}
+	50% {
+		border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+	}
+	100% {
+		border-radius: 60% 40% 30% 70%/60% 30%;
+	}
+}
+@keyframes floatingAvatar {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(5px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
