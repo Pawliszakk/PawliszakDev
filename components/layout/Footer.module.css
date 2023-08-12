@@ -1,9 +1,11 @@
 .footer {
-	height: 10vh;
+	min-height: 10vh;
 	background-color: var(--main-color-darker);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	padding: 1em;
 }
 .footer nav {
 	display: flex;
@@ -14,6 +16,12 @@
 }
 .footer a {
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	color: #fff;
+}
+.paragraph {
+	margin-top: 1em;
+	font-size: 1.6rem;
+	color: #fff;
+	color: var(--main-cta);
 }

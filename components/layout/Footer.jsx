@@ -18,6 +18,7 @@ const Footer = () => {
 					Contact
 				</Link>
 			</nav>
+			<p className={classes.paragraph}>{'<pawliszakdev/>'}</p>
 		</footer>
 	);
 };

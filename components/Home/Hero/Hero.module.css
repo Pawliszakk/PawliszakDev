@@ -57,7 +57,12 @@
 	bottom: 0;
 	left: -10%;
 }
-
+@media (max-width: 576px) {
+	.hero {
+		background-size: auto;
+		background-position: -200px 0;
+	}
+}
 @media (min-width: 400px) {
 	.textContainer h1 {
 		font-size: 3.4rem;
