@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import classes from './Footer.module.css';
-import Link from 'next/link';
+
 
 const Footer = () => {
 	const router = useRouter();
