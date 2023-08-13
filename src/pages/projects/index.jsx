@@ -5,9 +5,12 @@ const ProjectsPage = () => {
 		<>
 			<Head>
 				<title>PawliszakDev - Projects</title>
-				<meta name="description" content="Take a closer look at my projects!" />
+				<meta
+					name="description"
+					content="Discover my work, get a preview of my latest projects as a React Frontend Developer. See the combination of code and creativity that creates beautiful projects."
+				/>
 			</Head>
-			<Projects/>
+			<Projects />
 		</>
 	);
 };
