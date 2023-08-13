@@ -13,7 +13,11 @@ const Footer = () => {
 	];
 
 	const navButtons = links.map((link) => (
-		<button className={classes.btn} onClick={() => router.push(link.href)}>
+		<button
+			key={link.name}
+			className={classes.btn}
+			onClick={() => router.push(link.href)}
+		>
 			{link.name}
 		</button>
 	));
