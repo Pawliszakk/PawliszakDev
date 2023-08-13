@@ -24,7 +24,7 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 		</li>
 	));
 	return (
-		<nav>
+		<nav className={classes.nav}>
 			<div className={classes.hamburger}>
 				<Hamburger toggled={isNavActive} toggle={mobileNavHandler} />
 			</div>
