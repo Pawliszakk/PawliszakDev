@@ -1,4 +1,4 @@
-.link {
+.btn {
 	position: relative;
 	background-color: var(--main-cta);
 	border-radius: 5px;
@@ -7,9 +7,11 @@
 	color: var(--main-white);
 	overflow: hidden;
 	margin: 0 0.2em;
+	cursor: pointer;
+	border: none;
 	z-index: 2;
 }
-.link::before {
+.btn::before {
 	position: absolute;
 	content: '';
 	top: 0;
@@ -25,16 +27,16 @@
 	transform: translateX(-120%);
 	transition: transform 0.3s;
 }
-.link:hover::before {
+.btn:hover::before {
 	transform: translateX(150%);
 }
 @media (min-width: 400px) {
-	.link {
+	.btn {
 		font-size: 2rem;
 	}
 }
 @media (min-width: 992px) {
-	.link {
+	.btn {
 		font-size: 2.4rem;
 	}
 }

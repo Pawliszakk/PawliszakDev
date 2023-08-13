@@ -1,24 +1,27 @@
+import { useRouter } from 'next/router';
 import classes from './Footer.module.css';
 import Link from 'next/link';
 
 const Footer = () => {
+	const router = useRouter();
+
+	const links = [
+		{ href: '/', name: 'Home' },
+		{ href: '/about-me', name: 'About Me' },
+		{ href: '/projects', name: 'Projects' },
+		{ href: '/contact', name: 'Contact' },
+	];
+
+	const navButtons = links.map((link) => (
+		<button className={classes.btn} onClick={() => router.push(link.href)}>
+			{link.name}
+		</button>
+	));
+
 	return (
 		<footer className={classes.footer}>
 			<div className={`${classes.block} block`}></div>
-			<nav>
-				<Link href="/" className={classes.link}>
-					Home
-				</Link>
-				<Link href="/about-me" className={classes.link}>
-					About Me
-				</Link>
-				<Link href="/projects" className={classes.link}>
-					Projects
-				</Link>
-				<Link href="/contact" className={classes.link}>
-					Contact
-				</Link>
-			</nav>
+			<nav>{navButtons}</nav>
 			<p className={classes.paragraph}>{'<pawliszakdev/>'}</p>
 		</footer>
 	);
