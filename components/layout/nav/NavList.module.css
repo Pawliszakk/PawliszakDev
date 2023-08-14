@@ -20,30 +20,44 @@
 	transition: color 1s;
 }
 
-.list li::after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transform: scaleY(0);
-	background-color: var(--main-white);
-	bottom: -4px;
-	left: 0;
-	transition: transform 0.3s;
-	transform-origin: bottom;
-	z-index: -1;
-	border-radius: 3px;
-}
-
-.list li:hover a {
-	color: black;
-	color: var(--main-cta);
-}
-.list li:hover::after {
-	transform: scaleY(1);
-}
 .list li.activeLink a {
 	color: var(--main-cta);
+}
+
+.list li::after,
+.list li::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+
+	transition: width 0.3s, height 0.3s;
+}
+.list li::after {
+	top: 1px;
+	left: -5px;
+	border-top: 0px solid #fff;
+	border-left: 0px solid #fff;
+}
+.list li::before {
+	bottom: 1px;
+	right: -5px;
+	border-bottom: 0px solid #fff;
+	border-right: 0px solid #fff;
+}
+.list li:hover::after,
+.list li:hover::before {
+	width: 20px;
+	height: 20px;
+}
+.list li:hover::after {
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+}
+
+.list li:hover::before {
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
 }
 
 @media (min-width: 400px) {

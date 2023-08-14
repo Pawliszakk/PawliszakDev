@@ -1,7 +1,5 @@
-
-
-import MainNavigaiton from './MainNavigation';
-import Footer from './Footer';
+import MainNavigaiton from './nav/MainNavigation';
+import Footer from './footer/Footer';
 
 import ScrollToTop from '../UI/ScrollToTop';
 const Layout = ({ children }) => {

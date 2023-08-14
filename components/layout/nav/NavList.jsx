@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { Sling as Hamburger } from 'hamburger-react';
 import classes from './NavList.module.css';
 import Link from 'next/link';
