@@ -14,8 +14,11 @@
 	animation: overlayGoingUp 1s 2s ease-in-out forwards,
 		hidingOverlay 1s 2s ease-in-out forwards;
 }
+
+
+
 .overlay p {
-	font-size: 4rem;
+	font-size: 5rem;
 }
 .overlay span {
 	font-size: 2rem;
