@@ -13,6 +13,9 @@
 	flex-direction: column;
 	z-index: 0;
 }
+.container {
+	animation: show 1s ease-in-out forwards;
+}
 .shadow {
 	position: absolute;
 	top: 0;
@@ -26,8 +29,6 @@
 	display: flex;
 	justify-content: space-around;
 	margin-top: 3em;
-	opacity: 0;
-	animation: show 1s 2s ease-in-out forwards;
 }
 .container {
 	margin-top: 10vh;
@@ -37,15 +38,11 @@
 	color: var(--main-white);
 }
 .textContainer h1 {
-	opacity: 0;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
 	font-size: 3rem;
-	animation: show 1s 1.2s ease-in-out forwards;
 }
 .textContainer p {
-	opacity: 0;
-	animation: show 1s 1.5s ease-in-out forwards;
 	font-size: 1.8rem;
 }
 
