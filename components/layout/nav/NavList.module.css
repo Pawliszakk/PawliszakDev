@@ -24,7 +24,9 @@
 	z-index: 0;
 	transition: color 1s;
 }
-
+.list li a {
+	color: var(--nav-link);
+}
 .list li.activeLink a {
 	color: var(--main-cta);
 }
@@ -41,14 +43,14 @@
 .list li::after {
 	top: 0px;
 	left: -2px;
-	border-top: 0px solid #fff;
-	border-left: 0px solid #fff;
+	border-top: 0px solid var(--nav-link);
+	border-left: 0px solid var(--nav-link);
 }
 .list li::before {
 	bottom: -1px;
 	right: -2px;
-	border-bottom: 0px solid #fff;
-	border-right: 0px solid #fff;
+	border-bottom: 0px solid var(--nav-link);
+	border-right: 0px solid var(--nav-link);
 }
 .list li:hover::after,
 .list li:hover::before {
@@ -56,24 +58,27 @@
 	height: 20px;
 }
 .list li:hover::after {
-	border-top: 2px solid #fff;
-	border-left: 2px solid #fff;
+	border-top: 2px solid var(--nav-link);
+	border-left: 2px solid var(--nav-link);
 }
 
 .list li:hover::before {
-	border-bottom: 2px solid #fff;
-	border-right: 2px solid #fff;
+	border-bottom: 2px solid var(--nav-link);
+	border-right: 2px solid var(--nav-link);
 }
 
-@media (min-width: 400px) {
-	.hamburger {
-		margin-right: 2em;
-	}
-}
 .icons {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+@media (min-width: 400px) {
+	.icons {
+		padding: 0 2em;
+	}
+	.hamburger {
+		margin-right: 1em;
+	}
 }
 @media (max-width: 768px) {
 	.hamburger {
@@ -90,7 +95,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		background-color: var(--main-color);
+		background-color: var(--man-color-darker);
 		transition: transform 0.5s ease-in-out;
 		transform: translateX(110%);
 	}

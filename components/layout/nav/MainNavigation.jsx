@@ -1,18 +1,22 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Link from 'next/link';
 import NavList from './NavList';
 import classes from './MainNavigation.module.css';
 import { useRouter } from 'next/router';
+import ThemeContext from '../../../store/theme-context';
 
 const MainNavigaiton = () => {
 	const [isNavActive, setIsNavActive] = useState(false);
 	const [isNavScrolled, setIsNavScrolled] = useState(false);
-
+	const { isDark } = useContext(ThemeContext);
 	const router = useRouter();
 
 	const isHomePage = '/' === router.pathname;
+	
 	const navBarClasses = `${classes.header}  ${
-		isNavScrolled || !isHomePage || isNavActive ? classes.headerScrolled : null
+		isNavScrolled || !isHomePage || isNavActive || !isDark
+			? classes.headerScrolled
+			: null
 	}`;
 	const mobileNavHandler = () => setIsNavActive((prevState) => !prevState);
 

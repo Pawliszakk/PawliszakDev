@@ -1,22 +1,13 @@
-import { useState } from 'react';
+import { useContext } from 'react';
 import classes from './ThemeIcon.module.css';
 import { BsSunFill, BsMoonFill } from 'react-icons/bs';
+import ThemeContext from '../../../store/theme-context';
 
 const ThemeIcon = () => {
-	const [isDark, setIsDark] = useState(false);
-	const handleThemeChange = () => {
-		const body = document.querySelector('body');
-		if (isDark) {
-			body.setAttribute('data-theme', 'light');
-			setIsDark(false);
-		} else {
-			body.setAttribute('data-theme', 'dark');
-			setIsDark(true);
-		}
-	};
-
+	const themeCtx = useContext(ThemeContext);
+	const { isDark, changeTheme } = themeCtx;
 	return (
-		<div className={classes.box} onClick={handleThemeChange}>
+		<div onClick={changeTheme} className={classes.box}>
 			{isDark ? <BsSunFill /> : <BsMoonFill />}
 		</div>
 	);

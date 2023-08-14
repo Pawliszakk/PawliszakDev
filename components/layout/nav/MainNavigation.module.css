@@ -19,10 +19,11 @@
 .header a {
 	color: var(--main-white);
 }
-.logo {
+.logo a{
 	font-size: 2.5rem;
 	padding: 0 0.5em;
 	font-weight: bold;
+	color: var(--nav-link);
 }
 .logo a {
 	transition: color 0.3s;
