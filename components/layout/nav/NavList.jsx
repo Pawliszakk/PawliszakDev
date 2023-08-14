@@ -25,18 +25,18 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 	));
 	return (
 		<nav className={classes.nav}>
-			<div className={classes.icons}>
-				<div className={classes.hamburger}>
-					<Hamburger toggled={isNavActive} toggle={mobileNavHandler} />
-				</div>
-				<ThemeIcon />
-			</div>
 			<div
 				className={`${classes.navigation} ${
 					isNavActive ? classes.active : null
 				}`}
 			>
 				<ul className={classes.list}>{linkis}</ul>
+			</div>
+			<div className={classes.icons}>
+				<div className={classes.hamburger}>
+					<Hamburger toggled={isNavActive} toggle={mobileNavHandler} />
+				</div>
+				<ThemeIcon />
 			</div>
 		</nav>
 	);

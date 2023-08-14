@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import classes from './ThemeIcon.module.css';
-import { BsSunFill } from 'react-icons/bs';
-import { MdDarkMode } from 'react-icons/md';
+import { BsSunFill, BsMoonFill } from 'react-icons/bs';
 
 const ThemeIcon = () => {
-	const [isDark, setIsDark] = useState(true);
+	const [isDark, setIsDark] = useState(false);
 	const handleThemeChange = () => {
 		const body = document.querySelector('body');
 		if (isDark) {
@@ -18,7 +17,7 @@ const ThemeIcon = () => {
 
 	return (
 		<div className={classes.box} onClick={handleThemeChange}>
-			{isDark ? <BsSunFill /> : <MdDarkMode />}
+			{isDark ? <BsSunFill /> : <BsMoonFill />}
 		</div>
 	);
 };
