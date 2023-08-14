@@ -1,5 +1,6 @@
 .hamburger {
 	display: none;
+	color: var(--nav-link);
 }
 .nav {
 	display: flex;
