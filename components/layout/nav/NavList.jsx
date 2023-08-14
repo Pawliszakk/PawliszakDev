@@ -3,6 +3,7 @@ import classes from './NavList.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import useDisplay from '@/hooks/useDisplay';
+import ThemeIcon from './ThemeIcon';
 const NavList = ({ isNavActive, mobileNavHandler }) => {
 	const isMobile = useDisplay();
 	const router = useRouter();
@@ -24,8 +25,11 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 	));
 	return (
 		<nav className={classes.nav}>
-			<div className={classes.hamburger}>
-				<Hamburger toggled={isNavActive} toggle={mobileNavHandler} />
+			<div className={classes.icons}>
+				<div className={classes.hamburger}>
+					<Hamburger toggled={isNavActive} toggle={mobileNavHandler} />
+				</div>
+				<ThemeIcon />
 			</div>
 			<div
 				className={`${classes.navigation} ${

@@ -12,6 +12,9 @@
 	--main-white: #fff;
 	--main-cta: #ff4900;
 }
+/* [data-theme='light'] {
+	--main-color: #fff;
+} */
 html {
 	font-size: 62.5%;
 	scrollbar-width: thin;
