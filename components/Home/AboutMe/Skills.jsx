@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import classes from './Skills.module.css';
 import AvatarBlob from '../../UI/AvatarBlob';
-import LinkButton from '../../UI/LinkButton';
+import LinkButton from '../../UI/buttons/LinkButton';
 import useDisplay from '@/hooks/useDisplay';
 import SkillsList from './SkillList/SkillsList';
 import { FaReact } from 'react-icons/fa';

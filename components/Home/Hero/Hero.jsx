@@ -1,5 +1,5 @@
 import AvatarBlob from '../../UI/AvatarBlob';
-import LinkButton from '../../UI/LinkButton';
+import LinkButton from '../../UI/buttons/LinkButton';
 
 import classes from './Hero.module.css';
 import { Typewriter } from 'react-simple-typewriter';
@@ -44,5 +44,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
