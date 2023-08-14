@@ -96,7 +96,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		background-color: var(--man-color-darker);
+		background-color: var(--main-color);
 		transition: transform 0.5s ease-in-out;
 		transform: translateX(110%);
 	}
