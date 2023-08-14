@@ -4,6 +4,6 @@
 	align-items: center;
 	height: 90vh;
 	font-size: 2rem;
-	color: #fff;
+	color: var(--nav-link);
     padding: 0 1em;
 }
