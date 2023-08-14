@@ -1,9 +1,11 @@
 import classes from './StartingOverlay.module.css';
-
+import { Typewriter } from 'react-simple-typewriter';
 const StartingOverlay = () => {
 	return (
 		<div className={classes.overlay}>
-			<p className={classes.greeting}>Hello World!</p>
+			<p>Hello World!</p>
+
+			<Typewriter typeSpeed={80} cursor={false} words={['<pawliszakdev/>']} />
 		</div>
 	);
 };

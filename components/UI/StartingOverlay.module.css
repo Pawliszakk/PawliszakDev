@@ -9,12 +9,27 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	z-index: 22;
-	animation: overlayGoingUp 1s 2s ease-in-out forwards;
+	animation: overlayGoingUp 1s 2s ease-in-out forwards,
+		hidingOverlay 1s 2s ease-in-out forwards;
 }
-.greeting {
+.overlay p {
 	font-size: 4rem;
 }
+.overlay span {
+	font-size: 2rem;
+}
+
+@keyframes hidingOverlay {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
 @keyframes overlayGoingUp {
 	from {
 		transform: translateY(0);
