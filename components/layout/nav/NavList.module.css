@@ -99,6 +99,7 @@
 		background-color: var(--main-color);
 		transition: transform 0.5s ease-in-out;
 		transform: translateX(110%);
+		z-index: 11;
 	}
 	.active {
 		transform: translateX(0);
