@@ -14,7 +14,7 @@ const Skills = () => {
 
 	return (
 		<section className={classes.skills}>
-			<h2 className="section-title">Skills</h2>
+			<h2 className="section-title">My Skills</h2>
 			<div className={classes.container}>
 				<AvatarBlob image={avatar} alt="Avatar of pawliszakDev" />
 				<SkillsList />
