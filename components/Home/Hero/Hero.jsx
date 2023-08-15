@@ -20,7 +20,7 @@ const Hero = () => {
 				/>
 				<div className={classes.textContainer}>
 					<h1>
-						Hello, I am <span className={classes.headName}>Oskar</span>
+						Hi, I am <span className={classes.headName}>Oskar</span>
 					</h1>
 					<p>
 						I am
