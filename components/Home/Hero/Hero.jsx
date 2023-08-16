@@ -5,10 +5,10 @@ import classes from './Hero.module.css';
 import { Typewriter } from 'react-simple-typewriter';
 const Hero = () => {
 	const typeWriterWords = [
-		// ' Responsive Design',
+		' Responsive Design',
 		' Search Engine Optimization',
-		// ' Clean Design',
-		// ' User Friendly Interface',
+		' Clean Design',
+		' User Friendly Interface',
 	];
 	return (
 		<section className={classes.hero}>
