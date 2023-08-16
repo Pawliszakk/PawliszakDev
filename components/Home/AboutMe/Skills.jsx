@@ -20,14 +20,15 @@ const Skills = () => {
 				<div className={classes.avatar}>
 					<AvatarBlob image={avatar} alt="Avatar of pawliszakDev" />
 					<p>
-						This is my Tech Stack that I have achieved in my web development
-						learning road. If you would like to get to know me better then click
-						the <span>About Me</span> button below which will take you to a
-						separate subpage about me or visit my{' '}
+						This is my tech stack that I have achieved in my web development
+						learning journey. If you want to get to know me better, click on the{' '}
+						<span>About Me</span> button below, which will take you to a
+						separate subpage about me. If you want to dig deeper into my code,
+						check out my{' '}
 						<SpecialLink href="https://github.com/Pawliszakk" type="next">
 							GitHub
 						</SpecialLink>{' '}
-						profile and dig deeper into my code.
+						profile
 					</p>
 				</div>
 				<SkillsList />
