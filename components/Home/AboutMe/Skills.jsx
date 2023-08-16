@@ -5,8 +5,10 @@ import LinkButton from '../../UI/buttons/LinkButton';
 import useDisplay from '@/hooks/useDisplay';
 import SkillsList from './SkillList/SkillsList';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
+
 import { FaReact } from 'react-icons/fa';
 import { SiNextdotjs } from 'react-icons/si';
+import { RiJavascriptFill } from 'react-icons/ri';
 import SpecialLink from '../../UI/buttons/SpecialLink';
 const Skills = () => {
 	const [avatar, setAvatar] = useState('/assets/avatarMac.png');
@@ -26,7 +28,7 @@ const Skills = () => {
 						<span>About Me</span> button below, which will take you to a
 						separate subpage about me. If you want to dig deeper into my code,
 						check out my{' '}
-						<SpecialLink href="https://github.com/Pawliszakk" type="next">
+						<SpecialLink href="https://github.com/Pawliszakk" >
 							GitHub
 						</SpecialLink>{' '}
 						profile
@@ -45,6 +47,7 @@ const Skills = () => {
 			</div>
 			<FaReact className={`${classes.decoration} ${classes.reactIcon}`} />
 			<SiNextdotjs className={`${classes.decoration} ${classes.nextIcon}`} />
+			<RiJavascriptFill className={`${classes.decoration} ${classes.jsIcon}`} />
 		</section>
 	);
 };
