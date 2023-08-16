@@ -10,9 +10,9 @@ const DecorationSlide = () => {
 						<FaMobileAlt /> RWD
 					</h2>
 					<p>
-						Developing a design that effortlessly adapts to various screen sizes
-						ensures an inclusive and user-friendly experience, enhancing
-						accessibility and engagement.
+						Developing a design that easily adapts to different screen sizes
+						ensures an inclusive and user-friendly experience, increasing
+						accessibility and accessibility and engagement.
 					</p>
 				</div>
 				<div className={classes.pros}>
@@ -21,7 +21,7 @@ const DecorationSlide = () => {
 					</h2>
 					<p>
 						Designed so that people with different technical backgrounds and
-						levels of knowledge can navigate it effortlessly.
+						levels of knowledge can navigate it effortlessly
 					</p>
 				</div>
 				<div className={classes.pros}>
@@ -29,8 +29,8 @@ const DecorationSlide = () => {
 						<TbWorldSearch /> SEO
 					</h2>
 					<p>
-						Creating valuable, engaging, and original content for search engines
-						requires a blend of creativity and strategic keyword optimization.
+						Creating valuable, engaging and original content for search engines
+						requires a blend of creativity and strategic keyword optimisation.
 					</p>
 				</div>
 			</div>
