@@ -1,4 +1,5 @@
 import classes from './Footer.module.css';
+import Link from 'next/link';
 import {
 	BsGithub,
 	BsInstagram,
@@ -29,11 +30,6 @@ const Footer = () => {
 			href: 'https://www.facebook.com/oskar.pawliszak.5/',
 			icon: <BsFacebook />,
 		},
-		{
-			name: 'Email',
-			href: '',
-			icon: <BsFillEnvelopeAtFill />,
-		},
 	];
 	const linksIcons = links.map((link) => (
 		<a
@@ -49,7 +45,12 @@ const Footer = () => {
 		<footer className={classes.footer}>
 			<div className={`${classes.block} block`}></div>
 
-			<div className={classes.socials}>{linksIcons}</div>
+			<div className={classes.socials}>
+				{linksIcons}
+				<Link href="/contact" className={classes.social}>
+					<BsFillEnvelopeAtFill />
+				</Link>
+			</div>
 			<p className={classes.paragraph}>{'<pawliszakdev/>'}</p>
 		</footer>
 	);

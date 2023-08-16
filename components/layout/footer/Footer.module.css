@@ -52,12 +52,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--footer-icon);
+	background-color: #fff;
+	color: #003140;
+	border: 2px solid #003140;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
 	font-size: 2.5rem;
-	color: var(--main-color-darker);
 	transition: background-color 0.3s, color 0.3s;
 }
 
