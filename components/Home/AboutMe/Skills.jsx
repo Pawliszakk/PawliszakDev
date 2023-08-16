@@ -27,7 +27,7 @@ const Skills = () => {
 						<SpecialLink href="https://github.com/Pawliszakk" type='next'>
 							GitHub
 						</SpecialLink>{' '}
-						account and dig deeper into my code.
+						profile and dig deeper into my code.
 					</p>
 				</div>
 				<SkillsList />
