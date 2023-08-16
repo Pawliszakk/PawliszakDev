@@ -1,4 +1,3 @@
-// import { useRouter } from 'next/router';
 import classes from './Footer.module.css';
 import {
 	BsGithub,
@@ -9,46 +8,48 @@ import {
 } from 'react-icons/bs';
 
 const Footer = () => {
-	// const router = useRouter();
-
-	// const links = [
-	// 	{ href: '/', name: 'Home' },
-	// 	{ href: '/about-me', name: 'About Me' },
-	// 	{ href: '/projects', name: 'Projects' },
-	// 	{ href: '/contact', name: 'Contact' },
-	// ];
-
-	// const navButtons = links.map((link) => (
-	// 	<button
-	// 		key={link.name}
-	// 		className={classes.btn}
-	// 		onClick={() => router.push(link.href)}
-	// 	>
-	// 		{link.name}
-	// 	</button>
-	// ));
-
+	const links = [
+		{
+			name: 'Github',
+			href: 'https://github.com/Pawliszakk',
+			icon: <BsGithub />,
+		},
+		{
+			name: 'Instagram',
+			href: 'https://www.instagram.com/pawliszakk/?next=%2F',
+			icon: <BsInstagram />,
+		},
+		{
+			name: 'Linkedin',
+			href: 'https://www.linkedin.com/in/oskarpawliszak/',
+			icon: <BsLinkedin />,
+		},
+		{
+			name: 'Facebook',
+			href: 'https://www.facebook.com/oskar.pawliszak.5/',
+			icon: <BsFacebook />,
+		},
+		{
+			name: 'Email',
+			href: '',
+			icon: <BsFillEnvelopeAtFill />,
+		},
+	];
+	const linksIcons = links.map((link) => (
+		<a
+			key={link.name}
+			href={link.href}
+			target="_blank"
+			className={classes.social}
+		>
+			{link.icon}
+		</a>
+	));
 	return (
 		<footer className={classes.footer}>
 			<div className={`${classes.block} block`}></div>
-			{/* <nav>{navButtons}</nav> */}
-			<div className={classes.socials}>
-				<a href="www.youtube.com" target="_blank" className={classes.social}>
-					<BsGithub />
-				</a>
-				<a href="www.youtube.com" target="_blank" className={classes.social}>
-					<BsInstagram />
-				</a>
-				<a href="www.youtube.com" target="_blank" className={classes.social}>
-					<BsLinkedin />
-				</a>
-				<a href="www.youtube.com" target="_blank" className={classes.social}>
-					<BsFacebook />
-				</a>
-				<a href="www.youtube.com" target="_blank" className={classes.social}>
-					<BsFillEnvelopeAtFill />
-				</a>
-			</div>
+
+			<div className={classes.socials}>{linksIcons}</div>
 			<p className={classes.paragraph}>{'<pawliszakdev/>'}</p>
 		</footer>
 	);

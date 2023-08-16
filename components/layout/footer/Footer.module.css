@@ -57,10 +57,12 @@
 	height: 40px;
 	border-radius: 50%;
 	font-size: 2.5rem;
+	color: var(--main-color-darker);
 	transition: background-color 0.3s, color 0.3s;
 }
+
 .social:hover {
-	background-color: var(--footer-icon-hover) ;
+	background-color: var(--footer-icon-hover);
 }
 
 @media (min-width: 400px) {
