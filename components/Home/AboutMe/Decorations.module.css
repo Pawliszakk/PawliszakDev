@@ -1,0 +1,104 @@
+.decoration {
+	position: absolute;
+	color: var(--main-color);
+	opacity: 0.8;
+	color: var(--decoration-icon);
+}
+.reactIcon {
+	width: 700px;
+	height: 700px;
+	bottom: -10rem;
+	right: -20rem;
+	animation: rotateRight 30s linear infinite;
+	z-index: -1;
+	opacity: 0.2;
+}
+.nextIcon {
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 2rem;
+	opacity: 0.3;
+	animation: rotateLeft 20s linear infinite;
+}
+.jsIcon {
+	width: 70px;
+	height: 70px;
+	top: 30%;
+	right: 0;
+	animation: swing 15s linear infinite;
+}
+
+@keyframes rotateRight {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotateLeft {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+}
+@keyframes swing {
+	0% {
+		transform: translateX(0) rotate(0);
+	}
+	50% {
+		transform: translateX(-70px) rotate(360deg);
+	}
+	100% {
+		transform: translateX(0) rotate(0);
+	}
+}
+
+@media (min-width: 576px) {
+	.nextIcon {
+		width: 170px;
+		height: 170px;
+	}
+}
+@media (min-width: 768px) {
+	.jsIcon {
+		width: 100px;
+		height: 100px;
+	}
+}
+@media (min-width: 992px) {
+	.reactIcon {
+		width: 1000px;
+		height: 1000px;
+		bottom: 0;
+		right: 0;
+		animation-duration: 60s;
+	}
+
+	.jsIcon {
+		top: 85%;
+		right: 90%;
+		animation-duration: 20s;
+		opacity: 0.1;
+	}
+	@keyframes swing {
+		0% {
+			transform: translate(0) rotate(0);
+		}
+		50% {
+			transform: translate(500px, -100px) rotate(360deg);
+		}
+		100% {
+			transform: translate(0) rotate(0);
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.nextIcon {
+		width: 230px;
+		height: 230px;
+	}
+}
