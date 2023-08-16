@@ -1,5 +1,5 @@
 import Hero from '../../components/Home/Hero/Hero';
-import AboutMe from '../../components/Home/AboutMe/Skills';
+import AboutMe from '../../components/Home/Skills/Skills';
 import Head from 'next/head';
 const HomePage = () => {
 	return (
