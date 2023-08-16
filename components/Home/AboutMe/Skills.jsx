@@ -4,6 +4,7 @@ import AvatarBlob from '../../UI/AvatarBlob';
 import LinkButton from '../../UI/buttons/LinkButton';
 import useDisplay from '@/hooks/useDisplay';
 import SkillsList from './SkillList/SkillsList';
+import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 import { FaReact } from 'react-icons/fa';
 import { SiNextdotjs } from 'react-icons/si';
 import SpecialLink from '../../UI/buttons/SpecialLink';
@@ -29,6 +30,8 @@ const Skills = () => {
 							GitHub
 						</SpecialLink>{' '}
 						profile
+						<ImQuotesLeft className={classes.quoteLeft} />
+						<ImQuotesRight className={classes.quoteRight} />
 					</p>
 				</div>
 				<SkillsList />

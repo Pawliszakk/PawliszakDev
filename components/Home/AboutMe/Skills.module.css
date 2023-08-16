@@ -26,12 +26,27 @@
 	flex-direction: column;
 }
 .avatar p {
+	position: relative;
 	margin-top: 3em;
 	text-align: center;
 	padding: 0 2em;
 	color: var(--text-color);
 	font-size: 1.6rem;
 }
+.avatar svg {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+.quoteLeft {
+	bottom: -15px;
+	left: 15px;
+}
+.quoteRight {
+	top: -15px;
+	right: 15px;
+}
+
 .avatar span {
 	color: var(--main-cta);
 }
@@ -114,5 +129,14 @@
 	.avatar p {
 		max-width: 500px;
 		font-size: 2rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.quoteLeft {
+		left: 20px;
+	}
+	.quoteRight {
+		right: 20px;
 	}
 }
