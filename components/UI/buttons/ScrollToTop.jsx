@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
-import { FaChevronUp } from 'react-icons/fa';
+
 import classes from './ScrollToTop.module.css';
 import { Transition } from 'react-transition-group';
 import useDisplay from '@/hooks/useDisplay';
+import { IoMdArrowRoundUp } from 'react-icons/io';
 
 const ScrollToTop = () => {
 	const [isScrolled, setIsScrolled] = useState(false);
@@ -30,7 +31,7 @@ const ScrollToTop = () => {
 					}}
 					onClick={scrollUpHandler}
 				>
-					<FaChevronUp />
+					<IoMdArrowRoundUp />
 				</div>
 			)}
 		</Transition>

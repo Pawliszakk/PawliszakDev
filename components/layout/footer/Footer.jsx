@@ -9,7 +9,7 @@ import {
 } from 'react-icons/bs';
 
 const Footer = () => {
-	const links = [
+	const socials = [
 		{
 			name: 'Github',
 			href: 'https://github.com/Pawliszakk',
@@ -31,7 +31,7 @@ const Footer = () => {
 			icon: <BsFacebook />,
 		},
 	];
-	const linksIcons = links.map((link) => (
+	const socialsIcons = socials.map((link) => (
 		<a
 			key={link.name}
 			href={link.href}
@@ -46,7 +46,7 @@ const Footer = () => {
 			<div className={`${classes.block} block`}></div>
 
 			<div className={classes.socials}>
-				{linksIcons}
+				{socialsIcons}
 				<Link href="/contact" className={classes.social}>
 					<BsFillEnvelopeAtFill />
 				</Link>

@@ -63,7 +63,8 @@
 }
 
 .social:hover {
-	background-color: var(--footer-icon-hover);
+	background-color: var(--main-cta);
+	color: #fff;
 }
 
 @media (min-width: 400px) {
