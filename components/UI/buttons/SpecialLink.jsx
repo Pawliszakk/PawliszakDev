@@ -1,6 +1,6 @@
 
 import classes from './SpecialLink.module.css';
-const SpecialLink = ({ href, children, type }) => {
+const SpecialLink = ({ href, children}) => {
 
 
 	return (

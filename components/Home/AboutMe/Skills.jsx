@@ -24,7 +24,7 @@ const Skills = () => {
 						learning road. If you would like to get to know me better then click
 						the <span>About Me</span> button below which will take you to a
 						separate subpage about me or visit my{' '}
-						<SpecialLink href="https://github.com/Pawliszakk" type='next'>
+						<SpecialLink href="https://github.com/Pawliszakk" type="next">
 							GitHub
 						</SpecialLink>{' '}
 						profile and dig deeper into my code.
