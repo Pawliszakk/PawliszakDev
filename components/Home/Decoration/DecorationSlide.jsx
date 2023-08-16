@@ -4,13 +4,16 @@ import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
 const DecorationSlide = () => {
 	return (
 		<section className={classes.decoration}>
-            
 			<div className={classes.box}>
 				<div className={classes.pros}>
 					<h2>
 						<FaMobileAlt /> RWD
 					</h2>
-					<p>Design suitable for both mobile devices and desktop computers</p>
+					<p>
+						Developing a design that effortlessly adapts to various screen sizes
+						ensures an inclusive and user-friendly experience, enhancing
+						accessibility and engagement.
+					</p>
 				</div>
 				<div className={classes.pros}>
 					<h2>
@@ -26,7 +29,8 @@ const DecorationSlide = () => {
 						<TbWorldSearch /> SEO
 					</h2>
 					<p>
-						Creating valuable, engaging and unique content for search engines
+						Creating valuable, engaging, and original content for search engines
+						requires a blend of creativity and strategic keyword optimization.
 					</p>
 				</div>
 			</div>
