@@ -15,20 +15,6 @@
 	flex-wrap: wrap;
 	gap: 2em;
 }
-/* .btn {
-	background-color: var(--main-color);
-	padding: 0.8em;
-	color: var(--nav-link);
-	border-radius: 5px;
-	border: 1px solid var(--main-color-darker);
-	cursor: pointer;
-	font-size: 1rem;
-	font-weight: bold;
-	transition: background-color 0.2s;
-}
-.btn:hover {
-	background-color: var(--main-color-lighter);
-} */
 
 .paragraph {
 	margin-top: 1em;
@@ -48,6 +34,7 @@
 	align-items: center;
 	gap: 1em;
 }
+
 .social {
 	display: flex;
 	justify-content: center;
@@ -66,7 +53,31 @@
 	background-color: var(--main-cta);
 	color: #fff;
 }
-
+.social:hover svg {
+	animation: iconAnimation 0.4s linear;
+}
+@keyframes iconAnimation {
+	0% {
+		transform: translateY(0);
+		scale: 1;
+	}
+	25% {
+		transform: translateY(-2px);
+		scale: 1.05;
+	}
+	50% {
+		transform: translateY(-5px);
+		scale: 1.1;
+	}
+	75% {
+		transform: translateY(-2px);
+		scale: 1.05;
+	}
+	100% {
+		transform: translateY(0);
+		scale: 1;
+	}
+}
 @media (min-width: 400px) {
 	.btn {
 		font-size: 1.4rem;

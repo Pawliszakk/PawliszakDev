@@ -12,7 +12,7 @@ const MainNavigaiton = () => {
 	const router = useRouter();
 
 	const isHomePage = '/' === router.pathname;
-	
+
 	const navBarClasses = `${classes.header}  ${
 		isNavScrolled || !isHomePage || isNavActive || !isDark
 			? classes.headerScrolled
