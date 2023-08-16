@@ -1,10 +1,12 @@
-import Link from 'next/link';
+
 import classes from './SpecialLink.module.css';
-const SpecialLink = ({ href, children }) => {
+const SpecialLink = ({ href, children, type }) => {
+
+
 	return (
-		<Link href={href} className={classes.link}>
+		<a href={href} target="_blank" className={classes.link}>
 			{children}
-		</Link>
+		</a>
 	);
 };
 

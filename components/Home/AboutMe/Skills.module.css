@@ -13,13 +13,28 @@
 	background-color: #fff;
 }
 .container {
-	margin-top: 3rem;
+	margin-top: 5rem;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 }
-
+.avatar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.avatar p {
+	margin-top: 3em;
+	text-align: center;
+	padding: 0 2em;
+	color: var(--text-color);
+	font-size: 1.6rem;
+}
+.avatar span {
+	color: var(--main-cta);
+}
 .button {
 	width: 210px;
 	display: flex;
@@ -69,6 +84,21 @@
 	}
 }
 
+@media (min-width: 400px) {
+	.avatar p {
+		display: block;
+		max-width: 400px;
+		font-size: 1.7rem;
+	}
+}
+@media (min-width: 576px) {
+	.avatar p {
+		display: block;
+		max-width: 450px;
+		font-size: 1.8rem;
+	}
+}
+
 @media (min-width: 992px) {
 	.container {
 		flex-direction: row;
@@ -80,5 +110,9 @@
 		bottom: 0;
 		right: 0;
 		animation-duration: 60s;
+	}
+	.avatar p {
+		max-width: 500px;
+		font-size: 2rem;
 	}
 }

@@ -13,6 +13,7 @@
 	--main-cta: #ff4900;
 	--nav-link: #fff;
 	--decoration-icon: #fff;
+	--text-color: #fff;
 }
 [data-theme='light'] {
 	--main-color: #fff;
@@ -21,6 +22,7 @@
 	--main-white: #fff;
 	--nav-link: #00222c;
 	--decoration-icon: #000;
+	--text-color: #00222c;
 }
 html {
 	font-size: 62.5%;
