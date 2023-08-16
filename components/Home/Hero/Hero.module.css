@@ -46,7 +46,7 @@
 	font-size: 1.8rem;
 }
 
-.headName {
+.heroSpan {
 	color: var(--main-cta);
 }
 .block {
@@ -70,7 +70,7 @@
 		font-size: 5rem;
 	}
 	.textContainer p {
-		font-size: 2.5rem;
+		font-size: 2.3rem;
 	}
 }
 
@@ -101,6 +101,9 @@
 	}
 	.textContainer {
 		margin-top: 2rem;
+	}
+	.textContainer p {
+		font-size: 2.2rem;
 	}
 	.links {
 		margin-top: 5.5rem;
