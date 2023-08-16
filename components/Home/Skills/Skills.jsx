@@ -44,6 +44,7 @@ const Skills = () => {
 				<LinkButton href="about-me">About Me</LinkButton>
 			</div>
 			<Decorations />
+			<div className={`${classes.block} block`}></div>
 		</section>
 	);
 };

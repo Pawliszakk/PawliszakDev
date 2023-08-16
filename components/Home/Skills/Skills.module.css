@@ -57,7 +57,12 @@
 	justify-content: center;
 	margin: 4rem auto 0 auto;
 }
-
+.block {
+	background-color: #01465b;
+	bottom: 0;
+	right: -20%;
+	transform: skew(-45deg);
+}
 @media (min-width: 400px) {
 	.avatar p {
 		display: block;

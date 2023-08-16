@@ -6,6 +6,7 @@
 	background-color: #01465b;
 	text-align: center;
 	padding-bottom: 6rem;
+	overflow: hidden	;
 }
 
 .box {
@@ -32,13 +33,7 @@
 	margin-top: 0.5em;
 	font-size: 1.4rem;
 }
-.block {
-	background-color: #01465b;
-	top: -40px;
-	right: -10%;
 
-	transform: skew(-45deg);
-}
 
 @media (min-width: 576px) {
 	.box {
