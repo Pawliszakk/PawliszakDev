@@ -1,3 +1,4 @@
+import DecorationSlide from '../../components/Home/Decoration/DecorationSlide';
 import Hero from '../../components/Home/Hero/Hero';
 import AboutMe from '../../components/Home/Skills/Skills';
 import Head from 'next/head';
@@ -13,6 +14,7 @@ const HomePage = () => {
 			</Head>
 			<Hero />
 			<AboutMe />
+			<DecorationSlide />
 		</>
 	);
 };

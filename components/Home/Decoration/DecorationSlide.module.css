@@ -1,0 +1,17 @@
+.decoration {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #01465b;
+	text-align: center;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pros {
+	margin: 2em 0;
+}
