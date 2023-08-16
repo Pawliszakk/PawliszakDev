@@ -1,9 +1,11 @@
 .decoration {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #01465b;
 	text-align: center;
+	padding-bottom: 6rem;
 }
 
 .box {
@@ -14,4 +16,32 @@
 }
 .pros {
 	margin: 2em 0;
+	padding: 0 1em;
+	max-width: 300px;
+}
+.pros h2 {
+	font-size: 2.6rem;
+	color: var(--text-color);
+}
+.pros svg {
+	width: 25px;
+	height: 25px;
+}
+.pros p {
+	color: var(--text-color-darker);
+	margin-top: 0.5em;
+	font-size: 1.4rem;
+}
+.block {
+	background-color: #01465b;
+	top: -40px;
+	right: -10%;
+
+	transform: skew(-45deg);
+}
+
+@media (min-width: 576px) {
+	.box {
+		flex-direction: row;
+	}
 }

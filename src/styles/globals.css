@@ -14,6 +14,7 @@
 	--nav-link: #fff;
 	--decoration-icon: #fff;
 	--text-color: #fff;
+	--text-color-darker: #ddd;
 	--footer-icon: #00222c;
 	--footer-icon-bg: #fff;
 	--footer-icon-hover: #d5d3d3;
@@ -26,7 +27,7 @@
 	--nav-link: #00222c;
 	--decoration-icon: #000;
 	--text-color: #010b0f;
-	/* --footer-icon-bg: #ccc; */
+	--text-color-darker: #0c023a;
 }
 html {
 	font-size: 62.5%;
