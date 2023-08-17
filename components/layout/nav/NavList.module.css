@@ -24,6 +24,10 @@
 	white-space: nowrap;
 	z-index: 0;
 	transition: color 1s;
+
+	border-radius: 20px;
+	padding: 0.2em 0.5em;
+	transition: background-color 0.3s;
 }
 .list li a {
 	color: var(--nav-link);
@@ -31,8 +35,10 @@
 .list li.activeLink a {
 	color: var(--main-cta);
 }
-
-.list li::after,
+.list li:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+/* .list li::after,
 .list li::before {
 	content: '';
 	position: absolute;
@@ -66,7 +72,7 @@
 .list li:hover::before {
 	border-bottom: 2px solid var(--nav-link);
 	border-right: 2px solid var(--nav-link);
-}
+} */
 
 .icons {
 	display: flex;
