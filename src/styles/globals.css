@@ -90,6 +90,7 @@ a {
 	width: 30px;
 	bottom: -5px;
 	margin: 0 auto;
+	background-color: var(--text-color);
 }
 @media (min-width: 576px) {
 	.section-title {
