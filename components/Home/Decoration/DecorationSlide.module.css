@@ -6,7 +6,16 @@
 	background-color: var(--decoration-color);
 	text-align: center;
 	padding-bottom: 6rem;
-	overflow: hidden	;
+	overflow: hidden;
+	background: linear-gradient(
+		-45deg,
+		var(--main-color),
+		var(--decoration-color),
+		var(--main-color),
+		var(--decoration-color)
+	);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
 .box {
@@ -17,7 +26,7 @@
 }
 .pros {
 	margin: 2em 0;
-	padding: 0 1em;
+	padding: 2em 4em;
 	max-width: 300px;
 }
 .pros h2 {
@@ -33,10 +42,26 @@
 	margin-top: 0.5em;
 	font-size: 1.4rem;
 }
-
-
+.block {
+	background-color: var(--main-color);
+	left: -20%;
+	width: 85%;
+	top: 0;
+	transform: skew(-45deg);
+}
 @media (min-width: 576px) {
 	.box {
 		flex-direction: row;
+	}
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
 	}
 }

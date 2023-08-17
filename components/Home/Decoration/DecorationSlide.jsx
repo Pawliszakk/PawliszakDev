@@ -4,6 +4,7 @@ import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
 const DecorationSlide = () => {
 	return (
 		<section className={classes.decoration}>
+			<div className={`${classes.block} block`}></div>
 			<div className={classes.box}>
 				<div className={classes.pros}>
 					<h2>
