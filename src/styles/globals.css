@@ -21,6 +21,12 @@
 	--footer-icon-hover: #d5d3d3;
 	--nav-link-hover: rgba(255, 255, 255, 0.2);
 	--decoration-color: #01465b;
+
+	--main-color: #01181f;
+	--main-color-darker: #000b0e;
+	--main-color-lighter: #012d3b;
+	--decoration-color: #021e26;
+	/* --main-cta: #a62f17; */
 }
 [data-theme='light'] {
 	--main-color: #fff;
