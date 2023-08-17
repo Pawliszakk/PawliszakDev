@@ -58,7 +58,7 @@
 	margin: 4rem auto 0 auto;
 }
 .block {
-	background-color: #01465b;
+	background-color: var(--decoration-color);
 	bottom: 0;
 	right: -20%;
 	transform: skew(-45deg);
