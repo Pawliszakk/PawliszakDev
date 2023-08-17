@@ -15,8 +15,8 @@
 		hidingOverlay 1s 2s ease-in-out forwards;
 }
 
-
 .overlay p {
+	color: var(--main-cta);
 	font-size: 5rem;
 }
 .overlay span {
