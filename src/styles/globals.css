@@ -81,6 +81,7 @@ a {
 	position: relative;
 	text-align: center;
 	font-size: 3rem;
+	color: var(--text-color);
 }
 .section-title::before {
 	position: absolute;
