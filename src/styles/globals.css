@@ -19,6 +19,7 @@
 	--footer-icon-bg: #fff;
 	--footer-icon-hover: #d5d3d3;
 	--footer-icon-hover: #d5d3d3;
+	--nav-link-hover: rgba(255, 255, 255, 0.2);
 }
 [data-theme='light'] {
 	--main-color: #fff;
@@ -28,6 +29,7 @@
 	--decoration-icon: #000;
 	--text-color: #010b0f;
 	--text-color-darker: #0c023a;
+	--nav-link-hover: rgba(0, 0, 0, 0.3);
 }
 html {
 	font-size: 62.5%;
