@@ -33,6 +33,7 @@
 	padding: 0 2em;
 	color: var(--text-color);
 	font-size: 1.6rem;
+	z-index: 1;
 }
 .avatar svg {
 	position: absolute;
