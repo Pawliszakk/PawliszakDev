@@ -24,9 +24,8 @@
 	white-space: nowrap;
 	z-index: 0;
 	transition: color 1s;
-
 	border-radius: 20px;
-	padding: 0.2em 0.5em;
+	padding: 0.3em 0.5em;
 	transition: background-color 0.3s;
 }
 .list li a {
