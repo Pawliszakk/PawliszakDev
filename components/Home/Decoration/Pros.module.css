@@ -19,10 +19,12 @@
 .pros h2 {
 	font-size: 2.6rem;
 	color: var(--text-color);
+	color: var(--main-cta);
 }
 .pros svg {
 	width: 25px;
 	height: 25px;
+	color: var(--text-color);
 }
 .pros p {
 	color: var(--text-color-darker);
