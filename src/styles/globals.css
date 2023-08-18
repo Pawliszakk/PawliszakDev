@@ -27,11 +27,17 @@
 	--main-color-lighter: #012d3b;
 	--decoration-color: #021e26;
 	/* --main-cta: #a62f17; */
-	--decoration-pros-gradient: linear-gradient(
+	/* --decoration-pros-gradient: linear-gradient(
 		90deg,
 		rgba(0, 49, 64, 1) 9%,
 		rgba(0, 34, 44, 1) 52%,
 		rgba(1, 76, 99, 1) 100%
+	); */
+	--decoration-pros-gradient: linear-gradient(
+		90deg,
+		rgb(1, 46, 58) 9%,
+		rgb(0, 26, 34) 52%,
+		rgb(1, 21, 27) 100%
 	);
 	--decoration-pros-shadow: 5px 5px 0px -1px #02556e;
 }
