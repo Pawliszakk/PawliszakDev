@@ -5,7 +5,7 @@
 	align-items: center;
 	background-color: var(--decoration-color);
 	text-align: center;
-	padding: 8em 0;
+	padding: 15em 0;
 	overflow: hidden;
 }
 
@@ -33,6 +33,7 @@
 	transform: rotate(-30deg);
 	animation: floating 4s linear infinite, blob 5s ease-in-out infinite;
 }
+
 @media (min-width: 768px) {
 	.box {
 		flex-direction: row;

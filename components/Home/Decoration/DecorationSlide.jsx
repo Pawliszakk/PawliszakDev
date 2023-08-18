@@ -5,6 +5,8 @@ import Pros from './Pros';
 const DecorationSlide = () => {
 	return (
 		<section className={classes.decoration}>
+			<div className={classes.wave}></div>
+
 			<div className={classes.box}>
 				<Pros />
 			</div>

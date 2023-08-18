@@ -4,11 +4,11 @@
 	max-width: 300px;
 	min-height: 180px;
 	background-color: var(--main-color);
-	/* border-radius: 25px; */
+
 	border-radius: 50%;
 	background: rgb(0, 49, 64);
 	background: var(--decoration-pros-gradient);
-	/* box-shadow: var(--decoration-pros-shadow); */
+
 	box-shadow: 7px 11px 12px 1px rgba(0, 0, 0, 0.69);
 	background-size: 400%;
 	border: 2px solid var(--main-color);
@@ -19,12 +19,10 @@
 .pros h2 {
 	font-size: 2.6rem;
 	color: var(--text-color);
-	color: var(--main-cta);
 }
 .pros svg {
 	width: 25px;
 	height: 25px;
-	color: var(--text-color);
 }
 .pros p {
 	color: var(--text-color-darker);

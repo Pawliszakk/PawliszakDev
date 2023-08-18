@@ -6,9 +6,6 @@
 	scroll-behavior: smooth;
 }
 :root {
-	--main-color: #003140;
-	--main-color-darker: #00222c;
-	--main-color-lighter: #014c63;
 	--main-white: #fff;
 	--main-cta: #ff4900;
 	--nav-link: #fff;
@@ -20,19 +17,13 @@
 	--footer-icon-hover: #d5d3d3;
 	--footer-icon-hover: #d5d3d3;
 	--nav-link-hover: rgba(255, 255, 255, 0.2);
-	--decoration-color: #01465b;
 
 	--main-color: #021217;
 	--main-color-darker: #000b0e;
 	--main-color-lighter: #012d3b;
 	--decoration-color: #021e26;
 	/* --main-cta: #a62f17; */
-	/* --decoration-pros-gradient: linear-gradient(
-		90deg,
-		rgba(0, 49, 64, 1) 9%,
-		rgba(0, 34, 44, 1) 52%,
-		rgba(1, 76, 99, 1) 100%
-	); */
+
 	--decoration-pros-gradient: linear-gradient(
 		90deg,
 		rgb(1, 46, 58) 9%,
