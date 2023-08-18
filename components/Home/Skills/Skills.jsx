@@ -7,15 +7,16 @@ import SkillsList from './SkillList/SkillsList';
 
 import Decorations from './Decorations';
 import Avatar from './Avatar/Avatar';
+import SectionTitle from '../../UI/SectionTItle';
 const Skills = () => {
 	const [avatar, setAvatar] = useState('/assets/avatarMac.png');
-	const handleMouseEnter = () => setAvatar('/assets/avatarLike.png');
-	const handleMouseLeave = () => setAvatar('/assets/avatarMac.png');
+	const handleMouseEnter = () => setAvatar('/assets/avatar/avatarLike.png');
+	const handleMouseLeave = () => setAvatar('/assets/avatar/avatarMac.png');
 	const isMobile = useDisplay();
 
 	return (
 		<section className={classes.skills}>
-			<h2 className="section-title">My Skills</h2>
+			<SectionTitle>My Skills</SectionTitle>
 			<div className={classes.container}>
 				<Avatar avatar={avatar} />
 				<SkillsList />

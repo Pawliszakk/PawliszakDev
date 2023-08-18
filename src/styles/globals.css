@@ -92,28 +92,3 @@ a {
 	width: 50%;
 	transform: skew(45deg);
 }
-.section-title {
-	position: relative;
-	text-align: center;
-	font-size: 3rem;
-	color: var(--text-color);
-}
-.section-title::before {
-	position: absolute;
-	content: '';
-	height: 3px;
-	width: 30px;
-	bottom: -5px;
-	margin: 0 auto;
-	background-color: var(--text-color);
-}
-@media (min-width: 576px) {
-	.section-title {
-		font-size: 3.5rem;
-	}
-}
-@media (min-width: 992px) {
-	.section-title {
-		font-size: 5rem;
-	}
-}
