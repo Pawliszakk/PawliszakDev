@@ -10,6 +10,7 @@ const ProjectDemos = () => {
 							src="/assets/projects/klimaswiat.JPG"
 							alt="Klima Świat Home page snippet"
 							fill
+							sizes="100%"
 						/>
 					</div>
 				</div>
@@ -19,8 +20,9 @@ const ProjectDemos = () => {
 					<div className={classes.image}>
 						<Image
 							src="/assets/projects/ecofresh.JPG"
-							alt="Klima Świat Home page snippet"
+							alt="Eco fresh Home page snippet"
 							fill
+							sizes="100%"
 						/>
 					</div>
 				</div>

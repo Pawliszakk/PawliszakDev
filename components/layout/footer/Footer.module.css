@@ -21,7 +21,9 @@
 	font-size: 1.6rem;
 	color: var(--nav-link);
 }
-
+.year {
+	color: var(--text-color);
+}
 .block {
 	top: -40px;
 	left: -20%;

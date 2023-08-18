@@ -9,6 +9,9 @@ import {
 } from 'react-icons/bs';
 
 const Footer = () => {
+	const year = new Date().getFullYear();
+
+
 	const socials = [
 		{
 			name: 'Github',
@@ -51,7 +54,8 @@ const Footer = () => {
 					<BsFillEnvelopeAtFill />
 				</Link>
 			</div>
-			<p className={classes.paragraph}>{'<pawliszakdev/>'}</p>
+			<p className={classes.paragraph}>&lt;pawliszakDev/&gt;</p>
+			<p className={classes.year}>{year}</p>
 		</footer>
 	);
 };

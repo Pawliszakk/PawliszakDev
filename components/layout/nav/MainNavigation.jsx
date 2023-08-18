@@ -31,7 +31,7 @@ const MainNavigaiton = () => {
 	return (
 		<header className={navBarClasses}>
 			<div className={classes.logo}>
-				<Link href="/">{'<pawliszakDev/>'}</Link>
+				<Link href="/">&lt;pawliszakDev/&gt;</Link>
 			</div>
 			<NavList isNavActive={isNavActive} mobileNavHandler={mobileNavHandler} />
 		</header>
