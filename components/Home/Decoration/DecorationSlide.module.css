@@ -23,6 +23,10 @@
 	}
 }
 @media (min-width: 1200px) {
+	.decoration {
+		padding-top: 5em;
+		padding-bottom: 8em;
+	}
 	.box {
 		gap: 6rem;
 	}
