@@ -5,7 +5,7 @@
 	align-items: center;
 	background-color: var(--decoration-color);
 	text-align: center;
-	padding-bottom: 6rem;
+	padding: 8em 0;
 	overflow: hidden;
 }
 
@@ -14,7 +14,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 5rem;
+	gap: 2rem;
 }
 
 .block {
@@ -25,14 +25,14 @@
 	transform: skew(-45deg);
 	z-index: 0;
 }
-@media (min-width: 576px) {
+
+@media (min-width: 768px) {
 	.box {
 		flex-direction: row;
 	}
 }
-
-@media(min-width: 992px) {
-	.decoration{
-		padding: 6em 0;
+@media (min-width: 1200px) {
+	.box {
+		gap: 6rem;
 	}
 }
