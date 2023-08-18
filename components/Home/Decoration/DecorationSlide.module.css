@@ -9,13 +9,6 @@
 	overflow: hidden;
 }
 
-.box {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 2rem;
-}
 .block {
 	bottom: 0;
 	background-color: var(--main-color);
@@ -34,18 +27,10 @@
 	animation: floating 4s linear infinite, blob 5s ease-in-out infinite;
 }
 
-@media (min-width: 768px) {
-	.box {
-		flex-direction: row;
-	}
-}
 @media (min-width: 1200px) {
 	.decoration {
 		padding-top: 5em;
 		padding-bottom: 8em;
-	}
-	.box {
-		gap: 6rem;
 	}
 }
 @keyframes floating {

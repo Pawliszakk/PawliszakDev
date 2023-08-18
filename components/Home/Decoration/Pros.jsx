@@ -3,7 +3,8 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
 const Pros = () => {
 	return (
-		<>
+		<div className={classes.box}>
+			
 			<div className={`${classes.pros} ${classes.firstPros}`}>
 				<h2>
 					<FaMobileAlt /> RWD
@@ -32,7 +33,7 @@ const Pros = () => {
 					requires a blend of creativity and strategic keyword optimisation.
 				</p>
 			</div>
-		</>
+		</div>
 	);
 };
 

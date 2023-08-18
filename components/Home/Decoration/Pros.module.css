@@ -1,3 +1,11 @@
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
 .pros {
 	margin: 2em 0;
 	padding: 2em 4em;
@@ -61,5 +69,15 @@
 	}
 	100% {
 		border-radius: 60% 40% 30% 70%/60% 30%;
+	}
+}
+@media (min-width: 768px) {
+	.box {
+		flex-direction: row;
+	}
+}
+@media (min-width: 1200px) {
+	.box {
+		gap: 6rem;
 	}
 }
