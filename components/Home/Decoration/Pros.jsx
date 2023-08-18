@@ -1,7 +1,7 @@
 import classes from './Pros.module.css';
 import { FaMobileAlt } from 'react-icons/fa';
 import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
-const Pros = ({ header, paragraph, icon }) => {
+const Pros = () => {
 	return (
 		<>
 			<div className={`${classes.pros} ${classes.firstPros}`}>
@@ -23,7 +23,7 @@ const Pros = ({ header, paragraph, icon }) => {
 					levels of knowledge can navigate it effortlessly
 				</p>
 			</div>
-			<div className={classes.pros}>
+			<div className={`${classes.pros} ${classes.thirdPros}`}>
 				<h2>
 					<TbWorldSearch /> SEO
 				</h2>

@@ -5,13 +5,13 @@
 	min-height: 180px;
 	background-color: var(--main-color);
 	/* border-radius: 25px; */
+	border-radius: 50%;
 	background: rgb(0, 49, 64);
 	background: var(--decoration-pros-gradient);
 	box-shadow: var(--decoration-pros-shadow);
 	background-size: 400%;
-	/* animation: bg-animation 5s infinite alternate; */
+
 	transition: transform 0.3s;
-	animation: floatingAvatar 4s linear infinite, blob 5s ease-in-out infinite;
 }
 .pros h2 {
 	font-size: 2.6rem;
@@ -30,10 +30,16 @@
 	transform: scale(0.95);
 }
 .firstPros {
-	animation-delay: 2s;
+	animation: floatingAvatar 4s linear infinite, blob 5s ease-in-out infinite,
+		bg-animation 5s 2s infinite alternate;
 }
 .secondPros {
-	animation-delay: 1s;
+	animation: floatingAvatar 4s 1s linear infinite, blob 5s ease-in-out infinite,
+		bg-animation 5s 3s infinite alternate;
+}
+.thirdPros {
+	animation: floatingAvatar 4s 2s linear infinite, blob 5s ease-in-out infinite,
+		bg-animation 5s 1s infinite alternate;
 }
 
 @keyframes bg-animation {
