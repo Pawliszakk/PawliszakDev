@@ -1,5 +1,5 @@
 import classes from './DecorationSlide.module.css';
-
+import { PiGlobeThin } from 'react-icons/pi';
 
 import Pros from './Pros';
 const DecorationSlide = () => {
@@ -8,7 +8,7 @@ const DecorationSlide = () => {
 			<div className={classes.box}>
 				<Pros />
 			</div>
-
+			<PiGlobeThin className={classes.icon} />
 			<div className={`${classes.block} block`}></div>
 		</section>
 	);

@@ -23,11 +23,14 @@
 }
 .icon {
 	position: absolute;
-	bottom: -50px;
-	right: 0;
-	width: 380px;
-	height: 380px;
+	bottom: -150px;
+	right: -150px;
+	width: 550px;
+	height: 550px;
 	color: var(--text-color);
+	opacity: 0.1;
+	z-index: 0;
+	transform: rotate(-30deg);
 }
 @media (min-width: 768px) {
 	.box {
