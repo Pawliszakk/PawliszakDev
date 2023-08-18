@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import classes from './Skills.module.css';
-import AvatarBlob from '../../UI/AvatarBlob';
+
 import LinkButton from '../../UI/buttons/LinkButton';
 import useDisplay from '@/hooks/useDisplay';
 import SkillsList from './SkillList/SkillsList';
-import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 
-import SpecialLink from '../../UI/buttons/SpecialLink';
 import Decorations from './Decorations';
+import Avatar from './Avatar/Avatar';
 const Skills = () => {
 	const [avatar, setAvatar] = useState('/assets/avatarMac.png');
 	const handleMouseEnter = () => setAvatar('/assets/avatarLike.png');
@@ -18,22 +17,7 @@ const Skills = () => {
 		<section className={classes.skills}>
 			<h2 className="section-title">My Skills</h2>
 			<div className={classes.container}>
-				<div className={classes.avatar}>
-					<AvatarBlob image={avatar} alt="Avatar of pawliszakDev" />
-					<p>
-						This is my tech stack that I have achieved in my web development
-						learning journey. If you want to get to know me better, click on the{' '}
-						<span>About Me</span> button below, which will take you to a
-						separate subpage about me. If you want to dig deeper into my code,
-						check out my{' '}
-						<SpecialLink href="https://github.com/Pawliszakk">
-							GitHub
-						</SpecialLink>{' '}
-						profile
-						<ImQuotesLeft className={classes.quoteLeft} />
-						<ImQuotesRight className={classes.quoteRight} />
-					</p>
-				</div>
+				<Avatar avatar={avatar} />
 				<SkillsList />
 			</div>
 			<div
@@ -44,7 +28,7 @@ const Skills = () => {
 				<LinkButton href="about-me">About Me</LinkButton>
 			</div>
 			<Decorations />
-			
+			<div className={`${classes.block} block`}></div>
 		</section>
 	);
 };

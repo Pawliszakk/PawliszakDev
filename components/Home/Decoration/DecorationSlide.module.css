@@ -17,15 +17,6 @@
 	gap: 2rem;
 }
 
-.block {
-	background-color: var(--main-color);
-	left: -20%;
-	width: 85%;
-	top: 0;
-	transform: skew(-45deg);
-	z-index: 0;
-}
-
 @media (min-width: 768px) {
 	.box {
 		flex-direction: row;
