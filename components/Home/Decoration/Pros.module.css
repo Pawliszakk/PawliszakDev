@@ -10,6 +10,7 @@
 	box-shadow: var(--decoration-pros-shadow);
 	background-size: 400%;
 	animation: bg-animation 5s infinite alternate;
+	transition: transform 0.3s;
 }
 .pros h2 {
 	font-size: 2.6rem;
@@ -23,6 +24,9 @@
 	color: var(--text-color-darker);
 	margin-top: 0.5em;
 	font-size: 1.4rem;
+}
+.pros:hover {
+	transform: scale(0.95);
 }
 .firstPros {
 	animation-delay: 2s;
