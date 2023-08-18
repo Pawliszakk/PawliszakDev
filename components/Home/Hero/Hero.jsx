@@ -9,7 +9,7 @@ const Hero = () => {
 			<div className={classes.shadow}></div>
 			<div className={classes.container}>
 				<AvatarBlob
-					image="/assets/avatarBlink.png"
+					image="/assets/avatar/avatarBlink.png"
 					alt="avatar of pawliszakDev"
 				/>
 				<HeroText />
