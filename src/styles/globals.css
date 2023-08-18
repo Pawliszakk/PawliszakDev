@@ -27,6 +27,13 @@
 	--main-color-lighter: #012d3b;
 	--decoration-color: #021e26;
 	/* --main-cta: #a62f17; */
+	--decoration-pros-gradient: linear-gradient(
+		90deg,
+		rgba(0, 49, 64, 1) 9%,
+		rgba(0, 34, 44, 1) 52%,
+		rgba(1, 76, 99, 1) 100%
+	);
+	--decoration-pros-shadow: 5px 5px 0px -1px #02556e;
 }
 [data-theme='light'] {
 	--main-color: #fff;
@@ -38,6 +45,14 @@
 	--text-color-darker: #1f0101;
 	--nav-link-hover: rgba(0, 0, 0, 0.3);
 	--decoration-color: #c2c3c3;
+
+	--decoration-pros-gradient: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 1) 9%,
+		rgba(224, 226, 226, 1) 52%,
+		rgba(144, 176, 186, 1) 100%
+	);
+	--decoration-pros-shadow: 5px 5px 0px -1px #7d7e7e;
 }
 html {
 	font-size: 62.5%;
