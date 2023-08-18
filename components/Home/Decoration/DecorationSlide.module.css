@@ -16,7 +16,11 @@
 	align-items: center;
 	gap: 2rem;
 }
-
+.block {
+	bottom: 0;
+	background-color: var(--main-color);
+	left: -20%;
+}
 @media (min-width: 768px) {
 	.box {
 		flex-direction: row;
