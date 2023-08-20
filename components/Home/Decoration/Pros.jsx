@@ -1,11 +1,11 @@
 import classes from './Pros.module.css';
-import { FaMobileAlt } from 'react-icons/fa';
+import { HiOutlineDeviceMobile } from 'react-icons/hi';
 import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
 const Pros = () => {
 	return (
 		<div className={classes.box}>
 			<div className={classes.pros}>
-				<FaMobileAlt />
+				<HiOutlineDeviceMobile />
 				<h2>RWD</h2>
 				<p>
 					Developing a design that easily adapts to different screen sizes

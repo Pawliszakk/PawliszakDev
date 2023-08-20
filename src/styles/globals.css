@@ -17,7 +17,7 @@
 	--footer-icon-hover: #d5d3d3;
 	--footer-icon-hover: #d5d3d3;
 	--nav-link-hover: rgba(255, 255, 255, 0.2);
-
+	--pros-svg: #fff;
 	--main-color: #031d25;
 	--main-color-darker: #000b0e;
 	--main-color-lighter: #012d3b;
@@ -43,7 +43,8 @@
 	--text-color-darker: #1f0101;
 	--nav-link-hover: rgba(0, 0, 0, 0.3);
 	--decoration-color: #b0bcbc;
-
+	--pros-color: #97a3a3;
+	--pros-svg: #fff;
 	--decoration-pros-gradient: linear-gradient(
 		90deg,
 		rgba(255, 255, 255, 1) 9%,

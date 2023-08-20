@@ -2,8 +2,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* flex-direction: column; */
-	gap: 5rem;
+	flex-direction: column;
+	gap: 9rem;
 }
 .pros {
 	position: relative;
@@ -12,26 +12,47 @@
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-	width: 300px;
-	height: 200px;
-	padding: 1em 2em;
+	width: 250px;
+	min-height: 200px;
+	padding: 2em;
 	background-color: var(--pros-color);
 	color: var(--text-color);
 	border-radius: 5px;
-
-	overflow: hidden;
+	z-index: 0;
+	/* overflow: hidden; */
 }
 .pros h2 {
-	font-size: 2.4rem;
+	font-size: 2.6rem;
+	padding: 0.2em 0;
 }
 .pros p {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 }
 .pros svg {
+	color: var(--pros-svg);
 	position: absolute;
-	top: -30px;
-	left: -25px;
-	height: 250px;
-	width: 250px;
-	opacity: 0.1;
+	bottom: -70px;
+	left: -15px;
+	height: 100px;
+	width: 102px;
+
+	z-index: -1;
+}
+
+@media (min-width: 576px) {
+	.pros {
+		width: 350px;
+	}
+	.pros h2 {
+		font-size: 3rem;
+	}
+	.pros p {
+		font-size: 1.8rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.box {
+		flex-flow: row wrap;
+	}
 }
