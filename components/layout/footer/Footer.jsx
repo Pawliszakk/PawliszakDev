@@ -46,7 +46,7 @@ const Footer = () => {
 	));
 	return (
 		<footer className={classes.footer}>
-			<SectionBlock left className={classes.block} />
+			<SectionBlock left cdclassName={classes.block} />
 
 			<div className={classes.socials}>
 				{socialsIcons}
