@@ -31,9 +31,7 @@
 .logo:hover a {
 	color: var(--main-cta);
 }
-.logo.active a {
-	color: var(--main-cta);
-}
+
 
 @media (max-width: 768px) {
 	.header {

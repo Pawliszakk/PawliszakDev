@@ -30,7 +30,7 @@ const MainNavigaiton = () => {
 
 	return (
 		<header className={navBarClasses}>
-			<div className={`${classes.logo} ${isHomePage ? classes.active : null}`}>
+			<div className={classes.logo}>
 				<Link href="/">&lt;pawliszakDev/&gt;</Link>
 			</div>
 			<NavList isNavActive={isNavActive} mobileNavHandler={mobileNavHandler} />
