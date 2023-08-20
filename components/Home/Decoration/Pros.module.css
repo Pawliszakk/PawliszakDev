@@ -19,6 +19,8 @@
 	color: var(--text-color);
 	border-radius: 5px;
 	z-index: 0;
+
+	box-shadow: var(--pros-shadow);
 }
 .pros h2 {
 	font-size: 2.6rem;
