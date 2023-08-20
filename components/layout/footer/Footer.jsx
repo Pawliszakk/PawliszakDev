@@ -7,10 +7,10 @@ import {
 	BsFacebook,
 	BsFillEnvelopeAtFill,
 } from 'react-icons/bs';
+import SectionBlock from '../../UI/SectionBlock';
 
 const Footer = () => {
 	const year = new Date().getFullYear();
-
 
 	const socials = [
 		{
@@ -46,7 +46,7 @@ const Footer = () => {
 	));
 	return (
 		<footer className={classes.footer}>
-			<div className={`${classes.block} block`}></div>
+			<SectionBlock left className={classes.block} />
 
 			<div className={classes.socials}>
 				{socialsIcons}

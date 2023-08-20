@@ -17,7 +17,6 @@
 	--footer-icon-hover: #d5d3d3;
 	--footer-icon-hover: #d5d3d3;
 	--nav-link-hover: rgba(255, 255, 255, 0.2);
-
 	--main-color: #031d25;
 	--main-color-darker: #000b0e;
 	--main-color-lighter: #012d3b;
@@ -72,9 +71,3 @@ a {
 	text-decoration: none;
 }
 
-.block {
-	position: absolute;
-	height: 40px;
-	width: 50%;
-	transform: skew(45deg);
-}

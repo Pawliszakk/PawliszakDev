@@ -19,7 +19,6 @@
 	color: var(--text-color);
 	border-radius: 5px;
 	z-index: 0;
-
 	box-shadow: var(--pros-shadow);
 }
 .pros h2 {
@@ -37,8 +36,11 @@
 	left: -15px;
 	height: 100px;
 	width: 102px;
-
+	transition: transform 0.3s;
 	z-index: -1;
+}
+.pros:hover svg {
+	transform: scale(1.2);
 }
 
 @media (min-width: 576px) {
