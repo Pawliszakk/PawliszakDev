@@ -1,8 +1,14 @@
 .projects {
+	position: relative;
 	background-color: var(--main-color);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	padding: 5rem 0;
+}
+.block {
+	background-color: var(--main-color);
+	top: -30px;
+	left: -20%;
 }

@@ -17,8 +17,8 @@
 
 @media (min-width: 1200px) {
 	.decoration {
-		padding-top: 5em;
-		padding-bottom: 10em;
+		padding-top: 6em;
+		padding-bottom: 14em;
 	}
 }
 @keyframes floating {

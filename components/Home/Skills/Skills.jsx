@@ -8,6 +8,7 @@ import SkillsList from './SkillList/SkillsList';
 import Decorations from './Decorations';
 import Avatar from './Avatar/Avatar';
 import SectionTitle from '../../UI/SectionTItle';
+import SectionBlock from '../../UI/SectionBlock';
 const Skills = () => {
 	const [avatar, setAvatar] = useState('/assets/avatar/avatarMac.png');
 	const handleMouseEnter = () => setAvatar('/assets/avatar/avatarLike.png');
@@ -29,7 +30,7 @@ const Skills = () => {
 				<LinkButton href="about-me">About Me</LinkButton>
 			</div>
 			<Decorations />
-			<div className={`${classes.block} block`}></div>
+			<SectionBlock className={classes.block} />
 		</section>
 	);
 };

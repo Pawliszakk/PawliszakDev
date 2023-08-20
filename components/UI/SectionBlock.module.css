@@ -1,0 +1,11 @@
+.block {
+	position: absolute;
+	height: 40px;
+	width: 50%;
+}
+.left {
+	transform: skew(45deg);
+}
+.right {
+	transform: skew(-45deg);
+}

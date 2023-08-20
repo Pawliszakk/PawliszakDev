@@ -1,3 +1,4 @@
+import SectionBlock from '../../UI/SectionBlock';
 import SectionTitle from '../../UI/SectionTItle';
 import LinkButton from '../../UI/buttons/LinkButton';
 import ProjectDemos from './ProjectDemos';
@@ -10,6 +11,7 @@ const Projects = () => {
 			<ProjectDemos />
 
 			<LinkButton href="/projects">Projects</LinkButton>
+			<SectionBlock left className={classes.block} />
 		</section>
 	);
 };

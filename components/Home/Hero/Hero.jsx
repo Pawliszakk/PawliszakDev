@@ -1,4 +1,5 @@
 import AvatarBlob from '../../UI/AvatarBlob';
+import SectionBlock from '../../UI/SectionBlock';
 
 import classes from './Hero.module.css';
 
@@ -14,7 +15,7 @@ const Hero = () => {
 				/>
 				<HeroText />
 			</div>
-			<div className={`${classes.block} block`}></div>
+			<SectionBlock left className={classes.block} />
 		</section>
 	);
 };

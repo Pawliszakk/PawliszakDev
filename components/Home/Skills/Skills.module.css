@@ -24,9 +24,8 @@
 }
 .block {
 	right: -25%;
-	bottom: 0;
+	bottom: -10px;
 	background-color: var(--decoration-color);
-	transform: skew(-50deg);
 }
 
 @media (min-width: 992px) {
