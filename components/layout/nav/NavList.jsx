@@ -8,9 +8,9 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 	const isMobile = useDisplay();
 	const router = useRouter();
 	const links = [
-		{ href: '/', name: 'Home' },
 		{ href: '/about-me', name: 'About Me' },
 		{ href: '/projects', name: 'Projects' },
+		{ href: 'https://github.com/Pawliszakk', name: 'GitHub' },
 		{ href: '/contact', name: 'Contact' },
 	];
 
@@ -20,7 +20,13 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 			onClick={isMobile ? mobileNavHandler : () => {}}
 			className={link.href === router.pathname ? classes.activeLink : null}
 		>
-			<Link href={link.href}>{link.name}</Link>
+			{link.name === 'GitHub' ? (
+				<a href={link.href} target="_blank">
+					{link.name}
+				</a>
+			) : (
+				<Link href={link.href}>{link.name}</Link>
+			)}
 		</li>
 	));
 	return (
