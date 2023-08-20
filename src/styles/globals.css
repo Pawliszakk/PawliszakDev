@@ -17,21 +17,12 @@
 	--footer-icon-hover: #d5d3d3;
 	--footer-icon-hover: #d5d3d3;
 	--nav-link-hover: rgba(255, 255, 255, 0.2);
-	--pros-svg: #fff;
+
 	--main-color: #031d25;
 	--main-color-darker: #000b0e;
 	--main-color-lighter: #012d3b;
 	--decoration-color: #01090b;
 	--pros-color: #01161b;
-	/* --main-cta: #a62f17; */
-
-	--decoration-pros-gradient: linear-gradient(
-		90deg,
-		rgb(1, 46, 58) 9%,
-		rgb(0, 26, 34) 52%,
-		rgb(1, 21, 27) 100%
-	);
-	--decoration-pros-shadow: 5px 5px 0px -1px #02556e;
 }
 [data-theme='light'] {
 	--main-color: #fff;
@@ -43,15 +34,8 @@
 	--text-color-darker: #1f0101;
 	--nav-link-hover: rgba(0, 0, 0, 0.3);
 	--decoration-color: #b0bcbc;
-	--pros-color: #97a3a3;
-	--pros-svg: #fff;
-	--decoration-pros-gradient: linear-gradient(
-		90deg,
-		rgba(255, 255, 255, 1) 9%,
-		rgba(224, 226, 226, 1) 52%,
-		rgb(160, 186, 194) 100%
-	);
-	--decoration-pros-shadow: 5px 5px 0px -1px #7d7e7e;
+	--pros-color: #c4d3d3;
+
 }
 html {
 	font-size: 62.5%;

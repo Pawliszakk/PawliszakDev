@@ -19,7 +19,6 @@
 	color: var(--text-color);
 	border-radius: 5px;
 	z-index: 0;
-	/* overflow: hidden; */
 }
 .pros h2 {
 	font-size: 2.6rem;
@@ -29,7 +28,7 @@
 	font-size: 1.6rem;
 }
 .pros svg {
-	color: var(--pros-svg);
+	color: #fff;
 	position: absolute;
 	bottom: -70px;
 	left: -15px;
