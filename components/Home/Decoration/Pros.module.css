@@ -1,83 +1,37 @@
 .box {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 2rem;
+	/* flex-direction: column; */
+	gap: 5rem;
 }
-
 .pros {
-	margin: 2em 0;
-	padding: 2em 4em;
-	max-width: 300px;
-	min-height: 180px;
-	background-color: var(--main-color);
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	padding: 1em 2em;
+	background-color: var(--pros-color);
+	color: var(--text-color);
+	border-radius: 5px;
 
-	border-radius: 50%;
-	background: rgb(0, 49, 64);
-	background: var(--decoration-pros-gradient);
-
-	box-shadow: 7px 11px 12px 1px rgba(0, 0, 0, 0.69);
-	background-size: 400%;
-	border: 2px solid var(--main-color);
-
-	transition: transform 0.3s;
-	z-index: 1;
+	overflow: hidden;
 }
 .pros h2 {
-	font-size: 2.6rem;
-	color: var(--text-color);
-}
-.pros svg {
-	width: 25px;
-	height: 25px;
+	font-size: 2.4rem;
 }
 .pros p {
-	color: var(--text-color-darker);
-	margin-top: 0.5em;
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 }
-.pros:hover {
-	transform: scale(0.95);
-}
-.firstPros {
-	animation: blob 5s 2s ease-in-out infinite,
-		bg-animation 5s 3s infinite alternate;
-}
-.secondPros {
-	animation: blob 5s 1s ease-in-out infinite,
-		bg-animation 5s 2s infinite alternate;
-}
-.thirdPros {
-	animation: blob 5s ease-in-out infinite, bg-animation 5s 1s infinite alternate;
-}
-
-@keyframes bg-animation {
-	from {
-		background-position: left;
-	}
-	to {
-		background-position: right;
-	}
-}
-@keyframes blob {
-	0% {
-		border-radius: 60% 40% 30% 70%/60% 30%;
-	}
-	50% {
-		border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
-	}
-	100% {
-		border-radius: 60% 40% 30% 70%/60% 30%;
-	}
-}
-@media (min-width: 768px) {
-	.box {
-		flex-direction: row;
-	}
-}
-@media (min-width: 1200px) {
-	.box {
-		gap: 6rem;
-	}
+.pros svg {
+	position: absolute;
+	top: -30px;
+	left: -25px;
+	height: 250px;
+	width: 250px;
+	opacity: 0.1;
 }

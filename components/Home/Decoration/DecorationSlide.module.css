@@ -14,18 +14,6 @@
 	background-color: var(--main-color);
 	left: -20%;
 }
-.icon {
-	position: absolute;
-	bottom: -150px;
-	right: -150px;
-	width: 550px;
-	height: 550px;
-	color: var(--text-color);
-	opacity: 0.6;
-	z-index: 0;
-	transform: rotate(-30deg);
-	animation: floating 4s linear infinite, blob 5s ease-in-out infinite;
-}
 
 @media (min-width: 1200px) {
 	.decoration {
