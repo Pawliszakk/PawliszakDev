@@ -2,7 +2,7 @@
 	position: fixed;
 	top: 5rem;
 	left: 50%;
-	transform: translate(-50%, 0);
+	transform: translate(-50%, -50px);
 	z-index: 20;
 	width: 30rem;
 	height: 7rem;
@@ -26,6 +26,3 @@
 		font-size: 1.2rem;
 	}
 }
-
-/* transform: 'translate(-50%,0)';  --pozycja widoczna   */
-/* transform: 'translate(-50%,-150px)';  --pozycja NIEwidoczna   */
