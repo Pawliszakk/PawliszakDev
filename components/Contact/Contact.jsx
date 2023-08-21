@@ -29,7 +29,7 @@ const Contact = () => {
 			<Modal show={isModal} onClose={hideModalHandler}>
 				Copied to clipboard!
 			</Modal>
-			<SectionBlock left className={classes.block} />
+			<SectionBlock left footer />
 		</section>
 	);
 };
