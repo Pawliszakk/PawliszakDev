@@ -40,6 +40,7 @@ const ContactOptions = ({ showModal }) => {
 		<div className={classes.box}>
 			{socials.map((social) => (
 				<ContactOption
+					key={social.name}
 					onClick={showModal}
 					mail={social.mail}
 					icon={social.icon}
