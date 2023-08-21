@@ -21,7 +21,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.8);
 	z-index: -1;
 }
 .contact h1 {
@@ -51,6 +51,9 @@
 	.blob {
 		width: 400px;
 		height: 400px;
+	}
+	.shadow {
+		background-color: rgba(0, 0, 0, 0.9);
 	}
 }
 @media (min-width: 1200px) {
