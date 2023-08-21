@@ -7,7 +7,8 @@
 	align-items: center;
 	gap: 1rem;
 	color: var(--text-color);
-	transition: color 0.3s;
+	transition: color 0.3s;font-size: 1.6rem;
+    
 }
 .option:hover {
 	color: var(--main-cta);

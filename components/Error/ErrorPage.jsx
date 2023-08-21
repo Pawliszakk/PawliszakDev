@@ -6,7 +6,7 @@ const ErrorPage = () => {
 		<div className={classes.container}>
 			<div className={classes.shadow}></div>
 			<AvatarBlob
-				image="/assets/avatar404.png"
+				image="/assets/avatar/avatar404.png"
 				alt="worried face avatar image"
 			/>
 			<div className={classes.text}>

@@ -7,11 +7,41 @@
 	font-size: 2rem;
 	color: var(--nav-link);
 	padding: 0 1em;
-	gap: 6rem;
+	gap: 3rem;
+	/* padding-top: 10rem; */
 }
 .contact h1 {
 	text-align: center;
 	font-size: 4rem;
 	font-weight: bold;
 	color: var(--main-cta);
+}
+.blob {
+	width: 200px;
+	height: 200px;
+}
+
+@media (min-width: 400px) {
+	.blob {
+		width: 300px;
+		height: 300px;
+	}
+}
+@media (min-width: 576px) {
+	.blob {
+		width: 330px;
+		height: 330px;
+	}
+}
+@media (min-width: 992px) {
+	.blob {
+		width: 400px;
+		height: 400px;
+	}
+}
+@media (min-width: 1200px) {
+	.blob {
+		width: 450px;
+		height: 450px;
+	}
 }
