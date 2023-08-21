@@ -4,6 +4,7 @@ import Modal from '../UI/Modal';
 import classes from './Contact.module.css';
 import ContactOptions from './ContactOptions/ContactOptions';
 import AvatarBlob from '../UI/AvatarBlob';
+import SectionBlock from '../UI/SectionBlock';
 
 const Contact = () => {
 	const [isModal, setIsModal] = useState(false);
@@ -28,6 +29,7 @@ const Contact = () => {
 			<Modal show={isModal} onClose={hideModalHandler}>
 				Copied to clipboard!
 			</Modal>
+			<SectionBlock left className={classes.block} />
 		</section>
 	);
 };
