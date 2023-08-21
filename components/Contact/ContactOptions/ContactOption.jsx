@@ -1,6 +1,6 @@
 import CopyToClipboard from 'react-copy-to-clipboard';
 import classes from './ContactOption.module.css';
-import { BsClipboardCheck } from 'react-icons/bs';
+
 
 const ContactOption = ({ icon, href, name, mail, onClick }) => {
 	if (mail) {

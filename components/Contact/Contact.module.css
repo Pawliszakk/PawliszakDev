@@ -4,7 +4,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height: 90vh;
+	height: 100vh;
 	font-size: 2rem;
 	color: var(--nav-link);
 	padding: 0 1em;
@@ -37,7 +37,7 @@
 
 @media (min-width: 400px) {
 	.blob {
-		width: 300px;
+		width: 250px;
 		height: 300px;
 	}
 }
