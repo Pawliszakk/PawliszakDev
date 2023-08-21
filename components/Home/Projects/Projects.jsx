@@ -11,7 +11,7 @@ const Projects = () => {
 			<ProjectDemos />
 
 			<LinkButton href="/projects">Projects</LinkButton>
-			<SectionBlock left className={classes.block} />
+			<SectionBlock left footer />
 		</section>
 	);
 };
