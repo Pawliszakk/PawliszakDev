@@ -17,6 +17,7 @@ const Contact = () => {
 
 	return (
 		<section className={classes.contact}>
+			<div className={classes.shadow}></div>
 			<AvatarBlob
 				className={classes.blob}
 				alt="Blinking avatar picture of pawliszakDev"
