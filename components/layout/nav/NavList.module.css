@@ -37,41 +37,6 @@
 .list li:hover {
 	background-color: var(--nav-link-hover);
 }
-/* .list li::after,
-.list li::before {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 0;
-
-	transition: width 0.3s, height 0.3s;
-}
-.list li::after {
-	top: 0px;
-	left: -2px;
-	border-top: 0px solid var(--nav-link);
-	border-left: 0px solid var(--nav-link);
-}
-.list li::before {
-	bottom: -1px;
-	right: -2px;
-	border-bottom: 0px solid var(--nav-link);
-	border-right: 0px solid var(--nav-link);
-}
-.list li:hover::after,
-.list li:hover::before {
-	width: 20px;
-	height: 20px;
-}
-.list li:hover::after {
-	border-top: 2px solid var(--nav-link);
-	border-left: 2px solid var(--nav-link);
-}
-
-.list li:hover::before {
-	border-bottom: 2px solid var(--nav-link);
-	border-right: 2px solid var(--nav-link);
-} */
 
 .icons {
 	display: flex;
