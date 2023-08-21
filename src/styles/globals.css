@@ -24,6 +24,7 @@
 	--pros-color: #01161b;
 	--pros-shadow: rgba(255, 255, 255, 0.27) 0px 0px 0.25em,
 		rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+	--modal-color: #fff;
 }
 [data-theme='light'] {
 	--main-color: #fff;
@@ -38,6 +39,7 @@
 	--pros-color: #c4d3d3;
 	--pros-shadow: rgba(0, 0, 0, 0.27) 0px 0px 0.25em,
 		rgba(0, 0, 0, 0.05) 0px 0.25em 1em;
+	--modal-color: #333232;
 }
 html {
 	font-size: 62.5%;
@@ -70,4 +72,3 @@ section {
 a {
 	text-decoration: none;
 }
-
