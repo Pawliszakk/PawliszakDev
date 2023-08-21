@@ -1,0 +1,67 @@
+.option {
+	padding: 1em;
+	border-radius: 30px;
+	background-color: var(--main-color-darker);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	color: var(--text-color);
+	transition: color 0.3s;
+}
+.option:hover {
+	color: var(--main-cta);
+}
+.option svg {
+	transition: transform 0.3s;
+}
+
+.mail {
+	cursor: pointer;
+	padding: 1em 1.5em;
+}
+.mail p {
+	display: flex;
+	justify-content: space-between;
+}
+.option:hover svg {
+	animation: iconAnimation 0.4s linear;
+}
+@keyframes iconAnimation {
+	0% {
+		transform: translateY(0);
+		scale: 1;
+	}
+	25% {
+		transform: translateY(-2px);
+		scale: 1.2;
+	}
+	50% {
+		transform: translateY(-5px);
+		scale: 1.4;
+	}
+	75% {
+		transform: translateY(-2px);
+		scale: 1.2;
+	}
+	100% {
+		transform: translateY(0);
+		scale: 1;
+	}
+}
+
+@media (min-width: 400px) {
+	.option {
+		font-size: 2.2rem;
+	}
+}
+@media (min-width: 576px) {
+	.option {
+		font-size: 2.4rem;
+	}
+}
+@media (min-width: 768px) {
+	.option {
+		font-size: 2.6rem;
+	}
+}

@@ -2,8 +2,16 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	height: 90vh;
 	font-size: 2rem;
 	color: var(--nav-link);
 	padding: 0 1em;
+	gap: 6rem;
+}
+.contact h1 {
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bold;
+	color: var(--main-cta);
 }

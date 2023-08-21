@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 import Modal from '../UI/Modal';
 import classes from './Contact.module.css';
+import ContactOptions from './ContactOptions/ContactOptions';
 
 const Contact = () => {
 	const [isModal, setIsModal] = useState(false);
@@ -13,14 +14,11 @@ const Contact = () => {
 		return () => clearInterval(modalTimer);
 	}, [isModal]);
 
-	
 	return (
 		<section className={classes.contact}>
-			<h1>Strona kontakt jest w trakcie budowy...</h1>
+			<h1>Get in touch with me!</h1>
 
-			<button onClick={showModalHandler}>SHOW MODAL</button>
-			<button onClick={hideModalHandler}>CLOSE MODAL</button>
-
+			<ContactOptions showModal={showModalHandler} />
 			<Modal show={isModal} onClose={hideModalHandler}>
 				Copied to clipboard!
 			</Modal>
