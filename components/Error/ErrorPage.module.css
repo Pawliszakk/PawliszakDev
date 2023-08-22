@@ -20,6 +20,10 @@
 	background-color: rgba(0, 0, 0, 0.9);
 	z-index: -1;
 }
+.blob {
+	width: 300px;
+	height: 300px;
+}
 .text {
 	padding-top: 3rem;
 	text-align: center;
@@ -39,5 +43,16 @@
 	}
 	.text p {
 		font-size: 2rem;
+	}
+	.blob {
+		width: 400px;
+		height: 400px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.blob {
+		width: 450px;
+		height: 450px;
 	}
 }
