@@ -11,7 +11,8 @@ const Hero = () => {
 			<div className={classes.container}>
 				<AvatarBlob
 					image="/assets/avatar/avatarBlink.png"
-					alt="avatar of pawliszakDev"
+					alt="avatar of pawliszakDev" 
+					className={classes.blob}
 				/>
 				<HeroText />
 			</div>

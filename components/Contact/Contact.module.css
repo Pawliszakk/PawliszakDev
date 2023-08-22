@@ -8,7 +8,8 @@
 	font-size: 2rem;
 	color: var(--nav-link);
 	padding: 0 1em;
-	gap: 3rem;
+
+	gap: 1.5rem;
 	background-image: url('/assets/heroBg.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -26,39 +27,60 @@
 }
 .contact h1 {
 	text-align: center;
-	font-size: 4rem;
+	font-size: 2.6rem;
 	font-weight: bold;
 	color: var(--main-cta);
 }
 .blob {
-	width: 200px;
-	height: 200px;
+	margin-top: 0.5em;
+	width: 200px !important;
+	height: 200px !important ;
 }
 
 @media (min-width: 400px) {
 	.blob {
-		width: 250px;
-		height: 300px;
+		width: 250px !important ;
+		height: 250px !important ;
 	}
 }
 @media (min-width: 576px) {
 	.blob {
-		width: 330px;
-		height: 330px;
+		width: 300px !important  ;
+		height: 300px !important ;
+	}
+	.contact h1 {
+		font-size: 3rem;
+	}
+}
+@media (min-width: 768px) {
+	.blob {
+		width: 300px !important  ;
+		height: 300px !important ;
 	}
 }
 @media (min-width: 992px) {
 	.blob {
-		width: 400px;
-		height: 400px;
+		width: 350px !important ;
+		height: 350px !important ;
 	}
 	.shadow {
 		background-color: rgba(0, 0, 0, 0.9);
 	}
 }
 @media (min-width: 1200px) {
+	.contact {
+		gap: 4rem;
+	}
+	.contact h1 {
+		font-size: 5rem;
+	}
 	.blob {
-		width: 450px;
-		height: 450px;
+		width: 400px !important ;
+		height: 400px !important ;
+	}
+}
+@media (min-width: 1400px) {
+	.contact {
+		gap: 6rem;
 	}
 }
