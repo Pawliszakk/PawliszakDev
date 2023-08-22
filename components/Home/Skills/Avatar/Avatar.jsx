@@ -10,7 +10,7 @@ const Avatar = ({ avatar }) => {
 				className={classes.container}
 				initial={{ opacity: 0, translateX: -50 }}
 				whileInView={{ opacity: 1, translateX: 0 }}
-				transition={{ delay: 0.2 }}
+				transition={{ delay: 0.3 }}
 			>
 				<AvatarBlob
 					image={avatar}
