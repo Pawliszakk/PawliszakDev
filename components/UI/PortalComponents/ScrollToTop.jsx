@@ -4,6 +4,7 @@ import classes from './ScrollToTop.module.css';
 import { Transition } from 'react-transition-group';
 import useDisplay from '@/hooks/useDisplay';
 import { IoMdArrowRoundUp } from 'react-icons/io';
+import Portal from '@/lib/Portal';
 
 const ScrollToTop = () => {
 	const [isScrolled, setIsScrolled] = useState(false);
@@ -23,16 +24,18 @@ const ScrollToTop = () => {
 	return (
 		<Transition in={show} timeout={0}>
 			{(state) => (
-				<div
-					className={classes.box}
-					style={{
-						transition: 'opacity 0.3s ease-out',
-						opacity: state === 'exited' ? 0 : 1,
-					}}
-					onClick={scrollUpHandler}
-				>
-					<IoMdArrowRoundUp />
-				</div>
+				<Portal>
+					<div
+						className={classes.box}
+						style={{
+							transition: 'opacity 0.3s ease-out',
+							opacity: state === 'exited' ? 0 : 1,
+						}}
+						onClick={scrollUpHandler}
+					>
+						<IoMdArrowRoundUp />
+					</div>
+				</Portal>
 			)}
 		</Transition>
 	);

@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 
-import Modal from '../UI/Modal';
 import classes from './Contact.module.css';
 import ContactOptions from './ContactOptions/ContactOptions';
 import AvatarBlob from '../UI/AvatarBlob';
 import SectionBlock from '../UI/SectionBlock';
+import Modal from '../UI/PortalComponents/Modal';
+import Backdrop from '../UI/PortalComponents/Backdrop';
 
 const Contact = () => {
 	const [isModal, setIsModal] = useState(false);
@@ -26,9 +27,15 @@ const Contact = () => {
 			/>
 			<h1>Get in touch with me!</h1>
 			<ContactOptions showModal={showModalHandler} />
-			<Modal show={isModal} onClose={hideModalHandler}>
-				Copied to clipboard!
-			</Modal>
+			
+			{isModal && (
+				<>
+					<Modal show={isModal} onClose={hideModalHandler}>
+						Copied to clipboard!
+					</Modal>
+					<Backdrop show={isModal} onClose={hideModalHandler} />
+				</>
+			)}
 			<SectionBlock left footer />
 		</section>
 	);
