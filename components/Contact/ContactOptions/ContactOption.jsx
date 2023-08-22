@@ -19,14 +19,9 @@ const ContactOption = ({ icon, href, name, mail, onClick }) => {
 		);
 	}
 	return (
-		<motion.a
-			href={href}
-			target="_blank"
-			className={classes.option}
-			whileTap={{ scale: 0.7 }}
-		>
+		<a href={href} target="_blank" className={classes.option}>
 			{icon} {name}
-		</motion.a>
+		</a>
 	);
 };
 
