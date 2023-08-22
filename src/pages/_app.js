@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }) {
 					type="image/png"
 					sizes="180x180"
 				/>
+				<link rel="shortcut icon" href="/assets/icons/favicon.ico" />
 			</Head>
 			<ThemeContextProvider>
 				<Layout>
