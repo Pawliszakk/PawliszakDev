@@ -6,7 +6,7 @@ const Backdrop = ({ show, onClose }) => {
 	return (
 		<AnimatePresence>
 			{show && (
-				<Portal>
+				<Portal id='backdrop'>
 					<motion.div
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}

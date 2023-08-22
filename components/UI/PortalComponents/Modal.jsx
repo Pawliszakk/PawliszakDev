@@ -24,7 +24,7 @@ const Modal = ({ children, onClose, show, icon }) => {
 		<AnimatePresence>
 			{show && (
 				<>
-					<Portal>
+					<Portal id='overlay-root'>
 						<motion.div
 							className={classes.modal}
 							variants={dropIn}

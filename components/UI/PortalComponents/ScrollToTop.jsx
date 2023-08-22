@@ -25,7 +25,7 @@ const ScrollToTop = () => {
 	return (
 		<AnimatePresence>
 			{show && (
-				<Portal>
+				<Portal id='overlay-root'>
 					<motion.div
 						className={classes.box}
 						onClick={scrollUpHandler}
