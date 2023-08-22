@@ -1,7 +1,5 @@
 .image {
 	position: relative;
-	width: 300px;
-	height: 300px;
 	overflow: hidden;
 	border-radius: 50%;
 	background-image: url('/assets/avatar/avatarBackground.jpg');
@@ -11,18 +9,6 @@
 	z-index: 2;
 }
 
-@media (min-width: 576px) {
-	.image {
-		width: 400px;
-		height: 400px;
-	}
-}
-@media (min-width: 1200px) {
-	.image {
-		width: 450px;
-		height: 450px;
-	}
-}
 @keyframes blob {
 	0% {
 		border-radius: 60% 40% 30% 70%/60% 30%;

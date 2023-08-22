@@ -6,7 +6,7 @@ import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 const Avatar = ({ avatar }) => {
 	return (
 		<div className={classes.avatar}>
-			<AvatarBlob image={avatar} alt="Avatar of pawliszakDev" />
+			<AvatarBlob image={avatar} alt="Avatar of pawliszakDev" className={classes.blob}/>
 			<p>
 				This is my tech stack that I have achieved in my web development
 				learning journey. If you want to get to know me better, click on the{' '}

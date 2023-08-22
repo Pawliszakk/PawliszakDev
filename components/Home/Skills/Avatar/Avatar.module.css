@@ -13,6 +13,10 @@
 	font-size: 1.6rem;
 	z-index: 1;
 }
+.blob {
+	width: 300px;
+	height: 300px;
+}
 .avatar svg {
 	position: absolute;
 	width: 15px;
@@ -43,6 +47,10 @@
 		max-width: 450px;
 		font-size: 1.8rem;
 	}
+	.blob {
+		width: 400px;
+		height: 400px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -53,5 +61,12 @@
 	.avatar svg {
 		width: 18px;
 		height: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.blob {
+		width: 450px;
+		height: 450px;
 	}
 }
