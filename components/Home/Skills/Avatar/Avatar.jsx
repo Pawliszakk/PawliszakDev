@@ -2,11 +2,22 @@ import AvatarBlob from '../../../UI/AvatarBlob';
 import SpecialLink from '../../../UI/buttons/SpecialLink';
 import classes from './Avatar.module.css';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
-
+import { motion } from 'framer-motion';
 const Avatar = ({ avatar }) => {
 	return (
 		<div className={classes.avatar}>
-			<AvatarBlob image={avatar} alt="Avatar of pawliszakDev" className={classes.blob}/>
+			<motion.div
+				className={classes.container}
+				initial={{ opacity: 0, translateX: -50 }}
+				whileInView={{ opacity: 1, translateX: 0 }}
+				transition={{ delay: 0.2 }}
+			>
+				<AvatarBlob
+					image={avatar}
+					alt="Avatar of pawliszakDev"
+					className={classes.blob}
+				/>
+			</motion.div>
 			<p>
 				This is my tech stack that I have achieved in my web development
 				learning journey. If you want to get to know me better, click on the{' '}

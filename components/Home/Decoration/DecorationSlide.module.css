@@ -14,13 +14,14 @@
 	background-color: var(--main-color);
 	left: -20%;
 }
-
-@media (min-width: 1200px) {
-	.decoration {
-		padding-top: 6em;
-		padding-bottom: 14em;
-	}
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 9rem;
 }
+
 @keyframes floating {
 	0% {
 		transform: translateY(0) rotate(0);
@@ -30,5 +31,24 @@
 	}
 	100% {
 		transform: translateY(0) rotate(0);
+	}
+}
+@media (min-width: 768px) {
+	.box {
+		flex-flow: row wrap;
+	}
+}
+@media (min-width: 1200px) {
+	.decoration {
+		padding-top: 6em;
+		padding-bottom: 14em;
+	}
+	.box {
+		gap: 5rem;
+	}
+}
+@media (min-width: 1400px) {
+	.box {
+		gap: 10rem;
 	}
 }

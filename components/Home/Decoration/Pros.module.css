@@ -1,10 +1,4 @@
-.box {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 9rem;
-}
+
 .pros {
 	position: relative;
 	display: flex;
@@ -55,18 +49,4 @@
 	}
 }
 
-@media (min-width: 768px) {
-	.box {
-		flex-flow: row wrap;
-	}
-}
-@media (min-width: 1200px) {
-	.box {
-		gap: 5rem;
-	}
-}
-@media (min-width: 1400px) {
-	.box {
-		gap: 10rem;
-	}
-}
+

@@ -1,9 +1,15 @@
 import Skill from './Skill';
 import classes from './SkillsList.module.css';
+import { motion } from 'framer-motion';
 
 const SkillsList = () => {
 	return (
-		<div className={classes.container}>
+		<motion.div
+			className={classes.container}
+			initial={{ opacity: 0, translateX: 50 }}
+			whileInView={{ opacity: 1, translateX: 0 }}
+			transition={{ delay: 0.2 }}
+		>
 			<div className={classes.column}>
 				<Skill image="/assets/techStack/html.png" text="HTML5" />
 				<Skill image="/assets/techStack/css.png" text="CSS3" />
@@ -20,7 +26,7 @@ const SkillsList = () => {
 				<Skill image="/assets/techStack/firebase.png" text="FIREBASE" />
 				<Skill image="/assets/techStack/node.png" text="NODE.JS" />
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
