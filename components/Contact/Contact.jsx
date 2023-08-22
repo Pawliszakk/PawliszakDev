@@ -4,6 +4,7 @@ import classes from './Contact.module.css';
 import ContactOptions from './ContactOptions/ContactOptions';
 import AvatarBlob from '../UI/AvatarBlob';
 import SectionBlock from '../UI/SectionBlock';
+import { motion } from 'framer-motion';
 import Modal from '../UI/PortalComponents/Modal';
 
 const Contact = () => {
@@ -20,12 +21,25 @@ const Contact = () => {
 	return (
 		<section className={classes.contact}>
 			<div className={classes.shadow}></div>
-			<AvatarBlob
-				className={classes.blob}
-				alt="Blinking avatar picture of pawliszakDev"
-				image="/assets/avatar/avatarBlink.png"
-			/>
-			<h1>Get in touch with me!</h1>
+			<motion.div
+				initial={{ opacity: 0, translateX: -50 }}
+				whileInView={{ opacity: 1, translateX: 0 }}
+				transition={{ delay: 0.2 }}
+				className={classes.option}
+			>
+				<AvatarBlob
+					className={classes.blob}
+					alt="Blinking avatar picture of pawliszakDev"
+					image="/assets/avatar/avatarBlink.png"
+				/>
+			</motion.div>
+			<motion.h1
+				initial={{ opacity: 0, translateX: 50 }}
+				whileInView={{ opacity: 1, translateX: 0 }}
+				transition={{ delay: 0.2 }}
+			>
+				Get in touch with me!
+			</motion.h1>
 			<ContactOptions showModal={showModalHandler} />
 
 			{isModal && (

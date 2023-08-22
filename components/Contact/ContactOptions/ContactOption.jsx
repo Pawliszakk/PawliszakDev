@@ -13,7 +13,7 @@ const ContactOption = ({ icon, href, name, mail, onClick, index }) => {
 					whileTap={{ scale: 0.7 }}
 					initial={{ opacity: 0, translateX: -50, translateY: -50 }}
 					whileInView={{ opacity: 1, translateX: 0, translateY: 0 }}
-					transition={{ delay: 1.6 }}
+					transition={{ delay: 2.1 }}
 				>
 					{icon}
 					<p>{name}</p>
@@ -25,7 +25,7 @@ const ContactOption = ({ icon, href, name, mail, onClick, index }) => {
 		<motion.a
 			initial={{ opacity: 0, translateX: -50, translateY: -50 }}
 			whileInView={{ opacity: 1, translateX: 0, translateY: 0 }}
-			transition={{ delay: index * 0.4 }}
+			transition={{ delay: index * 0.4 + 0.5 }}
 			href={href}
 			target="_blank"
 			className={classes.option}
