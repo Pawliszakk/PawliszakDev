@@ -4,6 +4,7 @@ import NavList from './NavList';
 import classes from './MainNavigation.module.css';
 import { useRouter } from 'next/router';
 import ThemeContext from '../../../store/theme-context';
+import { motion } from 'framer-motion';
 
 const MainNavigaiton = () => {
 	const [isNavActive, setIsNavActive] = useState(false);
@@ -30,9 +31,9 @@ const MainNavigaiton = () => {
 
 	return (
 		<header className={navBarClasses}>
-			<div className={classes.logo}>
+			<motion.div whileTap={{ scale: 0.8 }} className={classes.logo}>
 				<Link href="/">&lt;pawliszakDev/&gt;</Link>
-			</div>
+			</motion.div>
 			<NavList isNavActive={isNavActive} mobileNavHandler={mobileNavHandler} />
 		</header>
 	);

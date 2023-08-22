@@ -25,13 +25,14 @@ const ScrollToTop = () => {
 	return (
 		<AnimatePresence>
 			{show && (
-				<Portal id='overlay-root'>
+				<Portal id="overlay-root">
 					<motion.div
 						className={classes.box}
 						onClick={scrollUpHandler}
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						exit={{ opacity: 0 }}
+						whileTap={{ scale: 0.5 }}
 					>
 						<IoMdArrowRoundUp />
 					</motion.div>

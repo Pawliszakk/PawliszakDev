@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import useDisplay from '@/hooks/useDisplay';
 import ThemeIcon from './ThemeIcon';
+import { motion } from 'framer-motion';
+
 const NavList = ({ isNavActive, mobileNavHandler }) => {
 	const isMobile = useDisplay();
 	const router = useRouter();
@@ -15,7 +17,8 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 	];
 
 	const linkis = links.map((link) => (
-		<li
+		<motion.li
+			whileTap={{ scale: 0.8 }}
 			key={link.name}
 			onClick={isMobile ? mobileNavHandler : () => {}}
 			className={link.href === router.pathname ? classes.activeLink : null}
@@ -27,7 +30,7 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 			) : (
 				<Link href={link.href}>{link.name}</Link>
 			)}
-		</li>
+		</motion.li>
 	));
 	return (
 		<nav className={classes.nav}>
