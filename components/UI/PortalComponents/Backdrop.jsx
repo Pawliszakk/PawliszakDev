@@ -6,14 +6,15 @@ const Backdrop = ({ show, onClose }) => {
 	return (
 		<AnimatePresence>
 			{show && (
-				<Portal id='backdrop'>
+				<Portal id="backdrop">
 					<motion.div
+						key="modal"
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						exit={{ opacity: 0 }}
 						className={classes.backdrop}
 						onClick={onClose}
-					></motion.div>
+					/>
 				</Portal>
 			)}
 		</AnimatePresence>

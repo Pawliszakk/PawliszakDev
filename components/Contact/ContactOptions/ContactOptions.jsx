@@ -38,7 +38,7 @@ const socials = [
 const ContactOptions = ({ showModal }) => {
 	return (
 		<div className={classes.box}>
-			{socials.map((social) => (
+			{socials.map((social, i) => (
 				<ContactOption
 					key={social.name}
 					onClick={showModal}
@@ -46,6 +46,7 @@ const ContactOptions = ({ showModal }) => {
 					icon={social.icon}
 					name={social.name}
 					href={social.href}
+					index={i}
 				/>
 			))}
 		</div>
