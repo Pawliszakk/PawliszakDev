@@ -19,10 +19,11 @@ const Avatar = ({ avatar }) => {
 				/>
 			</motion.div>
 			<p>
-				This is my tech stack that I have achieved in my web development
-				learning journey. If you want to get to know me better, click on the{' '}
-				<span>About Me</span> button below, which will take you to a separate
-				subpage about me. If you want to dig deeper into my code, check out my{' '}
+				I am a passionate React Frontend Developer and this is my tech stack
+				that I have achieved in my web development learning journey. If you want
+				to get to know me better, click on the <span>About Me</span> button
+				below, which will take you to a separate subpage about me. If you want
+				to dig deeper into my code, check out my{' '}
 				<SpecialLink href="https://github.com/Pawliszakk">GitHub</SpecialLink>{' '}
 				profile
 				<ImQuotesLeft className={classes.quoteLeft} />
