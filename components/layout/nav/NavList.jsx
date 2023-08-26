@@ -9,14 +9,14 @@ import { motion } from 'framer-motion';
 const NavList = ({ isNavActive, mobileNavHandler }) => {
 	const isMobile = useDisplay();
 	const router = useRouter();
-	const links = [
+	const linksList = [
 		{ href: '/about-me', name: 'About Me' },
 		{ href: '/projects', name: 'Projects' },
 		{ href: 'https://github.com/Pawliszakk', name: 'GitHub' },
 		{ href: '/contact', name: 'Contact' },
 	];
 
-	const linkis = links.map((link) => (
+	const links = linksList.map((link) => (
 		<motion.li
 			whileTap={{ scale: 0.8 }}
 			key={link.name}
@@ -39,7 +39,7 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 					isNavActive ? classes.active : null
 				}`}
 			>
-				<ul className={classes.list}>{linkis}</ul>
+				<ul className={classes.list}>{links}</ul>
 			</div>
 			<div className={classes.icons}>
 				<div className={classes.hamburger}>
