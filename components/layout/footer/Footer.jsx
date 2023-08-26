@@ -40,6 +40,7 @@ const Footer = () => {
 			href={link.href}
 			target="_blank"
 			className={classes.social}
+			rel="noopener"
 		>
 			{link.icon}
 		</a>

@@ -29,6 +29,7 @@ const ContactOption = ({ icon, href, name, mail, onClick, index }) => {
 			href={href}
 			target="_blank"
 			className={classes.option}
+			rel="noopener"
 		>
 			{icon} {name}
 		</motion.a>
