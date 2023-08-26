@@ -13,7 +13,7 @@ const SpecialLink = ({ href, children, span }) => {
 	}
 
 	return (
-		<a href={href} target="_blank" className={classes.link}>
+		<a href={href} target="_blank" rel="noopener" className={classes.link}>
 			{children}
 		</a>
 	);

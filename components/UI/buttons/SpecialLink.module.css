@@ -3,7 +3,7 @@
 	color: var(--main-cta);
 	cursor: pointer;
 }
-.link::after {
+.link::before {
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -18,6 +18,6 @@
 	border-radius: 3px;
 }
 
-.link:hover::after {
+.link:hover::before {
 	transform: scaleY(1);
 }
