@@ -1,6 +1,7 @@
 .link {
 	position: relative;
 	color: var(--main-cta);
+	cursor: pointer;
 }
 .link::after {
 	content: '';
