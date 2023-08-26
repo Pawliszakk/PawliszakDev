@@ -8,7 +8,7 @@ const AvatarText = () => {
 			I am a passionate React Frontend Developer and this is part of my tech
 			stack that I have achieved in my web development learning journey. If you
 			want to get to know me better, click{' '}
-			<SpecialLink button href="/about-me">
+			<SpecialLink span href="/about-me">
 				About me
 			</SpecialLink>{' '}
 			or button below, which will take you to a separate subpage about me. If

@@ -1,10 +1,10 @@
 import { useRouter } from 'next/router';
 import classes from './SpecialLink.module.css';
-const SpecialLink = ({ href, children, button }) => {
+const SpecialLink = ({ href, children, span }) => {
 	const router = useRouter();
 	const handleRouting = () => router.push(href);
 
-	if (button) {
+	if (span) {
 		return (
 			<span className={classes.link} onClick={handleRouting}>
 				{children}

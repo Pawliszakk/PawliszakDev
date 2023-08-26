@@ -4,19 +4,16 @@ import LinkButton from '../../UI/buttons/LinkButton';
 import ProjectDemos from './ProjectDemos';
 import classes from './Projects.module.css';
 
-
 const Projects = () => {
-
-
 	return (
 		<section className={classes.projects}>
+			<SectionBlock className={classes.block} left />
 			<SectionTitle>Latest Projects</SectionTitle>
 
 			<ProjectDemos />
 
 			<LinkButton href="/projects">Projects</LinkButton>
 			<SectionBlock left footer />
-
 		</section>
 	);
 };
