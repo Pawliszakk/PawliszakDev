@@ -17,7 +17,12 @@ const ProjectDemos = () => {
 	return (
 		<div className={classes.box}>
 			{projects.map((project) => (
-				<ProjectDemo href={project.href} src={project.src} alt={project.alt} />
+				<ProjectDemo
+					key={project.alt}
+					href={project.href}
+					src={project.src}
+					alt={project.alt}
+				/>
 			))}
 		</div>
 	);
