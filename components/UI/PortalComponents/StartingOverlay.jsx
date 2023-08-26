@@ -5,7 +5,10 @@ const StartingOverlay = () => {
 		<div className={classes.overlay}>
 			<p>Hello World!</p>
 
-			<Typewriter typeSpeed={80} cursor={false} words={['<pawliszakdev/>']} />
+			<span>
+				&lt;
+				<Typewriter typeSpeed={80} cursor={false} words={['pawliszakdev/>']} />
+			</span>
 		</div>
 	);
 };
