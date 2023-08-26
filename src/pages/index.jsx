@@ -12,7 +12,6 @@ const HomePage = () => {
 					name="description"
 					content="The portfolio website of React Frontend Developer, Oskar Pawliszak. Check out my latest projects and learn more about me and my skills."
 				/>
-
 			</Head>
 			<Hero />
 			<AboutMe />

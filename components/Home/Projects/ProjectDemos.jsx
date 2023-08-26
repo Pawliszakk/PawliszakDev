@@ -1,32 +1,19 @@
-import Image from 'next/image';
 import classes from './ProjectDemos.module.css';
+import ProjectDemo from './ProjectDemo';
 const ProjectDemos = () => {
 	return (
 		<div className={classes.box}>
-			<a href="https://klimaswiat.pl/" target="_blank">
-				<div className={classes.card}>
-					<div className={classes.image}>
-						<Image
-							src="/assets/projects/klimaswiat.JPG"
-							alt="Klima Świat Home page snippet"
-							fill
-							sizes="100%"
-						/>
-					</div>
-				</div>
-			</a>
-			<a href="https://www.hurtowniaecofresh.pl/" target="_blank">
-				<div className={classes.card}>
-					<div className={classes.image}>
-						<Image
-							src="/assets/projects/ecofresh.JPG"
-							alt="Eco fresh Home page snippet"
-							fill
-							sizes="100%"
-						/>
-					</div>
-				</div>
-			</a>
+			<ProjectDemo
+				href="https://klimaswiat.pl/"
+				src="/assets/projects/klimaswiat.JPG"
+				alt="Klima Świat Home page snippet"
+			/>
+
+			<ProjectDemo
+				src="/assets/projects/ecofresh.JPG"
+				alt="Eco fresh Home page snippet"
+				href="https://www.hurtowniaecofresh.pl/"
+			/>
 		</div>
 	);
 };

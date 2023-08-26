@@ -1,0 +1,39 @@
+.card {
+	margin: 4rem 0;
+	border-radius: 50px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	transition: transform 0.3s;
+}
+.card:hover {
+	transform: scale(0.95);
+}
+.image {
+	width: 185px;
+	height: 300px;
+	position: relative;
+}
+
+@media (min-width: 400px) {
+	.image {
+		height: 380px;
+		width: 237px;
+	}
+}
+@media (min-width: 576px) {
+	.box {
+		display: flex;
+		gap: 7rem;
+		margin: 5rem 0;
+	}
+	.image {
+		height: 400px;
+		width: 250px;
+	}
+}
+@media (min-width: 992px) {
+	.image {
+		height: 500px;
+		width: 312px;
+	}
+}
