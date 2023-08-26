@@ -12,6 +12,7 @@ const ProjectDemos = () => {
 			alt: 'Eco fresh Home page snippet',
 			href: 'https://www.hurtowniaecofresh.pl/',
 		},
+
 	];
 
 	return (
