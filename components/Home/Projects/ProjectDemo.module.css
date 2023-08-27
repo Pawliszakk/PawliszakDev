@@ -4,11 +4,10 @@
 	border-radius: 50px;
 	overflow: hidden;
 	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
 	perspective: 800px;
 	transition: transform 1s;
 }
-.card:hover .text {
+.box:hover .text {
 	transform: rotateY(180);
 	opacity: 1;
 }
@@ -19,7 +18,7 @@
 .text:hover .card {
 	transform: rotate(-180deg);
 }
-.card:hover {
+.box:hover .card {
 	transform: rotateY(-180deg);
 }
 .image {
