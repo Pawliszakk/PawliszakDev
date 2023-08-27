@@ -2,17 +2,6 @@ import Link from 'next/link';
 import classes from './ProjectDemo.module.css';
 import Image from 'next/image';
 import LinkButton from '../../UI/buttons/LinkButton';
-// const ProjectDemo = ({ href, src, alt }) => {
-// 	return (
-// 		<a href={href} target="_blank">
-// 			<div className={classes.card}>
-// 				<div className={classes.image}>
-// 					<Image src={src} alt={alt} fill sizes="100%" />
-// 				</div>
-// 			</div>
-// 		</a>
-// 	);
-// };
 
 const ProjectDemo = ({ href, src, alt, title, tech }) => {
 	const techMap = tech.map((tech) => <li key={tech}>{tech}</li>);
@@ -29,10 +18,10 @@ const ProjectDemo = ({ href, src, alt, title, tech }) => {
 					<ul>{techMap}</ul>
 				</div>
 				<div className={classes.buttons}>
-					<LinkButton href="/projects">
-						Learn more about the project
+					<LinkButton href="/projects">Learn more about the project</LinkButton>
+					<LinkButton anchor href={href}>
+						Visit Live
 					</LinkButton>
-					<LinkButton anchor>Visit Live</LinkButton>
 				</div>
 			</div>
 		</div>

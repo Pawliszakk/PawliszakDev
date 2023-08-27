@@ -41,9 +41,9 @@
 	background-color: var(--main-color-darker);
 	text-align: center;
 	color: var(--text-color);
-	/* opacity: 0; */
-	/* transform: rotateY(-180deg); */
-	/* transition: transform 1s, opacity 1s; */
+	opacity: 0;
+	transform: rotateY(-180deg);
+	transition: transform 1s, opacity 1s;
 }
 .text h3 {
 	font-size: 2rem;
