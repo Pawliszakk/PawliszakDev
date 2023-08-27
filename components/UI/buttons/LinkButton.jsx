@@ -5,7 +5,7 @@ const LinkButton = ({ href, children, className, anchor }) => {
 	const router = useRouter();
 	if (anchor) {
 		return (
-			<a className={classes.btn} href={href} rel="noopener">
+			<a className={classes.btn} href={href} rel="noopener" target="_blank">
 				{children}
 			</a>
 		);
