@@ -1,25 +1,92 @@
 .card {
+	position: relative;
 	margin: 0.5em 0;
 	border-radius: 50px;
 	overflow: hidden;
 	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-	transition: transform 0.3s;
+
+	perspective: 800px;
+	transition: transform 1s;
+}
+.card:hover .text {
+	transform: rotateY(180);
+	opacity: 1;
+}
+.text:hover {
+	transform: rotateY(180);
+	opacity: 1;
+}
+.text:hover .card {
+	transform: rotate(-180deg);
 }
 .card:hover {
-	transform: scale(0.95);
+	transform: rotateY(-180deg);
 }
 .image {
-	width: 185px;
-	height: 300px;
+	width: 225px;
+	height: 360px;
 	position: relative;
 }
-
-@media (min-width: 400px) {
+.text {
+	padding: 2em 1em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: var(--main-color-darker);
+	text-align: center;
+	color: var(--text-color);
+	opacity: 0;
+	transform: rotateY(-180deg);
+	transition: transform 1s, opacity 1s;
+}
+.text h3 {
+	font-size: 2rem;
+}
+.text p {
+	font-size: 1.8rem;
+}
+.text ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	gap: 1em;
+}
+.text ul li {
+	padding: 1em;
+	font-size: 1.2rem;
+	background-color: var(--main-color);
+	border-radius: 15px;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1em;
+	width: 75%;
+}
+.buttons button {
+	font-size: 1.4rem;
+	width: 100%;
+}
+.buttons a {
+	font-size: 1.4rem;
+	width: 100%;
+}
+/* @media (min-width: 400px) {
 	.image {
 		height: 380px;
 		width: 237px;
 	}
-}
+} */
 @media (min-width: 576px) {
 	.box {
 		display: flex;

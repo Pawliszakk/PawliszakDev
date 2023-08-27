@@ -6,13 +6,16 @@ const ProjectDemos = () => {
 			href: 'https://klimaswiat.pl/',
 			src: '/assets/projects/klimaswiat.JPG',
 			alt: 'Klima Świat Home page snippet',
+			title: 'Klima Świat Website',
+			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules'],
 		},
 		{
 			src: '/assets/projects/ecofresh.JPG',
 			alt: 'Eco fresh Home page snippet',
 			href: 'https://www.hurtowniaecofresh.pl/',
+			title: 'Hurtownia Eco Fresh Website',
+			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules'],
 		},
-
 	];
 
 	return (
@@ -23,6 +26,8 @@ const ProjectDemos = () => {
 					href={project.href}
 					src={project.src}
 					alt={project.alt}
+					title={project.title}
+					tech={project.tech}
 				/>
 			))}
 		</div>
