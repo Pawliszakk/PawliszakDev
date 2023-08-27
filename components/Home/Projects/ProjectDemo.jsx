@@ -29,7 +29,7 @@ const ProjectDemo = ({ href, src, alt, title, tech }) => {
 					<ul>{techMap}</ul>
 				</div>
 				<div className={classes.buttons}>
-					<LinkButton className={classes.btn} href="/projects">
+					<LinkButton href="/projects">
 						Learn more about the project
 					</LinkButton>
 					<LinkButton anchor>Visit Live</LinkButton>

@@ -7,14 +7,14 @@ const ProjectDemos = () => {
 			src: '/assets/projects/klimaswiat.JPG',
 			alt: 'Klima Świat Home page snippet',
 			title: 'Klima Świat Website',
-			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules'],
+			tech: ['HTML5', 'CSS Modules', 'React.js', 'Next.js', 'Framer Motion'],
 		},
 		{
 			src: '/assets/projects/ecofresh.JPG',
 			alt: 'Eco fresh Home page snippet',
 			href: 'https://www.hurtowniaecofresh.pl/',
 			title: 'Hurtownia Eco Fresh Website',
-			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules'],
+			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules', 'Framer Motion'],
 		},
 	];
 

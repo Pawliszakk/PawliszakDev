@@ -1,8 +1,8 @@
 .box {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	gap: 2rem;
 	margin: 2rem 0;
 }
@@ -10,5 +10,6 @@
 	.box {
 		gap: 7rem;
 		margin: 5rem 0;
+		flex-flow: row wrap;
 	}
 }
