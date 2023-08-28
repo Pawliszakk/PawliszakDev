@@ -10,6 +10,13 @@ const ProjectDemos = () => {
 			tech: ['HTML5', 'CSS Modules', 'React.js', 'Next.js', 'Framer Motion'],
 		},
 		{
+			src: '/assets/projects/pawliszakdev.JPG',
+			alt: 'PawliszakDev home page snippet',
+			href: 'https://www.pawliszakdev.com/',
+			title: 'My Personal Portfolio Website',
+			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules', 'Framer Motion'],
+		},
+		{
 			src: '/assets/projects/ecofresh.JPG',
 			alt: 'Eco fresh Home page snippet',
 			href: 'https://www.hurtowniaecofresh.pl/',
