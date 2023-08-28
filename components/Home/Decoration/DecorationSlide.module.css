@@ -21,8 +21,8 @@
 
 	width: 200px;
 	height: 200px;
-	opacity: 0.1;
-	color: #fff;
+
+	color: var(--main-color);
 	z-index: 0;
 }
 .iconFirst {
