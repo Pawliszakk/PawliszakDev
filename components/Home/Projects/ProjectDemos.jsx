@@ -30,7 +30,7 @@ const ProjectDemos = () => {
 
 	return (
 		<div className={classes.box}>
-			{projects.map((project) => (
+			{projects.map((project, i) => (
 				<ProjectDemo
 					key={project.alt}
 					href={project.href}
@@ -39,6 +39,7 @@ const ProjectDemos = () => {
 					title={project.title}
 					tech={project.tech}
 					detail={project.detail}
+					index={i}
 				/>
 			))}
 		</div>
