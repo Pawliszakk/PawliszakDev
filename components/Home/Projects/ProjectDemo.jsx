@@ -2,7 +2,7 @@ import classes from './ProjectDemo.module.css';
 import Image from 'next/image';
 import LinkButton from '../../UI/buttons/LinkButton';
 
-const ProjectDemo = ({ href, src, alt, title, tech }) => {
+const ProjectDemo = ({ href, src, alt, title, tech, detail }) => {
 	const techMap = tech.map((tech) => <li key={tech}>{tech}</li>);
 
 	return (
@@ -18,9 +18,7 @@ const ProjectDemo = ({ href, src, alt, title, tech }) => {
 						<ul>{techMap}</ul>
 					</div>
 					<div className={classes.buttons}>
-						<LinkButton href="/projects">
-							Learn more about the project
-						</LinkButton>
+						<LinkButton href={detail}>Learn more about the project</LinkButton>
 						<LinkButton anchor href={href}>
 							Visit Live
 						</LinkButton>
