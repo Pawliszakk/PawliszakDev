@@ -30,7 +30,7 @@
 }
 .text h2 {
 	font-size: 4rem;
-	color: #fff;
+	color: var(--main-cta);
 }
 .text p {
 	font-size: 1.8rem;
@@ -39,7 +39,7 @@
 
 @media (min-width: 576px) {
 	.text h2 {
-		font-size: 5rem;
+		font-size: 6rem;
 	}
 	.text p {
 		font-size: 2rem;

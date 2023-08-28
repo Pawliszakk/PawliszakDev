@@ -38,6 +38,7 @@ const Contact = () => {
 			>
 				Get in touch with me!
 			</motion.h1>
+			
 			<ContactOptions showModal={showModalHandler} />
 
 			{isModal && (

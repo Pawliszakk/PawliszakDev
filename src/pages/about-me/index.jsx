@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import AboutMe from '../../../components/AboutMe/AboutMe';
+
 const AboutMePage = () => {
 	return (
 		<>

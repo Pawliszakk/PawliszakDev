@@ -9,6 +9,7 @@ import Decorations from './Decorations';
 import Avatar from './Avatar/Avatar';
 import SectionTitle from '../../UI/SectionTItle';
 import SectionBlock from '../../UI/SectionBlock';
+
 const Skills = () => {
 	const [avatar, setAvatar] = useState('/assets/avatar/avatarMac.png');
 	const handleMouseEnter = () => setAvatar('/assets/avatar/avatarLike.png');

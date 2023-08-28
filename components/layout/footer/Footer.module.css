@@ -2,28 +2,30 @@
 	position: relative;
 	min-height: 10vh;
 	background-color: var(--main-color-darker);
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em 0;
+}
+.box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding: 2em 0;
 }
-.footer nav {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 2em;
-}
-
-.paragraph {
-	margin-top: 1em;
+.name {
+	margin-bottom: 1em;
 	font-size: 1.6rem;
 	color: var(--nav-link);
+	transition: color 0.3s;
+}
+.name:hover {
+	color: var(--main-cta);
 }
 .year {
+	margin-top: 1em;
 	color: var(--text-color);
+	font-size: 1.2rem;
 }
 .block {
 	top: -40px;
@@ -50,6 +52,10 @@
 	border-radius: 50%;
 	font-size: 2.5rem;
 	transition: background-color 0.3s, color 0.3s;
+	z-index: 1;
+}
+.social svg {
+	z-index: 0;
 }
 
 .social:hover {
@@ -85,7 +91,7 @@
 	.btn {
 		font-size: 1.4rem;
 	}
-	.paragraph {
+	.name {
 		font-size: 1.8rem;
 	}
 	.socials {
@@ -101,7 +107,7 @@
 	.btn {
 		font-size: 1.6rem;
 	}
-	.paragraph {
+	.name {
 		font-size: 2rem;
 	}
 }

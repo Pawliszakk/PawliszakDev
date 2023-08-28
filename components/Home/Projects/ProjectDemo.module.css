@@ -21,6 +21,7 @@
 .box:hover .card {
 	transform: rotateY(-180deg);
 }
+
 .image {
 	width: 225px;
 	height: 360px;

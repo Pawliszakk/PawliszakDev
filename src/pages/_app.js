@@ -2,6 +2,7 @@ import Layout from '../../components/layout/Layout';
 import { ThemeContextProvider } from '../../store/theme-context';
 import '../styles/globals.css';
 import Head from 'next/head';
+
 export default function App({ Component, pageProps }) {
 	return (
 		<>

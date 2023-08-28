@@ -49,14 +49,18 @@ const Footer = () => {
 		<footer className={classes.footer}>
 			<SectionBlock left cdclassName={classes.block} />
 
-			<div className={classes.socials}>
-				{socialsIcons}
-				<Link href="/contact" className={classes.social}>
-					<BsFillEnvelopeAtFill />
+			<div className={classes.box}>
+				<Link href="/" className={classes.name}>
+					&lt;pawliszakDev/&gt;
 				</Link>
+				<div className={classes.socials}>
+					{socialsIcons}
+					<Link href="/contact" className={classes.social}>
+						<BsFillEnvelopeAtFill />
+					</Link>
+				</div>
+				<p className={classes.year}>{year}</p>
 			</div>
-			<p className={classes.paragraph}>&lt;pawliszakDev/&gt;</p>
-			<p className={classes.year}>{year}</p>
 		</footer>
 	);
 };

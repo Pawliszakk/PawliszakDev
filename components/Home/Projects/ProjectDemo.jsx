@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import classes from './ProjectDemo.module.css';
 import Image from 'next/image';
 import LinkButton from '../../UI/buttons/LinkButton';
