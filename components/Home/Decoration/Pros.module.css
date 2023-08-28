@@ -12,7 +12,7 @@
 	background-color: var(--pros-color);
 	color: var(--text-color);
 	border-radius: 5px;
-	z-index: 0;
+	z-index: 1;
 	box-shadow: var(--pros-shadow);
 }
 .pros h2 {

@@ -1,7 +1,11 @@
 import classes from './DecorationSlide.module.css';
 import { HiOutlineDeviceMobile } from 'react-icons/hi';
 import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
+import { MouseParallax, ScrollParallax } from 'react-just-parallax';
 import Pros from './Pros';
+
+import useDisplay from '@/hooks/useDisplay';
+
 const DecorationSlide = () => {
 	const prosData = [
 		{
@@ -33,6 +37,13 @@ const DecorationSlide = () => {
 					/>
 				))}
 			</div>
+
+			<ScrollParallax isAbsolutelyPositioned>
+				<TbWorldSearch className={`${classes.icon} ${classes.iconFirst}`} />
+				<TbDeviceMobileHeart
+					className={`${classes.icon} ${classes.iconSecond}`}
+				/>
+			</ScrollParallax>
 		</section>
 	);
 };

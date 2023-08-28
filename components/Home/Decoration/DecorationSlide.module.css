@@ -9,17 +9,29 @@
 	overflow: hidden;
 }
 
-.block {
-	bottom: 0;
-	background-color: var(--main-color);
-	left: -20%;
-}
 .box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	gap: 9rem;
+}
+.icon {
+	position: absolute;
+
+	width: 200px;
+	height: 200px;
+	opacity: 0.1;
+	color: #fff;
+	z-index: 0;
+}
+.iconFirst {
+	right: 0%;
+	bottom: 0;
+}
+.iconSecond {
+	left: 0;
+	top: 0;
 }
 
 @keyframes floating {
