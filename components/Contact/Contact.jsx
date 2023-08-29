@@ -7,10 +7,11 @@ import SectionBlock from '../UI/SectionBlock';
 import { AnimatePresence, motion } from 'framer-motion';
 import Modal from '../UI/PortalComponents/Modal';
 import SlideAnimation from '../UI/SlideAnimation';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
 	const [isModal, setIsModal] = useState(false);
-
+	const [t, i18n] = useTranslation('global');
 	const hideModalHandler = () => setIsModal(false);
 	const showModalHandler = () => setIsModal(true);
 
@@ -36,7 +37,7 @@ const Contact = () => {
 				whileInView={{ opacity: 1, x: 0 }}
 				transition={{ delay: 0.3 }}
 			>
-				Get in touch with me!
+				{t('contact.heading')}
 			</motion.h1>
 
 			<ContactOptions showModal={showModalHandler} />

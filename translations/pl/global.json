@@ -36,8 +36,21 @@
 		"titledev": "Moja Strona Portfolio",
 		"titleecofresh": "Wizytówka Eco Fresh",
 		"text1": "Jeśli chciałbyś zgłębić się w mój kod lub zobaczyć więcej projektów, odwiedź mój profil na ",
-
 		"text2": " lub kliknij przycisk",
 		"button": "poniżej:"
+	},
+	"about": {
+		"header": "O mnie",
+		"checkroadmap": "Sprawdź Roadmape",
+		"HTML5/CSS3": "Przez pierwsze 2-3 miesiące nauki frontendu nauczyłem się semantycznego HTML'a, metatagów, budowania szkieletów stron z elementów HTML. Co się kryje za HTML, nauczyłem się CSS3, tematów takich jak responsywne projektowanie stron internetowych, specyficzność w CSS, flexbox, grid, pseudoklasy, pseudoelementy itp.",
+		"SASS/SCSS": "Następnym krokiem w mojej edukacji był SCSS. Dowiedziałem się, jak pracować z tym preprocesorem, jak pracować ze zmiennymi SCSS, mixinami, @use i @forward. Jak i dlaczego możemy pracować z metodologią Block Element Modifier i znacznie ułatwić projektowanie stron internetowych.",
+		"JavaScript": "Następnym krokiem był JavaScript. Zacząłem od zrozumienia podstaw JavaScript, takich jak zmienne, typy danych, operatory, łączenie się z API. Nauczyłem się również feature'ów ES6+, takich jak const, let, funkcje strzałkowe, template stringi, destrukturyzacja tablic i obiektów, import, eksport itp.",
+		"React.js": "Kolejnym kamieniem milowym w mojej podróży edukacyjnej był React.js. Dowiedziałem się, że React opiera się na komponentach. Poznałem jak działają propsy, renderowanie list, conditional content, moduły CSS, obsługa stanu, cykl życia komponentów, łączenie się z bazą danych, zarządzanie stanem aplikacji za pomocą react context, Redux, React Router, praca z kontrolowanymi i niekontrolowanymi formularzami oraz animowanie komponentów Reacta za pomocą framer motion czy React Transition Group to są jedynie niektóre zaganienia które udało mi się opanować.",
+		"Next.js": "To, co przychodzi po React.js, to jego framework - Next.js. Na tym etapie zacząłem odkrywać piękno tej technologii, takie jak file-based routing, pre-renderowanie stron. Pobieranie danych za pomocą SSR, SSG (z ISR). Zgłębiałem również tematy takie jak API routes i pracę z requestami HTTP wewnątrz nich oraz łączenie się z bazą danych.",
+		"MERN": "Będąc ambitnym, zacząłem myśleć o budowaniu aplikacji z FULL-STACK, więc zacząłem uczyć się MERN Stack. Uwielbiam sposób, w jaki MERN zapewnia doskonałą wydajność i skalowalność. Z moją frontendową wiedzą na temat React, MongoDB i trochę Node.js, chciałem zagłębić się w MERN i połączyć frontend z backendem i budować ciekawe aplikacje internetowe full-stack.",
+		"Node.js": "Node.js to kolejny krok w mojej podróży. Chcę poznać backend, być bardziej świadomym programistą i zrozumieć wewnętrzne działanie aplikacji internetowych po stronie serwera z bliska."
+	},
+	"contact": {
+		"heading": "Skontaktuj się ze mną!"
 	}
 }

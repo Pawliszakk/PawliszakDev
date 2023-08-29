@@ -5,11 +5,14 @@ import SlideAnimation from '../../UI/SlideAnimation';
 import LinkButton from '../../UI/buttons/LinkButton';
 import classes from './AboutHeader.module.css';
 import AboutNote from './AboutNote';
+import { useTranslation } from 'react-i18next';
 
 const AboutHeader = () => {
+	const [t, i18n] = useTranslation('global');
+
 	return (
 		<header className={classes.header}>
-			<SectionTitle>About me</SectionTitle>
+			<SectionTitle>{t('about.header')}</SectionTitle>
 			<div className={classes.shadow}></div>
 
 			<div className={classes.box}>
@@ -24,7 +27,7 @@ const AboutHeader = () => {
 			</div>
 
 			<LinkButton href="#roadmap" className={classes.btn}>
-				Check Roadmap
+				{t('about.checkroadmap')}
 			</LinkButton>
 			<SectionBlock left className={classes.block} />
 		</header>
