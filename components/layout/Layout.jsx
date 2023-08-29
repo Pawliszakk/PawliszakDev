@@ -7,11 +7,10 @@ const Layout = ({ children }) => {
 	return (
 		<>
 			<MainNavigaiton />
-
 			<main>{children}</main>
 			<Footer />
 			<ScrollToTop />
-			{/* <StartingOverlay /> */}
+			<StartingOverlay />
 		</>
 	);
 };
