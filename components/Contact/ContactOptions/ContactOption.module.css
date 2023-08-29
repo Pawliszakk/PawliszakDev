@@ -1,17 +1,19 @@
 .option {
 	padding: 1em;
-	border-radius: 30px;
+	border-radius: 50px;
 	background-color: var(--main-color-darker);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
 	color: var(--text-color);
-	transition: color 0.3s;
+	transition: color 0.3s, border-color 0.3s;
 	font-size: 1.4rem;
+	border: 2px solid #fff;
 }
 .option:hover {
 	color: var(--main-cta);
+	border-color: var(--main-cta);
 }
 .option svg {
 	transition: transform 0.3s;
