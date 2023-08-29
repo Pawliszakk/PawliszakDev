@@ -2,8 +2,8 @@
 	position: relative;
 	width: 95%;
 	max-width: 800px;
-	margin-top: 10rem;
-	z-index: 4;
+	margin-top: 10rem;	z-index: 4;
+
 }
 .timeline::before {
 	display: block;
