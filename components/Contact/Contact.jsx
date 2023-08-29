@@ -4,7 +4,7 @@ import classes from './Contact.module.css';
 import ContactOptions from './ContactOptions/ContactOptions';
 import AvatarBlob from '../UI/AvatarBlob';
 import SectionBlock from '../UI/SectionBlock';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import Modal from '../UI/PortalComponents/Modal';
 import SlideAnimation from '../UI/SlideAnimation';
 
@@ -41,15 +41,18 @@ const Contact = () => {
 
 			<ContactOptions showModal={showModalHandler} />
 
-			{isModal && (
-				<Modal
-					show={isModal}
-					onClose={hideModalHandler}
-					icon={<BsClipboardCheck />}
-				>
-					Copied to clipboard!
-				</Modal>
-			)}
+			<AnimatePresence>
+				{isModal && (
+					<Modal
+						show={isModal}
+						onClose={hideModalHandler}
+						icon={<BsClipboardCheck />}
+					>
+						Copied to clipboard!
+					</Modal>
+				)}
+			</AnimatePresence>
+
 			<SectionBlock left footer />
 		</section>
 	);
