@@ -68,6 +68,18 @@
 	width: 15px;
 	height: 15px;
 }
+
+.stopText {
+	position: absolute;
+	width: 200px;
+	bottom: 110%;
+	right: 0;
+	padding: 1em;
+	font-size: 1rem;
+	text-align: justify;
+	background-color: red;
+}
+
 @media (min-width: 400px) {
 	.timeline li {
 		font-size: 1.4rem;

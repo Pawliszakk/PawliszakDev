@@ -11,6 +11,7 @@ const Timeline = ({ stopsList }) => {
 		>
 			{stop.name}
 			<div className={classes.icons}>{stop.icons}</div>
+			<div className={classes.stopText}>{stop.description}</div>
 		</motion.li>
 	));
 
