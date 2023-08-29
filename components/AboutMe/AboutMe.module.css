@@ -1,9 +1,11 @@
 .aboutMe {
+	margin-top: 5vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 90vh;
+	flex-direction: column;
 	font-size: 2rem;
 	color: var(--nav-link);
-    padding: 0 1em;
+	padding-top: 4em;
+	padding-bottom: 0;
 }

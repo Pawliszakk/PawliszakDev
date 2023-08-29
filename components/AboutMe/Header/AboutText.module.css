@@ -1,0 +1,54 @@
+.note {
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1em;
+	background-color: var(--main-color-darker);
+	border-radius: 20px;
+	width: 300px;
+	box-shadow: 1px 1px 0px #999, 2px 2px 0px #999, 3px 3px 0px #999,
+		4px 4px 0px #999, 5px 5px 0px #999, 6px 6px 0px #999;
+}
+
+.note h2 {
+	font-size: 2rem;
+	text-align: left;
+}
+.note p {
+	font-size: 1.4rem;
+	text-align: justify;
+}
+
+@media (min-width: 400px) {
+	.note {
+		width: 360px;
+	}
+	.note h2 {
+		font-size: 2.4rem;
+	}
+	.note p {
+		font-size: 1.6rem;
+	}
+}
+@media (min-width: 576px) {
+	.note {
+		width: 500px;
+	}
+}
+@media (min-width: 992px) {
+	.note {
+		width: 500px;
+	}
+}
+@media (min-width: 1200px) {
+	.note {
+		width: 500px;
+	}
+	.note h2 {
+		font-size: 2.6rem;
+	}
+	.note p {
+		font-size: 1.8rem;
+	}
+}
