@@ -1,8 +1,10 @@
 .header {
 	position: relative;
-	height: 100vh;
 	margin-top: 10vh;
-	padding: 2em 0;
+	padding-top: 2em;
+	min-height: 85vh;
+	padding-bottom: 6em;
+	text-align: center;
 	background-image: url('/assets/heroBg.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -32,6 +34,14 @@
 	height: 300px;
 }
 
+.block {
+	bottom: 0;
+	left: -20%;
+	background-color: var(--main-color);
+}
+.btn {
+	margin: 2em 0;
+}
 @media (min-width: 576px) {
 	.blob {
 		width: 400px;

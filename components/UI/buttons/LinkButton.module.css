@@ -11,6 +11,7 @@
 	border: none;
 	z-index: 2;
 }
+
 .btn::before {
 	position: absolute;
 	content: '';
