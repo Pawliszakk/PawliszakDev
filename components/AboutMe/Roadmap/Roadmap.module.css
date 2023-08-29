@@ -13,29 +13,60 @@
 	height: 100px;
 	z-index: 0;
 	color: var(--main-color-darker);
+	/* color: var(--main-cta); */
 }
 .iconFirst {
-	opacity: 0.5;
+	opacity: 0.2;
 	bottom: 10%;
 	right: 20%;
+	animation: rotateLeft 20s linear infinite;
 }
 .iconSecond {
 	top: 10%;
 	left: 5%;
 	opacity: 0.3;
+	animation: rotateLeft 30s linear infinite;
 }
 .iconThird {
 	top: 50%;
 	left: 5%;
-	opacity: 0.8;
+	opacity: 0.5;
+	animation: swing 60s linear infinite;
 }
 .iconFourth {
 	top: 20%;
 	right: 5%;
-	opacity: 0.5;
+	opacity: 0.3;
+	animation: swing 30s linear infinite;
 }
 
-
+@keyframes rotateRight {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotateLeft {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+}
+@keyframes swing {
+	0% {
+		transform: translateX(0) rotate(0);
+	}
+	50% {
+		transform: translateX(-70px) rotate(360deg);
+	}
+	100% {
+		transform: translateX(0) rotate(0);
+	}
+}
 
 @media (min-width: 400px) {
 	.icon {
