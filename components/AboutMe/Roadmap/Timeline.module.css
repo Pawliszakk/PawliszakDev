@@ -59,26 +59,6 @@
 .timeline li:nth-child(odd):after {
 	right: -31px;
 }
-.icons {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.icons svg {
-	width: 15px;
-	height: 15px;
-}
-
-.stopText {
-	position: absolute;
-	width: 200px;
-	bottom: 110%;
-	right: 0;
-	padding: 1em;
-	font-size: 1rem;
-	text-align: justify;
-	background-color: red;
-}
 
 @media (min-width: 400px) {
 	.timeline li {
@@ -93,26 +73,14 @@
 	.timeline li {
 		font-size: 1.8rem;
 	}
-	.icons svg {
-		width: 30px;
-		height: 30px;
-	}
 }
 @media (min-width: 992px) {
 	.timeline li {
 		font-size: 2rem;
 	}
-	.icons svg {
-		width: 40px;
-		height: 40px;
-	}
 }
 @media (min-width: 1200px) {
 	.timeline li {
 		font-size: 2.4rem;
-	}
-	.icons svg {
-		width: 50px;
-		height: 50px;
 	}
 }
