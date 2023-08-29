@@ -20,9 +20,13 @@
 	text-align: left;
 	background-color: var(--main-color-darker);
 	border-radius: 15px;
-    color: var(--text-color)
+	color: var(--text-color);
 }
-
+.info {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
 @media (min-width: 400px) {
 	.icons svg {
 		width: 20px;
