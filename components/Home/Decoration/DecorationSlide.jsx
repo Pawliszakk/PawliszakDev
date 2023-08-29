@@ -3,23 +3,25 @@ import { HiOutlineDeviceMobile } from 'react-icons/hi';
 import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
 import { ScrollParallax } from 'react-just-parallax';
 import Pros from './Pros';
+import { useTranslation } from 'react-i18next';
 
 const DecorationSlide = () => {
+	const [t, i18n] = useTranslation('global');
 	const prosData = [
 		{
 			icon: <HiOutlineDeviceMobile />,
 			title: 'RWD',
-			text: 'Creating a design that easily adapts to different screen sizes ensures an inclusive and user-friendly experience, increasing accessibility and engagement.',
+			text: t('decorations.first'),
 		},
 		{
 			icon: <TbDeviceMobileHeart />,
 			title: 'UI/UX',
-			text: 'Eye-catching designs. Also designed so that people with different technical backgrounds and levels of knowledge can navigate effortlessly.',
+			text: t('decorations.second'),
 		},
 		{
 			icon: <TbWorldSearch />,
 			title: 'SEO',
-			text: 'Developing valuable, engaging and original content for search engines requires a blend of creativity and strategic keyword optimisation.',
+			text: t('decorations.third'),
 		},
 	];
 	return (

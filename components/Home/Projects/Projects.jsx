@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import SectionBlock from '../../UI/SectionBlock';
 import SectionTitle from '../../UI/SectionTItle';
 import LinkButton from '../../UI/buttons/LinkButton';
@@ -6,19 +7,20 @@ import ProjectDemos from './ProjectDemos';
 import classes from './Projects.module.css';
 
 const Projects = () => {
+	const [t, i18n] = useTranslation('global');
 	return (
 		<section className={classes.projects}>
-			<SectionTitle>Latest Projects</SectionTitle>
+			<SectionTitle>{t('latestprojects.title')}</SectionTitle>
 
 			<div className={classes.container}>
 				<ProjectDemos />
 				<p>
-					If you want to dig deeper into my code or see more projects make sure
-					to visit my{' '}
+					{t('latestprojects.text1')}{' '}
 					<SpecialLink href="https://github.com/Pawliszakk">GitHub</SpecialLink>{' '}
-					profile or click the <span>Projects</span> button below{' '}
+					{t('latestprojects.text2')} <span>{t('nav.projects')}</span>{' '}
+					{t('latestprojects.button')}{' '}
 				</p>
-				<LinkButton href="/projects">Projects</LinkButton>
+				<LinkButton href="/projects">{t('nav.projects')}</LinkButton>
 			</div>
 			<SectionBlock className={classes.block} left />
 			<SectionBlock left footer />

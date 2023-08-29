@@ -1,13 +1,15 @@
 import classes from './ProjectDemos.module.css';
 import ProjectDemo from './ProjectDemo';
+import { useTranslation } from 'react-i18next';
 const ProjectDemos = () => {
+	const [t, i18n] = useTranslation('global');
 	const projects = [
 		{
 			href: 'https://klimaswiat.pl/',
 			src: '/assets/projects/klimaswiat.JPG',
 			alt: 'Klima Świat Home page snippet',
 			detail: '/projects/klima-swiat',
-			title: 'Klima Świat Website',
+			title: t('latestprojects.titleklima'),
 			tech: ['HTML5', 'CSS Modules', 'React.js', 'Next.js', 'Framer Motion'],
 		},
 		{
@@ -15,7 +17,7 @@ const ProjectDemos = () => {
 			alt: 'PawliszakDev home page snippet',
 			href: 'https://www.pawliszakdev.com/',
 			detail: '/projects/pawliszakdev',
-			title: 'My Personal Portfolio Website',
+			title: t('latestprojects.titledev'),
 			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules', 'Framer Motion'],
 		},
 		{
@@ -23,7 +25,7 @@ const ProjectDemos = () => {
 			alt: 'Eco fresh Home page snippet',
 			href: 'https://www.hurtowniaecofresh.pl/',
 			detail: '/projects/eco-fresh',
-			title: 'Hurtownia Eco Fresh Website',
+			title: t('latestprojects.titleecofresh'),
 			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules', 'Framer Motion'],
 		},
 	];

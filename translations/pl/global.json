@@ -21,5 +21,23 @@
 
 		"description1": "Jestem pasjonatem Frontend Developmentu a to  jest  część mojego \"Tech Stacku\", który osiągnąłem podczas mojej nauki tworzenia stron internetowych. Jeśli chcesz mnie lepiej poznać, kliknij",
 		"description2": "lub przycisk poniżej, który przeniesie Cię do osobnej podstrony \"O mnie\". Jeśli chcesz zagłębić się w mój kod, sprawdź mój profil "
+	},
+	"decorations": {
+		"first": "Tworzenie projektu, który łatwo dostosowuje się do różnych rozmiarów ekranu, zapewnia integracyjne i przyjazne dla użytkownika doświadczenie, zwiększając dostępność i zaangażowanie.",
+		"second": "Przyciągające wzrok projekty. Zaprojektowane również tak, aby osoby o różnym zapleczu technicznym i poziomie wiedzy mogły bez wysiłku z nich korzystać.",
+		"third": "Tworzenie wartościowych, angażujących i oryginalnych treści dla wyszukiwarek wymaga połączenia kreatywności i strategicznej optymalizacji słów kluczowych."
+	},
+	"latestprojects": {
+		"title": "Ostatnie Projekty",
+		"technologies": "Technologie:",
+		"link1": "Dowiedz się wiecej o projekcie",
+		"link2": "Zobacz na żywo",
+		"titleklima": "Wizytówka Klima Świat",
+		"titledev": "Moja Strona Portfolio",
+		"titleecofresh": "Wizytówka Eco Fresh",
+		"text1": "Jeśli chciałbyś zgłębić się w mój kod lub zobaczyć więcej projektów, odwiedź mój profil na ",
+
+		"text2": " lub kliknij przycisk",
+		"button": "poniżej:"
 	}
 }

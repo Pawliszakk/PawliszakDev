@@ -20,5 +20,23 @@
 		"h2": "My Skills",
 		"description1": "I am a passionate React Frontend Developer and this is part of my tech stack that I have achieved in my web development learning journey. If you want to get to know me better, click ",
 		"description2": " or button below, which will take you to a separate subpage about me. If you want to dig deeper into my code, check out my profile on "
+	},
+	"decorations": {
+		"first": "Creating a design that easily adapts to different screen sizes ensures an inclusive and user-friendly experience, increasing accessibility and engagement.",
+		"second": "Eye-catching designs. Also designed so that people with different technical backgrounds and levels of knowledge can navigate effortlessly.",
+		"third": "Developing valuable, engaging and original content for search engines requires a blend of creativity and strategic keyword optimisation."
+	},
+	"latestprojects": {
+		"title": "Latest Projects",
+		"technologies": "Technologies:",
+		"link1": "Learn more about the project",
+		"link2": "Visit Live",
+		"titleklima": "Klima Świat Website",
+		"titledev": "My Portfolio Website",
+		"titleecofresh": "Eco Fresh Website",
+		"text1": "If you want to dig deeper into my code or see more projects make sure to visit my  ",
+
+		"text2": "profile or click the Projects button below",
+		"button": "button"
 	}
 }
