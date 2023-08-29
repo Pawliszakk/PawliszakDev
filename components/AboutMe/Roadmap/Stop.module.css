@@ -19,8 +19,6 @@
 	text-align: left;
 	background-color: var(--main-color-darker);
 	border-radius: 15px;
-	opacity: 1;
-	transition: opacity 0.3s;
 }
 
 @media (min-width: 400px) {
