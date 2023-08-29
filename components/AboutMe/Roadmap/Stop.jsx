@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import classes from './Stop.module.css';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 const Stop = ({ index, name, icons, text }) => {
 	const [isText, setIsText] = useState(false);
@@ -20,16 +20,19 @@ const Stop = ({ index, name, icons, text }) => {
 			<p>{name}</p>
 			<div className={classes.icons}>{icons}</div>
 			<AiOutlineInfoCircle className={classes.info} />
-			{isText && (
-				<motion.div
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{ duration: 0.3 }}
-					className={classes.text}
-				>
-					<p>{text}</p>
-				</motion.div>
-			)}
+			<AnimatePresence>
+				{isText && (
+					<motion.div
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						exit={{ opacity: 0 }}
+						transition={{ duration: 0.3 }}
+						className={classes.text}
+					>
+						<p>{text}</p>
+					</motion.div>
+				)}
+			</AnimatePresence>
 		</motion.li>
 	);
 };
