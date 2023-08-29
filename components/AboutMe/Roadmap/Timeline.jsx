@@ -3,7 +3,13 @@ import classes from './Timeline.module.css';
 
 const Timeline = ({ stopsList }) => {
 	const stops = stopsList.map((stop, i) => (
-		<Stop index={i} name={stop.name} icons={stop.icons} text={stop.text} />
+		<Stop
+			key={i}
+			index={i}
+			name={stop.name}
+			icons={stop.icons}
+			text={stop.text}
+		/>
 	));
 
 	return (
