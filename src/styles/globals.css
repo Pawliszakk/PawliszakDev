@@ -4,6 +4,7 @@
 	padding: 0;
 	margin: 0;
 	scroll-behavior: smooth;
+	scroll-padding-top: 10vh;
 }
 :root {
 	--main-white: #fff;

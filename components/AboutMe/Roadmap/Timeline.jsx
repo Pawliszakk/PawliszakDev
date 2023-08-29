@@ -10,6 +10,7 @@ const Timeline = ({ stopsList }) => {
 			key={i}
 		>
 			{stop.name}
+			<div className={classes.icons}>{stop.icons}</div>
 		</motion.li>
 	));
 
