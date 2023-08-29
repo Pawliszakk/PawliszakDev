@@ -8,7 +8,7 @@ const AboutMePage = () => {
 				<title>PawliszakDev - About Me</title>
 				<meta
 					name="description"
-					content="I'm Oskar Pawliszak - React Frontend Developer. Explore my journey, skills, and passion for innovation, and let's embark on a journey to transform your digital landscape"
+					content="I'm Oskar Pawliszak - React Frontend Developer. Explore my journey, skills,  and let's embark on a journey to transform your digital landscape"
 				/>
 			</Head>
 			<AboutMe />
