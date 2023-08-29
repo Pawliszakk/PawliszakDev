@@ -9,7 +9,7 @@ const AboutNote = () => {
 			<p>
 				<Typewriter
 					loop={1}
-					typeSpeed={30}
+					typeSpeed={35}
 					cursor
 					delaySpeed={2000}
 					words={[
