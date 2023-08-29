@@ -1,6 +1,6 @@
 .timeline {
 	position: relative;
-	width: 100%;
+	width: 90%;
 	max-width: 800px;
 	margin-top: 4rem;
 }
@@ -13,9 +13,11 @@
 }
 .timeline li {
 	position: relative;
-	margin-bottom: 5em;
-	padding: 2em;
+    font-size: 2rem;
+	margin-bottom: 3em;
+	padding: 1em;
 	width: 50%;
+    text-align: center;
 	border: 1px solid #fff;
 	border-radius: 10px;
 }
