@@ -32,13 +32,13 @@ const Contact = () => {
 			</SlideAnimation>
 
 			<motion.h1
-				initial={{ opacity: 0, translateX: 50 }}
-				whileInView={{ opacity: 1, translateX: 0 }}
+				initial={{ opacity: 0, x: 50 }}
+				whileInView={{ opacity: 1, x: 0 }}
 				transition={{ delay: 0.3 }}
 			>
 				Get in touch with me!
 			</motion.h1>
-			
+
 			<ContactOptions showModal={showModalHandler} />
 
 			{isModal && (

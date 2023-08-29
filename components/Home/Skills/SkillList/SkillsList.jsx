@@ -6,8 +6,8 @@ const SkillsList = () => {
 	return (
 		<motion.div
 			className={classes.container}
-			initial={{ opacity: 0, translateX: 50 }}
-			whileInView={{ opacity: 1, translateX: 0 }}
+			initial={{ opacity: 0, x: 50 }}
+			whileInView={{ opacity: 1, x: 0 }}
 			transition={{ delay: 0.3 }}
 		>
 			<div className={classes.column}>

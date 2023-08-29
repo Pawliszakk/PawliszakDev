@@ -10,8 +10,8 @@ const Stop = ({ index, name, icons, text }) => {
 
 	return (
 		<motion.li
-			initial={{ opacity: 0, translateX: isEven ? -50 : 50 }}
-			whileInView={{ opacity: 1, translateX: isEven ? -20 : 20 }}
+			initial={{ opacity: 0, x: isEven ? -50 : 50 }}
+			whileInView={{ opacity: 1, x: isEven ? -20 : 20 }}
 			transition={{ delay: index === 0 ? 0.3 : 0.3 + index * 0.1 }}
 			className={classes.stop}
 			onMouseEnter={() => setIsText(true)}
