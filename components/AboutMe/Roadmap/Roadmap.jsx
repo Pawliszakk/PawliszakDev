@@ -23,27 +23,27 @@ const Roadmap = () => {
 					<AiFillHtml5 /> <FaCss3Alt />
 				</>
 			),
-			text: 'In my first 2-3 months of learning Frontend I learned HTML5 semantics, metatags, building website skeletons out of HTML elements. What goes behind html, I learned CSS3, such topics as Responsive Web Design, specifity in css, flexbox, grid, pseudoclasses, pseudoelements etc.  ',
+			text: 'In my first 2-3 months of learning frontend, I learned HTML5 semantics, metatags, building website skeletons out of HTML elements. What goes behind html, I learned CSS3, topics like responsive web design, specificity in css, flexbox, grid, pseudoclasses, pseudoelements etc.  ',
 		},
 		{
 			name: 'SASS/SCSS',
 			icons: <BiLogoSass />,
-			text: 'The next step in my learning journey was SCSS. I learned how to work with this preprocessor, how to work with SCSS Variables, mixins, @use & @forward. How and why we might work with the Block Element Modifier methodology and make web designs much easier.',
+			text: 'The next step in my learning journey was SCSS. I learned how to work with this pre-processor, how to work with SCSS variables, mixins, @use & @forward. How and why we could work with the Block Element Modifier methodology and make web design much easier.',
 		},
 		{
 			name: 'JS ES6+',
 			icons: <BiLogoJavascript />,
-			text: 'The next stage  was JavaScript. I started by understanding the fundamentals of JavaScript, such as variables, data types, operators, connecting to API and control structures. Also I learned ES6+ featured such as const, let, arrow functions, template literals, Array and object destructing, import, export etc.',
+			text: 'The next step was JavaScript. I started by understanding the basics of JavaScript such as variables, data types, operators, connecting to the API and control structures. I also learnt ES6+ features such as const, let, arrow functions, template literals, array and object destructing, import, export etc.',
 		},
 		{
 			name: 'REACT.JS',
 			icons: <FaReact />,
-			text: 'The next milestone of my learning journey was React.js. I delved into the captivating realm of React.js . At its core, I learned that React revolves around components. I learned features such as props, renderig lists, conditional content, css modules, state handling, component lifecycle, connecting to Database, managing app wide state with Context, Redux, React Router, working with controlled and uncontrolled forms, and animating React components with framer motion or React Transition Group.',
+			text: 'The next milestone in my learning journey was React.js. I delved into the fascinating world of React.js. At its core, I learned that React revolves around components. I learned about features such as props, rendering lists, conditional content, css modules, state handling, component lifecycle, connecting to a database, managing app-wide state with context, redux, React Router, working with controlled and uncontrolled forms, and animating React components with framer motion or React Transition Group.',
 		},
 		{
 			name: 'NEXT.JS',
 			icons: <SiNextdotjs />,
-			text: 'What comes after React.js is his framework - Next.js. At this stage i started exploring the beauty of this technology such as File-based Routing, Page pre-rendering. Data fectching with SSR, SSG (with ISR). Also explored such great feature as API Routes, and working with HTTP request inside of them, and connecting to Database.',
+			text: 'What comes after React.js is its framework - Next.js. At this stage, I started exploring the beauty of this technology, such as file-based routing, page pre-rendering. Data fectching with SSR, SSG (with ISR). Also explored such great features as API routes, and working with HTTP request inside them, and connecting to database.',
 		},
 		{
 			name: 'MERN STACK',
@@ -55,12 +55,12 @@ const Roadmap = () => {
 					<BiLogoNodejs />
 				</>
 			),
-			text: 'As im ambitious i started thinking about making Full-Stack applications, so i started learning MERN Stack. I love how MERN offers excellent performance and scalability. With my back office with knowledge of React, MongoDB, and some node.js i wanted to dig deeper into MERN and connect Frontend with Backend and make beautiful Full-Stack Web applications.',
+			text: 'Being ambitious, I started thinking about building full stack applications, so I started learning MERN Stack. I love how MERN provides excellent performance and scalability. With my back office knowledge of React, MongoDB and some node.js, I wanted to dig deeper into MERN and connect frontend with backend and build beautiful full-stack web applications.',
 		},
 		{
 			name: 'NODE.JS',
 			icons: <AiFillHtml5 />,
-			text: 'Node.js is my next step in learning journey. I want to explore backend, to be more conscious developer and understand the inner workings of web applications from closer look.',
+			text: 'Node.js is the next step in my learning journey. I want to explore the backend, be a more conscious developer and understand the inner workings of web applications from a closer look.',
 		},
 	];
 	return (
