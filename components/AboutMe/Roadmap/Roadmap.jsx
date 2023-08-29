@@ -1,12 +1,12 @@
-import SectionBlock from '../../UI/SectionBlock';
+import SectionTitle from '../../UI/SectionTItle';
 import classes from './Roadmap.module.css';
 
 const Roadmap = () => {
 	return (
-		<div className={classes.container}>
-			<SectionBlock left className={classes.block} />
-			<h1>Roadmap will be here</h1>
-		</div>
+		<section className={classes.roadmap}>
+			<SectionTitle>Learning Roadmap</SectionTitle>
+			<div className={classes.container}></div>
+		</section>
 	);
 };
 

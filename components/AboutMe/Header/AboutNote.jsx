@@ -1,9 +1,11 @@
-import classes from './AboutText.module.css';
+import SlideAnimation from '../../UI/SlideAnimation';
+import classes from './AboutNote.module.css';
+import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 
-const AboutText = () => {
+const AboutNote = () => {
 	return (
-		<div className={classes.note}>
-			<h2>Notatka o najlepszym programiscie</h2>
+		<SlideAnimation left className={classes.note}>
+			<h2>Nice to meet you. Im Oskar, React Developer</h2>
 			<p>
 				With a keen eye for design and user experience, I specialize in
 				translating concepts into intuitive and visually appealing interfaces.
@@ -16,9 +18,11 @@ const AboutText = () => {
 				cutting-edge solutions. Whether it's optimizing performance or crafting
 				pixel-perfect layouts, I'm committed to delivering high-quality code
 				that elevates the digital experience.
+				<ImQuotesLeft className={classes.quoteLeft} />
+				<ImQuotesRight className={classes.quoteRight} />
 			</p>
-		</div>
+		</SlideAnimation>
 	);
 };
 
-export default AboutText;
+export default AboutNote;
