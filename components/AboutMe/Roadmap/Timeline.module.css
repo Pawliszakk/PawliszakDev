@@ -36,6 +36,8 @@
 	text-align: center;
 	border: 2px solid var(--nav-link);
 	border-radius: 10px;
+    background-color: var(--roadmap-stop);
+	cursor: pointer;
 }
 .timeline li::after {
 	position: absolute;

@@ -52,12 +52,12 @@ const Roadmap = () => {
 					<BiLogoNodejs />
 				</>
 			),
-			text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptas illo et amet voluptates magnam, incidunt doloribus unde non possimus fugit numquam tempora, cumque reprehenderit maxime, quaerat nemo magni enim.',
+			text: 'As im ambitious i started thinking about making Full-Stack applications, so i started learning MERN Stack. I love how MERN offers excellent performance and scalability. With my back office with knowledge of React, MongoDB, and some node.js i wanted to dig deeper into MERN and connect Frontend with Backend and make beautiful Full-Stack Web applications.',
 		},
 		{
 			name: 'NODE.JS',
 			icons: <AiFillHtml5 />,
-			text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptas illo et amet voluptates magnam, incidunt doloribus unde non possimus fugit numquam tempora, cumque reprehenderit maxime, quaerat nemo magni enim.',
+			text: 'Node.js is my next step in learning journey. I want to explore backend, to be more conscious developer and understand the inner workings of web applications from closer look.',
 		},
 	];
 	return (
