@@ -10,6 +10,7 @@ import {
 	BiLogoNodejs,
 } from 'react-icons/bi';
 import { SiNextdotjs, SiExpress } from 'react-icons/si';
+import { ScrollParallax } from 'react-just-parallax';
 
 const Roadmap = () => {
 	const roadmapStops = [
@@ -64,6 +65,13 @@ const Roadmap = () => {
 		<section id="roadmap" className={classes.roadmap}>
 			<SectionTitle>Learning Roadmap</SectionTitle>
 			<Timeline stopsList={roadmapStops} />
+
+			<ScrollParallax isAbsolutelyPositioned>
+				<FaReact className={`${classes.icon} ${classes.iconFirst}`} />
+				<BiLogoNodejs className={`${classes.icon} ${classes.iconSecond}`} />
+				<SiNextdotjs className={`${classes.icon} ${classes.iconThird}`} />
+				<BiLogoMongodb className={`${classes.icon} ${classes.iconFourth}`} />
+			</ScrollParallax>
 		</section>
 	);
 };
