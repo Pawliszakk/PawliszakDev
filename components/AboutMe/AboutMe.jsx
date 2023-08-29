@@ -1,4 +1,5 @@
 import AboutHeader from './Header/AboutHeader';
+import ProjectsExcerpt from './ProjectsExcerpt/ProjectsExcerpt';
 import Roadmap from './Roadmap/Roadmap';
 
 const AboutMe = () => {
@@ -6,6 +7,7 @@ const AboutMe = () => {
 		<>
 			<AboutHeader />
 			<Roadmap />
+			<ProjectsExcerpt />
 		</>
 	);
 };

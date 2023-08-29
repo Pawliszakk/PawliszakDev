@@ -2,7 +2,7 @@
 	position: relative;
 	width: 95%;
 	max-width: 800px;
-	margin-top: 4rem;
+	margin-top: 10rem;
 }
 .timeline::before {
 	display: block;
@@ -15,7 +15,6 @@
 	height: 100%;
 	background-color: var(--text-color);
 }
-
 .timeline ul {
 	list-style-type: none;
 	color: var(--text-color);
@@ -36,8 +35,13 @@
 	text-align: center;
 	border: 2px solid var(--nav-link);
 	border-radius: 10px;
-    background-color: var(--roadmap-stop);
+	background-color: var(--roadmap-stop);
 	cursor: pointer;
+	transition: border-color 0.3s, color 0.3s;
+}
+.timeline li:hover {
+	border-color: var(--main-cta);
+	color: var(--main-cta);
 }
 .timeline li::after {
 	position: absolute;

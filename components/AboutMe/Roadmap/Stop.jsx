@@ -1,11 +1,10 @@
-import { motion } from 'framer-motion';
-import classes from './Stop.module.css';
 import { useState } from 'react';
-import useDisplay from '@/hooks/useDisplay';
+
+import classes from './Stop.module.css';
+import { motion } from 'framer-motion';
 
 const Stop = ({ index, name, icons, text }) => {
 	const [isText, setIsText] = useState(false);
-
 
 	const isEven = index % 2 === 0;
 
