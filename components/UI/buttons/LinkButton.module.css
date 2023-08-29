@@ -1,7 +1,7 @@
 .btn {
 	position: relative;
 	background-color: var(--main-cta);
-	border-radius: 5px;
+	border-radius: 25px;
 	padding: 0.5em 1em;
 	font-size: 1.6rem;
 	color: var(--main-white);
