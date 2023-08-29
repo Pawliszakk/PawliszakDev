@@ -10,8 +10,4 @@
 	overflow: hidden;
 }
 
-.block {
-	top: -40px;
-	right: -20%;
-	background-color: var(--main-color-lighter);
-}
+

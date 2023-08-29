@@ -1,4 +1,5 @@
 import SectionTitle from '../../UI/SectionTItle';
+
 import classes from './Roadmap.module.css';
 import Timeline from './Timeline';
 import { AiFillHtml5 } from 'react-icons/ai';
@@ -11,6 +12,7 @@ import {
 } from 'react-icons/bi';
 import { SiNextdotjs, SiExpress } from 'react-icons/si';
 import { ScrollParallax } from 'react-just-parallax';
+import SectionBlock from '../../UI/SectionBlock';
 
 const Roadmap = () => {
 	const roadmapStops = [
@@ -72,6 +74,8 @@ const Roadmap = () => {
 				<SiNextdotjs className={`${classes.icon} ${classes.iconThird}`} />
 				<BiLogoMongodb className={`${classes.icon} ${classes.iconFourth}`} />
 			</ScrollParallax>
+
+			<SectionBlock className={classes.block} />
 		</section>
 	);
 };
