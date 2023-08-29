@@ -9,12 +9,14 @@ import Decorations from './Decorations';
 import Avatar from './Avatar/Avatar';
 import SectionTitle from '../../UI/SectionTItle';
 import SectionBlock from '../../UI/SectionBlock';
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
 	const [avatar, setAvatar] = useState('/assets/avatar/avatarMac.png');
 	const handleMouseEnter = () => setAvatar('/assets/avatar/avatarLike.png');
 	const handleMouseLeave = () => setAvatar('/assets/avatar/avatarMac.png');
 	const isMobile = useDisplay();
+	const [t, i18n] = useTranslation('global');
 
 	return (
 		<section className={classes.skills}>
@@ -28,7 +30,7 @@ const Skills = () => {
 				onMouseEnter={!isMobile ? handleMouseEnter : null}
 				onMouseLeave={!isMobile ? handleMouseLeave : null}
 			>
-				<LinkButton href="about-me">About Me</LinkButton>
+				<LinkButton href="about-me">{t('nav.about')}</LinkButton>
 			</div>
 			<Decorations />
 			<SectionBlock className={classes.block} />

@@ -1,11 +1,13 @@
 import AvatarBlob from '../../UI/AvatarBlob';
 import SectionBlock from '../../UI/SectionBlock';
-
 import classes from './Hero.module.css';
-
 import HeroText from './HeroText';
 import SlideAnimation from '../../UI/SlideAnimation';
+
+
 const Hero = () => {
+
+
 	return (
 		<section className={classes.hero}>
 			<div className={classes.shadow}></div>

@@ -5,15 +5,19 @@ import { useRouter } from 'next/router';
 import useDisplay from '@/hooks/useDisplay';
 import ThemeIcon from './ThemeIcon';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import LangChange from './LangChange';
 
 const NavList = ({ isNavActive, mobileNavHandler }) => {
+	const [t, i18n] = useTranslation('global');
+
 	const isMobile = useDisplay();
 	const router = useRouter();
 	const linksList = [
-		{ href: '/about-me', name: 'About Me' },
-		{ href: '/projects', name: 'Projects' },
+		{ href: '/about-me', name: t('nav.about') },
+		{ href: '/projects', name: t('nav.projects') },
 		{ href: 'https://github.com/Pawliszakk', name: 'GitHub' },
-		{ href: '/contact', name: 'Contact' },
+		{ href: '/contact', name: t('nav.contact') },
 	];
 
 	const links = linksList.map((link) => (
@@ -45,6 +49,7 @@ const NavList = ({ isNavActive, mobileNavHandler }) => {
 				<div className={classes.hamburger}>
 					<Hamburger toggled={isNavActive} toggle={mobileNavHandler} />
 				</div>
+				<LangChange />
 				<ThemeIcon />
 			</div>
 		</nav>

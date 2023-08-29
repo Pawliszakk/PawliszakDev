@@ -1,0 +1,25 @@
+{
+	"lang": "PL",
+	"nav": {
+		"about": "O mnie",
+		"projects": "Projekty",
+		"contact": "Kontakt"
+	},
+	"homepage": {
+		"header": {
+			"h1": "Tu Oskar, jestem",
+			"span": "React Developerem",
+			"typewritter1": " Responsywny Design",
+			"typewritter2": " Optymalizacja Dla Wyszukiwarek",
+			"typewritter3": " Czysty Design",
+			"typewritter4": " Przyjazny Interfejs",
+			"typewritterword": " "
+		}
+	},
+	"skills": {
+		"h2": "Umiejętności",
+
+		"description1": "Jestem pasjonatem Frontend Developmentu a to  jest  część mojego \"Tech Stacku\", który osiągnąłem podczas mojej nauki tworzenia stron internetowych. Jeśli chcesz mnie lepiej poznać, kliknij",
+		"description2": "lub przycisk poniżej, który przeniesie Cię do osobnej podstrony \"O mnie\". Jeśli chcesz zagłębić się w mój kod, sprawdź mój profil "
+	}
+}

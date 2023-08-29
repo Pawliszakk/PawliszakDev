@@ -1,22 +1,27 @@
 import { Typewriter } from 'react-simple-typewriter';
 import LinkButton from '../../UI/buttons/LinkButton';
 import classes from './HeroText.module.css';
+import { useTranslation } from 'react-i18next';
+
 const HeroText = () => {
+	const [t, i18n] = useTranslation('global');
+
 	const typeWriterWords = [
-		' Responsive Design',
-		' Search Engine Optimization',
-		' Clean Design',
-		' User Friendly Interface',
+		t('homepage.header.typewritter1'),
+		t('homepage.header.typewritter2'),
+		t('homepage.header.typewritter3'),
+		t('homepage.header.typewritter4'),
 	];
+
 	return (
 		<div className={classes.box}>
 			<h1>
-				Hi, I'm Oskar,
+				{t('homepage.header.h1')}
 				<br />
-				<span className={classes.heroSpan}>React Developer</span>
+				<span className={classes.heroSpan}>{t('homepage.header.span')}</span>
 			</h1>
 			<p>
-				Skilled in
+				{t('homepage.header.typewritterword')}
 				<Typewriter
 					loop={10}
 					typeSpeed={100}
@@ -26,8 +31,8 @@ const HeroText = () => {
 				/>
 			</p>
 			<div className={classes.links}>
-				<LinkButton href="/contact">Contact</LinkButton>
-				<LinkButton href="/about-me">About Me</LinkButton>
+				<LinkButton href="/contact">{t('nav.contact')}</LinkButton>
+				<LinkButton href="/about-me">{t('nav.about')}</LinkButton>
 			</div>
 		</div>
 	);

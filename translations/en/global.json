@@ -1,0 +1,24 @@
+{
+	"lang": "EN",
+	"nav": {
+		"about": "About me",
+		"projects": "Projects",
+		"contact": "Contact"
+	},
+	"homepage": {
+		"header": {
+			"h1": "Hi, Im Oskar",
+			"span": "React Developer",
+			"typewritter1": " Responsive Design",
+			"typewritter2": " Search Engine Optimization",
+			"typewritter3": " Clean Design",
+			"typewritter4": " User Friendly Interface",
+			"typewritterword": "Skilled in"
+		}
+	},
+	"skills": {
+		"h2": "My Skills",
+		"description1": "I am a passionate React Frontend Developer and this is part of my tech stack that I have achieved in my web development learning journey. If you want to get to know me better, click ",
+		"description2": " or button below, which will take you to a separate subpage about me. If you want to dig deeper into my code, check out my profile on "
+	}
+}

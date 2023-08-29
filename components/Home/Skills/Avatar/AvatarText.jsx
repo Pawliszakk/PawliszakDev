@@ -1,20 +1,18 @@
 import classes from './AvatarText.module.css';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 import SpecialLink from '../../../UI/buttons/SpecialLink';
+import { useTranslation } from 'react-i18next';
 
 const AvatarText = () => {
+	const [t, i18n] = useTranslation('global');
 	return (
 		<p className={classes.text}>
-			I am a passionate React Frontend Developer and this is part of my tech
-			stack that I have achieved in my web development learning journey. If you
-			want to get to know me better, click{' '}
+			{t('skills.description1')}{' '}
 			<SpecialLink span href="/about-me">
-				About me
+				{t('nav.about')}
 			</SpecialLink>{' '}
-			or button below, which will take you to a separate subpage about me. If
-			you want to dig deeper into my code, check out my{' '}
+			{t('skills.description2')}{' '}
 			<SpecialLink href="https://github.com/Pawliszakk">GitHub</SpecialLink>{' '}
-			profile
 			<ImQuotesLeft className={classes.quoteLeft} />
 			<ImQuotesRight className={classes.quoteRight} />
 		</p>
