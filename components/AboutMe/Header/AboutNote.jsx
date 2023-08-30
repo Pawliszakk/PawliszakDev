@@ -1,11 +1,13 @@
+import SectionTitle from '../../UI/SectionTItle';
 import SlideAnimation from '../../UI/SlideAnimation';
 import classes from './AboutNote.module.css';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
-import { Typewriter } from 'react-simple-typewriter';
-const AboutNote = () => {
+
+const AboutNote = ({ heading }) => {
 	return (
 		<SlideAnimation left className={classes.note}>
-			<h2>Nice to meet you. Im Oskar, React Developer!</h2>
+			<SectionTitle>{heading}</SectionTitle>
+
 			<p>
 				With a keen eye for design and user experience, I specialize in
 				translating concepts into intuitive and visually appealing interfaces.

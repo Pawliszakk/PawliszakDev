@@ -1,6 +1,6 @@
 import AvatarBlob from '../../UI/AvatarBlob';
 import SectionBlock from '../../UI/SectionBlock';
-import SectionTitle from '../../UI/SectionTItle';
+
 import SlideAnimation from '../../UI/SlideAnimation';
 import LinkButton from '../../UI/buttons/LinkButton';
 import classes from './AboutHeader.module.css';
@@ -12,7 +12,6 @@ const AboutHeader = () => {
 
 	return (
 		<header className={classes.header}>
-			<SectionTitle>{t('about.header')}</SectionTitle>
 			<div className={classes.shadow}></div>
 
 			<div className={classes.box}>
@@ -23,7 +22,7 @@ const AboutHeader = () => {
 						className={classes.blob}
 					/>
 				</SlideAnimation>
-				<AboutNote />
+				<AboutNote heading={t('about.header')} />
 			</div>
 
 			<LinkButton href="#roadmap" className={classes.btn}>
