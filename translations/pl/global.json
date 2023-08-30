@@ -1,14 +1,14 @@
 {
 	"lang": "PL",
 	"nav": {
-		"about": "O mnie",
+		"about": "O Mnie",
 		"projects": "Projekty",
 		"contact": "Kontakt"
 	},
 	"homepage": {
 		"header": {
-			"h1": "Tu Oskar, jestem",
-			"span": "React Developerem",
+			"h1": "Oskar Pawliszak",
+			"span": "React Developer",
 			"typewritter1": " Responsywny Design",
 			"typewritter2": " Optymalizacja Dla Wyszukiwarek",
 			"typewritter3": " Czysty Design",
