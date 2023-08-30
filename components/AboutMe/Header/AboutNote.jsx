@@ -6,7 +6,7 @@ import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 const AboutNote = ({ heading }) => {
 	return (
 		<SlideAnimation left className={classes.note}>
-			<SectionTitle>{heading}</SectionTitle>
+			<SectionTitle className={classes.heading}>{heading}</SectionTitle>
 
 			<p>
 				With a keen eye for design and user experience, I specialize in

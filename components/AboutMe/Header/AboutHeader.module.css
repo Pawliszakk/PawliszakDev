@@ -12,12 +12,7 @@
 	z-index: 0;
 	overflow: hidden;
 }
-.header h2 {
-	color: #fff;
-}
-.header h2::before {
-	background-color: #fff;
-}
+
 .shadow {
 	position: absolute;
 	top: 0;
