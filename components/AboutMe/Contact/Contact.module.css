@@ -59,6 +59,7 @@
 @media (min-width: 992px) {
 	.text p {
 		font-size: 2rem;
+		max-width: 400px;
 	}
 	.blob {
 		width: 300px;
@@ -72,6 +73,7 @@
 @media (min-width: 1200px) {
 	.text p {
 		font-size: 2.2rem;
+		max-width: 450px;
 	}
 	.blob {
 		width: 350px;
