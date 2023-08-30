@@ -3,11 +3,9 @@ import SectionBlock from '../../UI/SectionBlock';
 import classes from './Hero.module.css';
 import HeroText from './HeroText';
 import SlideAnimation from '../../UI/SlideAnimation';
-
+import ScrollToSection from '../../UI/buttons/ScrollToSection';
 
 const Hero = () => {
-
-
 	return (
 		<section className={classes.hero}>
 			<div className={classes.shadow}></div>
@@ -24,6 +22,7 @@ const Hero = () => {
 					<HeroText />
 				</SlideAnimation>
 			</div>
+
 			<SectionBlock left className={classes.block} />
 		</section>
 	);

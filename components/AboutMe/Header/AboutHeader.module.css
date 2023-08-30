@@ -45,12 +45,7 @@
 	left: -20%;
 	background-color: var(--main-color);
 }
-.btn {
-	display: block;
-	margin-top: 1em;
-	color: var(--main-cta);
-	font-size: 6rem;
-}
+
 @media (min-width: 576px) {
 	.blob {
 		width: 400px;

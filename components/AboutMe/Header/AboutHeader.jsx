@@ -6,8 +6,8 @@ import SlideAnimation from '../../UI/SlideAnimation';
 import classes from './AboutHeader.module.css';
 import AboutNote from './AboutNote';
 import { useTranslation } from 'react-i18next';
-import { BsFillArrowDownCircleFill } from 'react-icons/bs';
-import { motion } from 'framer-motion';
+
+import ScrollToSection from '../../UI/buttons/ScrollToSection';
 
 const AboutHeader = () => {
 	const [t, i18n] = useTranslation('global');
@@ -27,16 +27,7 @@ const AboutHeader = () => {
 				<AboutNote heading={t('about.header')} />
 			</div>
 
-			<motion.a
-				initial={{ y: 120, opacity: 0 }}
-				whileHover={{ scale: 0.9 }}
-				whileTap={{ scale: 0.5 }}
-				whileInView={{ y: 0, opacity: 1 }}
-				href="#roadmap"
-				className={classes.btn}
-			>
-				<BsFillArrowDownCircleFill />
-			</motion.a>
+			<ScrollToSection href="#roadmap" />
 			<SectionBlock left className={classes.block} />
 		</header>
 	);
