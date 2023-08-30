@@ -61,7 +61,7 @@ const Roadmap = () => {
 		},
 		{
 			name: 'NODE.JS',
-			icons: <AiFillHtml5 />,
+			icons: <BiLogoNodejs />,
 			text: t('about.Node.js'),
 		},
 	];

@@ -1,18 +1,9 @@
 .heading {
-	/* position: relative; */
 	text-align: center;
 	font-size: 3rem;
 	color: var(--text-color);
 }
-/* .heading::before {
-	position: absolute;
-	content: '';
-	height: 3px;
-	width: 30px;
-	bottom: -5px;
-	margin: 0 auto;
-	background-color: var(--text-color);
-} */
+
 @media (min-width: 576px) {
 	.heading {
 		font-size: 3.5rem;
