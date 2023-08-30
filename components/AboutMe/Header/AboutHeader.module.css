@@ -11,6 +11,10 @@
 	background-size: cover;
 	z-index: 0;
 	overflow: hidden;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
 }
 
 .shadow {
@@ -42,7 +46,10 @@
 	background-color: var(--main-color);
 }
 .btn {
-	margin: 2em 0;
+	display: block;
+	margin-top: 1em;
+	color: var(--main-cta);
+	font-size: 6rem;
 }
 @media (min-width: 576px) {
 	.blob {

@@ -37,7 +37,7 @@
 	}
 	.msg {
 		bottom: 20%;
-		right: 20%;
+		right: 15%;
 		width: 150px;
 		height: 150px;
 		opacity: 0.6;
@@ -51,7 +51,7 @@
 	}
 	.mailShadow {
 		bottom: 20%;
-		right: 20%;
+		right: 15%;
 		width: 150px;
 		height: 150px;
 		opacity: 0.1;
