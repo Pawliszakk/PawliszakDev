@@ -5,11 +5,11 @@ import classes from './Icons.module.css';
 const Icons = () => {
 	return (
 		<>
-			<MouseParallax isAbsolutelyPositioned strength={0.14}>
+			<MouseParallax isAbsolutelyPositioned strength={0.03}>
 				<AiOutlineMail className={classes.mail} />
 				<AiOutlineMessage className={classes.msg} />
 			</MouseParallax>
-			<MouseParallax isAbsolutelyPositioned strength={0.25}>
+			<MouseParallax isAbsolutelyPositioned strength={0.07}>
 				<AiOutlineMail className={classes.msgShadow} />
 				<AiOutlineMessage className={classes.mailShadow} />
 			</MouseParallax>
