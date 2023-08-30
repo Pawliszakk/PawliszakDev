@@ -47,7 +47,11 @@
 		"React.js": "The next milestone in my learning journey was React.js. I delved into the fascinating world of React.js. At its core, I learned that React revolves around components. I learned about features such as props, rendering lists, conditional content, CSS modules, state handling, component lifecycle, connecting to a database, managing app-wide state with context, Redux, React Router, working with controlled and uncontrolled forms, and animating React components with framer motion or React Transition Group.",
 		"Next.js": "What comes after React.js is its framework - Next.js. At this stage, I started exploring the beauty of this technology, such as file-based routing, page pre-rendering. Data fetching with SSR, SSG (with ISR). Also explored such great features as API routes, and working with HTTP requests inside them, and connecting to the database.",
 		"MERN": "Being ambitious, I started thinking about building full stack applications, so I started learning the MERN Stack. I love how MERN provides excellent performance and scalability. With my frontend knowledge of React, MongoDB, and some Node.js, I wanted to dig deeper into MERN and connect frontend with backend and build beautiful full-stack web applications.",
-		"Node.js": "Node.js is the next step in my learning journey. I want to explore the backend, be a more conscious developer, and understand the inner workings of web applications from a closer look."
+		"Node.js": "Node.js is the next step in my learning journey. I want to explore the backend, be a more conscious developer, and understand the inner workings of web applications from a closer look.",
+		"contact": {
+			"heading": "Contact Me",
+			"text": "If my journey has piqued your interest, perhaps you'd like to collaborate, my inbox is always open. Whether you have a question or just want to say hello, click button below and choose your way to contact me"
+		}
 	},
 	"contact": {
 		"heading": "Get in touch with me!"

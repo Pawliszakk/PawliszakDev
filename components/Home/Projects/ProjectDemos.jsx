@@ -10,7 +10,7 @@ const ProjectDemos = () => {
 			alt: 'Klima Świat Home page snippet',
 			detail: '/projects/klima-swiat',
 			title: t('latestprojects.titleklima'),
-			tech: ['HTML5', 'CSS Modules', 'React.js', 'Next.js', 'Framer Motion'],
+			tech: ['Next.js', 'CSS Modules', 'Framer Motion', 'Next Export'],
 		},
 		{
 			src: '/assets/projects/pawliszakdev.JPG',
@@ -18,7 +18,7 @@ const ProjectDemos = () => {
 			href: 'https://www.pawliszakdev.com/',
 			detail: '/projects/pawliszakdev',
 			title: t('latestprojects.titledev'),
-			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules', 'Framer Motion'],
+			tech: ['React.js', 'Next.js', 'CSS Modules', 'Framer Motion', 'i18next'],
 		},
 		{
 			src: '/assets/projects/ecofresh.JPG',
@@ -26,7 +26,7 @@ const ProjectDemos = () => {
 			href: 'https://www.hurtowniaecofresh.pl/',
 			detail: '/projects/eco-fresh',
 			title: t('latestprojects.titleecofresh'),
-			tech: ['React.js', 'Next.js', 'HTML5', 'CSS Modules', 'Framer Motion'],
+			tech: ['Next.js', 'CSS Modules', 'Framer Motion', 'Next Export'],
 		},
 	];
 

@@ -14,7 +14,7 @@
 	cursor: pointer;
 	font-size: 4rem;
 	overflow: hidden;
-	z-index: 1;
+	z-index: 150;
 }
 
 .box::before {
