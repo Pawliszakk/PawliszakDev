@@ -18,6 +18,7 @@ const Questions = () => {
 		<WhyKept />,
 		<FuturePlans />,
 	];
+	const currentAnswer = answersComponents[content];
 	const contentHandler = (number) => setContent(number);
 
 	return (
@@ -28,7 +29,7 @@ const Questions = () => {
 
 			<div className={classes.box}>
 				<Options option={content} onContentChange={contentHandler} />
-				<div className={classes.content}>{answersComponents[content]}</div>
+				<div className={classes.content}>{currentAnswer}</div>
 			</div>
 
 			<SectionBlock left className={classes.blockBottom} />
