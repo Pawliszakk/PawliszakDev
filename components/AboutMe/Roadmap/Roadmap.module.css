@@ -13,14 +13,8 @@
 	height: 100px;
 	z-index: 0;
 	color: var(--main-color-darker);
-	/* color: var(--main-cta); */
 }
-.block {
-	bottom: 0;
-	right: -20%;
 
-	background-color: var(--main-color-lighter);
-}
 .iconFirst {
 	opacity: 0.2;
 	bottom: 10%;

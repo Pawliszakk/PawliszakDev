@@ -76,8 +76,6 @@ const Roadmap = () => {
 				<SiNextdotjs className={`${classes.icon} ${classes.iconThird}`} />
 				<BiLogoMongodb className={`${classes.icon} ${classes.iconFourth}`} />
 			</ScrollParallax>
-
-			<SectionBlock className={classes.block} />
 		</section>
 	);
 };
