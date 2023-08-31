@@ -28,7 +28,7 @@ const Questions = () => {
 			<div className={classes.shadow}></div>
 
 			<div className={classes.box}>
-				<Options option={content} onContentChange={contentHandler} />
+				<Options option={content} key={1} onContentChange={contentHandler} />
 				<div className={classes.content}>{currentAnswer}</div>
 			</div>
 
