@@ -5,7 +5,10 @@ import Skills from './Answers/Skills';
 import WhyStarted from './Answers/WhyStarted';
 import WhyKept from './Answers/WhyKept';
 import FuturePlans from './Answers/FuturePlans';
-
+import { motion } from 'framer-motion';
+import { FaReact, FaRegLightbulb } from 'react-icons/fa';
+import { BiCodeAlt } from 'react-icons/bi';
+import SectionBlock from '../../UI/SectionBlock';
 const Questions = () => {
 	const [content, setContent] = useState(1);
 
@@ -15,6 +18,12 @@ const Questions = () => {
 		<WhyKept />,
 		<FuturePlans />,
 	];
+	const optionsItems = [
+		{ text: 'Skills', icon: <FaReact /> },
+		{ text: 'Why started', icon: <FaRegLightbulb /> },
+		{ text: 'Why kept going', icon: <BiCodeAlt /> },
+		{ text: 'Willing to do', icon: <FaRegLightbulb /> },
+	];
 
 	return (
 		<section className={classes.questions}>
@@ -22,13 +31,23 @@ const Questions = () => {
 
 			<div className={classes.box}>
 				<ul className={classes.options}>
-					<li onClick={() => setContent(0)}>Skills</li>
-					<li onClick={() => setContent(1)}>Why started</li>
-					<li onClick={() => setContent(2)}>Why kept going</li>
-					<li onClick={() => setContent(3)}>Willing to do</li>
+					{optionsItems.map((item, i) => (
+						<motion.li
+							initial={{ opacity: 0, y: 200 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							whileTap={{ scale: 0.82 }}
+							key={i}
+							onClick={() => setContent(i)}
+							className={i === content ? classes.active : null}
+						>
+							{item.text}
+							{item.icon}
+						</motion.li>
+					))}
 				</ul>
-				<p>{answersComponents[content]}</p>
+				{answersComponents[content]}
 			</div>
+			<SectionBlock left className={classes.block} />
 		</section>
 	);
 };
