@@ -1,5 +1,5 @@
 import classes from './Questions.module.css';
-import SectionTitle from '../../UI/SectionTItle';
+
 import { useState } from 'react';
 import Skills from './Answers/Skills';
 import WhyStarted from './Answers/WhyStarted';
@@ -24,7 +24,7 @@ const Questions = () => {
 	return (
 		<section className={classes.questions}>
 			<SectionBlock left className={classes.blockTop}></SectionBlock>
-			<SectionTitle>More About Me</SectionTitle>
+
 			<div className={classes.shadow}></div>
 
 			<div className={classes.box}>
