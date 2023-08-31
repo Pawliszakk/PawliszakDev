@@ -1,0 +1,29 @@
+.questions {
+	position: relative;
+	min-height: 50vh;
+	background-color: var(--main-color-lighter);
+	text-align: center;
+}
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.options {
+	list-style-type: none;
+	display: flex;
+	gap: 2rem;
+	font-size: 2rem;
+	cursor: pointer;
+	color: var(--text-color);
+}
+.options li {
+	border-radius: 20px;
+	border: 2px solid white;
+	padding: 1em;
+}
+.box p {
+	color: var(--main-cta);
+	font-size: 5rem;
+}

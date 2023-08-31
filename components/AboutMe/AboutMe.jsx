@@ -1,5 +1,6 @@
 import Contact from './Contact/Contact';
 import AboutHeader from './Header/AboutHeader';
+import Questions from './Questions/Questions';
 
 import Roadmap from './Roadmap/Roadmap';
 
@@ -8,6 +9,7 @@ const AboutMe = () => {
 		<>
 			<AboutHeader />
 			<Roadmap />
+			<Questions />
 			<Contact />
 		</>
 	);

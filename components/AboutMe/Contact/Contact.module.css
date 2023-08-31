@@ -1,6 +1,6 @@
 .contact {
 	position: relative;
-	background-color: var(--main-color-lighter);
+	background-color: var(--main-color);
 	color: var(--text-color);
 	overflow: hidden;
 	z-index: 1;
