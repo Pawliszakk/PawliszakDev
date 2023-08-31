@@ -14,10 +14,10 @@ const NoteContent = () => {
 				developer from Zamość, Poland.{' '}
 			</p>
 			<p>
-				I've found my passion in web development. I love spending time coding
-				and facing new challenges. I've spent countless hours on frontend
-				development in the last few months, as my{' '}
-				<SpecialLink>Github</SpecialLink> profile shows.
+				My background is website and <span>web application development</span>. I
+				love spending time coding and facing new challenges. I've spent
+				countless hours on frontend development in the last few months, as my{' '}
+				<SpecialLink>GitHub</SpecialLink> profile shows.
 			</p>
 			<p>
 				I am also a graduate of a technical school for{' '}
@@ -26,9 +26,9 @@ const NoteContent = () => {
 				the construction and operation of Internet networks.
 			</p>
 			<p>
-				Outside of programming, I am also involved in fitness in my spare time.
-				I am a personal trainer and have been passionate about sport since I was
-				a child. Find out more about me by scrolling down this page.
+				<span>Outside of programming</span>, I am also involved in fitness in my
+				spare time. I am a personal trainer and have been passionate about sport
+				since I was a child. Find out more about me by scrolling down this page.
 			</p>
 		</>
 	) : (
@@ -39,10 +39,10 @@ const NoteContent = () => {
 			</p>
 			<p>
 				Zajmuję się tworzeniem <span>stron i aplikacji internetowych</span>.
-				Uwielbiam spędzać czas na programowaniu i podejmowaniu span. W ciągu
-				ostatnich kilkunastu miesięcy spędziłem wiele godzin nad rozwojem w
-				świecie front-endu, o czym świadczy między innymi mój profil na{' '}
-				<SpecialLink>Githubie</SpecialLink>.
+				Uwielbiam spędzać czas na programowaniu i podejmowaniu nowych wyzwań. W
+				ciągu ostatnich kilkunastu miesięcy spędziłem wiele godzin nad rozwojem
+				w świecie front-endu, o czym świadczy między innymi mój profil na{' '}
+				<SpecialLink>GitHubie</SpecialLink>.
 			</p>
 			<p>
 				Jestem również absolwentem <span>technikum informatycznego</span>, w
