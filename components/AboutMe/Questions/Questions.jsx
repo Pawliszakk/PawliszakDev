@@ -13,12 +13,12 @@ const Questions = () => {
 	const [content, setContent] = useState(0);
 
 	const answersComponents = [
-		<Skills />,
-		<WhyStarted />,
-		<WhyKept />,
-		<FuturePlans />,
+		{ component: <Skills />, id: 'skills' },
+		{ component: <WhyStarted />, id: 'whyStarted' },
+		{ component: <WhyKept />, id: 'whyKept' },
+		{ component: <FuturePlans />, id: 'futurePlans' },
 	];
-	const currentAnswer = answersComponents[content];
+	const currentAnswer = answersComponents[content].component;
 	const contentHandler = (number) => setContent(number);
 
 	return (
