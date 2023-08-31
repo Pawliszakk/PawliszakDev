@@ -1,35 +1,19 @@
 import SectionTitle from '../../UI/SectionTItle';
 import SlideAnimation from '../../UI/SlideAnimation';
-import classes from './AboutNote.module.css';
+import { useTranslation } from 'react-i18next';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
+import SpecialLink from '../../UI/buttons/SpecialLink';
+import classes from './AboutNote.module.css';
+import NoteContent from './NoteContent';
 
 const AboutNote = ({ heading }) => {
 	return (
 		<SlideAnimation left className={classes.note}>
 			<SectionTitle className={classes.heading}>{heading}</SectionTitle>
 
-			<p>
-				Hello! I'm Oskar Pawliszak, a passionate React front-end developer from
-				Zamość, Poland.{' '}
-			</p>
-			<p>
-				I've found my passion in web development. I love spending time coding
-				and facing new challenges. I've spent countless hours on frontend
-				development in the last few months, as my Github profile shows.
-			</p>
-			<p>
-				I am also a graduate of a technical school for computer science, which
-				infected me with a passion for programming. As a graduate, I have a
-				background in computer hardware and the construction and operation of
-				Internet networks.
-			</p>
-			<p>
-				Outside of programming, I am also involved in fitness in my spare time.
-				I am a personal trainer and have been passionate about sport since I was
-				a child. Find out more about me by scrolling down this page.
-				<ImQuotesLeft className={classes.quoteLeft} />
-				<ImQuotesRight className={classes.quoteRight} />
-			</p>
+			<NoteContent />
+			<ImQuotesLeft className={classes.quoteLeft} />
+			<ImQuotesRight className={classes.quoteRight} />
 		</SlideAnimation>
 	);
 };

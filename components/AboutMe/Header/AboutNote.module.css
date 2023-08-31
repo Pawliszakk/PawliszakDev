@@ -1,6 +1,6 @@
 .note {
+	position: relative;
 	width: 300px;
-
 	padding: 2em;
 	border-radius: 25px;
 	color: #fff;
@@ -10,22 +10,26 @@
 	text-align: left;
 	font-size: 2rem;
 }
+.note span {
+	color: var(--main-cta);
+}
 .note p {
 	margin-top: 1em;
 	font-size: 1.6rem;
-	position: relative;
+
 	text-align: justify;
 }
 .note svg {
 	position: absolute;
+	font-size: 1.6rem;
 }
 .quoteLeft {
-	bottom: -20px;
-	left: -25px;
+	bottom: -0.5rem;
+	left: 0;
 }
 .quoteRight {
-	top: -20px;
-	right: -25px;
+	top: 3rem;
+	right: 0.5rem;
 }
 
 @media (min-width: 400px) {
@@ -43,16 +47,29 @@
 	.note h2 {
 		font-size: 2.8rem;
 	}
-	.note p {
+	.note p,
+	.note svg {
 		font-size: 1.8rem;
+	}
+	.quoteRight {
+		top: 4.5rem;
 	}
 }
 @media (min-width: 992px) {
 	.note {
 		padding: 4rem;
 	}
-	.note p {
+	.note p,
+	.note svg {
 		margin-top: 2rem;
+	}
+	.quoteRight {
+		top: 5rem;
+		right: 1rem;
+	}
+	.quoteLeft {
+		bottom: 1rem;
+		left: 1rem;
 	}
 }
 @media (min-width: 1200px) {
@@ -62,7 +79,12 @@
 	.note h2 {
 		font-size: 3.4rem;
 	}
-	.note p {
+	.note p,
+	.note svg {
 		font-size: 2.2rem;
+	}
+	.quoteRight {
+		top: 5.4rem;
+		right: 1.4rem;
 	}
 }
