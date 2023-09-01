@@ -1,5 +1,5 @@
-import AnswerHeading from '../../../../UI/Answers/AnswerHeading';
-import SkillIcon from './SkillItem';
+import AnswerHeading from '../../../../../UI/Answers/AnswerHeading';
+import SkillIcon from './SkillIcon';
 import classes from './TechList.module.css';
 
 const TechList = ({ list, heading }) => {
