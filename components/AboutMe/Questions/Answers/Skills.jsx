@@ -35,14 +35,14 @@ const Skills = () => {
 		{ icon: <SiFirebase />, text: 'Firebase', type: 'other' },
 		{ icon: <FaNpm />, text: 'Npm', type: 'other' },
 		{ icon: <SiEslint />, text: 'Eslint', type: 'other' },
-		{ icon: <SiFramer />, text: 'Framer Motion', type: 'other' },
+		{ icon: <SiFramer />, text: 'Framer', type: 'other' },
 		{ icon: <TbJson />, text: 'JSON', type: 'other' },
 	];
 	const traits = [
 		'Fast learner',
 		'Open-minded',
 		'English B2+',
-		'Willing to learn',
+		'Growth-oriented',
 		'Determined',
 		'Analytical thinking',
 		'Creative',

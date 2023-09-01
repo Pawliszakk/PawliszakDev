@@ -2,6 +2,7 @@
 	margin-top: 4rem;
 	color: #fff;
 	text-align: left;
+	max-width: 300px;
 }
 .box h3 {
 	font-size: 2rem;
@@ -13,8 +14,8 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	/* flex-wrap: wrap; */
-	margin: 3em 0;
+	flex-wrap: wrap;
+	margin: 1.5em 0;
 }
 .tech li {
 	position: relative;
@@ -22,11 +23,11 @@
 }
 .tech li svg {
 	font-size: 3rem;
-	margin: 0 0.3em;
+	margin: 0.3em 0.3em;
 }
 .iconText {
 	position: absolute;
-	top: -3.2rem;
+	top: -2.5rem;
 	left: 50%;
 	transform: translateX(-50%);
 	border-radius: 5px;
@@ -74,4 +75,52 @@
 .traits li:hover {
 	color: #000;
 	background-color: #fff;
+}
+
+@media (min-width: 400px) {
+	.box {
+		max-width: 380px;
+	}
+	.tech li svg {
+		font-size: 3.2rem;
+	}
+	.traits li {
+		font-size: 1.2rem;
+	}
+	.iconText {
+		font-size: 1.4rem;
+		top: -3rem;
+	}
+}
+
+@media (min-width: 576px) {
+	.box {
+		max-width: 500px;
+	}
+	.tech li svg {
+		font-size: 3.4rem;
+	}
+}
+@media (min-width: 768px) {
+	.box {
+		max-width: 600px;
+	}
+	.tech li svg {
+		font-size: 3.8rem;
+	}
+	.traits li {
+		font-size: 1.4rem;
+	}
+	.iconText {
+		font-size: 1.6rem;
+	}
+}
+@media (min-width: 1200px) {
+	.tech li svg {
+		font-size: 4rem;
+	}
+	.iconText {
+		font-size: 1.7rem;
+		top: -3.2rem;
+	}
 }

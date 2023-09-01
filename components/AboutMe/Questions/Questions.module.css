@@ -43,9 +43,7 @@
 	left: -30%;
 	background-color: var(--main-color);
 }
-.content {
-	width: 400px;
-}
+
 @media (min-width: 992px) {
 	.box {
 		flex-direction: row;

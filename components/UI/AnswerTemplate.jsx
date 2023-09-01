@@ -2,7 +2,7 @@ import ShowAnimation from './ShowAnimation';
 import classes from './AnswerTemplate.module.css';
 const AnswerTemplate = ({ children, heading }) => {
 	return (
-		<ShowAnimation>
+		<ShowAnimation className={classes.box}>
 			<h2 className={classes.heading}>{heading}</h2>
 			{children}
 		</ShowAnimation>
