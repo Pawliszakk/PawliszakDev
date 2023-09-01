@@ -40,7 +40,7 @@
 	},
 	"about": {
 		"header": "About Me",
-
+		"roadmapText": "I started learning Frontend Technologies in October 2022. As I wrote more and more code, I realised that I was having a lot of fun. a lot of fun doing it. Week after week I explored more and more advanced topics. topics, which you can see below in the roadmap I have prepared for you.",
 		"HTML5/CSS3": "In my first 2-3 months of learning frontend, I learned HTML5 semantics, metatags, building website skeletons out of HTML elements. What goes behind HTML, I learned CSS3, topics like responsive web design, specificity in CSS, flexbox, grid, pseudoclasses, pseudoelements, etc.",
 		"SASS/SCSS": "The next step in my learning journey was SCSS. I learned how to work with this pre-processor, how to work with SCSS variables, mixins, @use & @forward. How and why we could work with the Block Element Modifier methodology and make web design much easier.",
 		"JavaScript": "The next step was JavaScript. I started by understanding the basics of JavaScript such as variables, data types, operators, connecting to the API and control structures. I also learned ES6+ features such as const, let, arrow functions, template literals, array and object destructuring, import, export, etc.",

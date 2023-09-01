@@ -42,6 +42,15 @@
 	animation: swing 30s linear infinite;
 }
 
+.text {
+	margin-top: 3em;
+	font-size: 1.4rem;
+	color: var(--text-color);
+	width: 280px;
+	text-align: center;
+	z-index: 1;
+}
+
 @keyframes rotateRight {
 	from {
 		transform: rotate(0);
@@ -75,11 +84,18 @@
 		width: 150px;
 		height: 150px;
 	}
+	.text {
+		font-size: 1.6rem;
+	}
 }
 @media (min-width: 576px) {
 	.icon {
 		width: 200px;
 		height: 200px;
+	}
+	.text {
+		font-size: 1.8rem;
+		width: 350px;
 	}
 }
 @media (min-width: 992px) {
@@ -87,10 +103,17 @@
 		width: 250px;
 		height: 250px;
 	}
+	.text {
+		font-size: 2rem;
+		width: 400px;
+	}
 }
 @media (min-width: 1200px) {
 	.icon {
 		width: 300px;
 		height: 300px;
+	}
+	.text {
+		width: 500px;
 	}
 }

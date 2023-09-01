@@ -41,7 +41,7 @@
 	},
 	"about": {
 		"header": "O mnie",
-
+		"roadmapText": "Zacząłem uczyć się frontentdu w październiku 2022 roku. Wraz z pisaniem coraz większej liczby kodu zacząłem zauważać, że daje mi to dużo satysfakcji. Z tygodnia na tydzień zgłębiałem bardziej zaawansowane tematy świata web dev'u , co możesz sprawdzić poniżej na Roadmapie którą dla ciebie przygotowałem.",
 		"HTML5/CSS3": "Przez pierwsze 2-3 miesiące nauki frontendu nauczyłem się semantycznego HTML'a, metatagów, budowania szkieletów stron z elementów HTML. Co się kryje za HTML, nauczyłem się CSS3, tematów takich jak responsywne projektowanie stron internetowych, specyficzność w CSS, flexbox, grid, pseudoklasy, pseudoelementy itp.",
 		"SASS/SCSS": "Następnym krokiem w mojej edukacji był SCSS. Dowiedziałem się, jak pracować z tym preprocesorem, jak pracować ze zmiennymi SCSS, mixinami, @use i @forward. Jak i dlaczego możemy pracować z metodologią Block Element Modifier i znacznie ułatwić projektowanie stron internetowych.",
 		"JavaScript": "Następnym krokiem był JavaScript. Zacząłem od zrozumienia podstaw JavaScript, takich jak zmienne, typy danych, operatory, łączenie się z API. Nauczyłem się również feature'ów ES6+, takich jak const, let, funkcje strzałkowe, template stringi, destrukturyzacja tablic i obiektów, import, eksport itp.",

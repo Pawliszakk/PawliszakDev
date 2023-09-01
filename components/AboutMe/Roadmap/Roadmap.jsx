@@ -69,6 +69,9 @@ const Roadmap = () => {
 	return (
 		<section id="roadmap" className={classes.roadmap}>
 			<SectionTitle>Learning Roadmap</SectionTitle>
+			<p className={classes.text}>
+				{t('about.roadmapText')}
+			</p>
 			<Timeline stopsList={roadmapStops} />
 
 			<ScrollParallax isAbsolutelyPositioned>
