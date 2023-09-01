@@ -65,6 +65,7 @@ const Roadmap = () => {
 			text: t('about.Node.js'),
 		},
 	];
+
 	return (
 		<section id="roadmap" className={classes.roadmap}>
 			<SectionTitle>Learning Roadmap</SectionTitle>

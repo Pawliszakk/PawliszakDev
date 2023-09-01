@@ -1,0 +1,77 @@
+.box {
+	margin-top: 4rem;
+	color: #fff;
+	text-align: left;
+}
+.box h3 {
+	font-size: 2rem;
+	color: var(--main-cta);
+}
+.tech {
+	list-style-type: none;
+	color: #fff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	/* flex-wrap: wrap; */
+	margin: 3em 0;
+}
+.tech li {
+	position: relative;
+	transition: color 0.3s;
+}
+.tech li svg {
+	font-size: 3rem;
+	margin: 0 0.3em;
+}
+.iconText {
+	position: absolute;
+	top: -3.2rem;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 5px;
+	background-color: var(--main-cta);
+	color: #000;
+	padding: 0.5em;
+	font-size: 1.2rem;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s, visibility 0.3s;
+}
+.iconText::before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	border-width: 5px;
+	margin-left: -5px;
+	border-style: solid;
+	border-color: var(--main-cta) transparent transparent transparent;
+}
+.tech li:hover .iconText {
+	opacity: 1;
+	visibility: visible;
+}
+.tech li:hover {
+	color: var(--main-cta);
+}
+
+.traits {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.traits li {
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin: 1em;
+	padding: 1em;
+	transition: color 0.3s, background-color 0.3s;
+}
+.traits li:hover {
+	color: #000;
+	background-color: #fff;
+}
