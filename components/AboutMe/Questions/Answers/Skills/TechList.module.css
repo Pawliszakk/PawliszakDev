@@ -1,0 +1,10 @@
+
+.tech {
+	list-style-type: none;
+	color: #fff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 1.5em 0;
+}

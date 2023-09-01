@@ -14,6 +14,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: color 0.3s;
+}
+.options li:hover {
+	color: var(--main-cta);
 }
 .options li svg {
 	position: absolute;
@@ -21,13 +25,11 @@
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	opacity: 0.2;
+	opacity: 0.3;
 }
 .indicator {
 	position: absolute;
 	top: 50%;
-
-	width: 100%;
 }
 .active {
 	color: var(--main-cta);
@@ -49,10 +51,6 @@
 	}
 }
 @media (min-width: 992px) {
-	/* .options {
-		flex-direction: column;
-		gap: 6rem;
-	} */
 	.options li {
 		font-size: 2.8rem;
 	}

@@ -1,7 +1,7 @@
 import classes from './Questions.module.css';
 
 import { useState } from 'react';
-import Skills from './Answers/Skills';
+import Skills from './Answers/Skills/Skills';
 import WhyStarted from './Answers/WhyStarted';
 import WhyKept from './Answers/WhyKept';
 import FuturePlans from './Answers/FuturePlans';

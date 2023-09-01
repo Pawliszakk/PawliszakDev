@@ -30,12 +30,13 @@
 }
 .list li a {
 	color: var(--nav-link);
+	transition: color 0.3s;
 }
 .list li.activeLink a {
 	color: var(--main-cta);
 }
-.list li:hover {
-	background-color: var(--nav-link-hover);
+.list li:hover a {
+	color: var(--main-cta);
 }
 
 .icons {

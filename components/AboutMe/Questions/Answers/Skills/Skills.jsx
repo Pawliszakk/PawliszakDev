@@ -1,5 +1,5 @@
 import classes from './Skills.module.css';
-import AnswerTemplate from '../../../UI/AnswerTemplate';
+import AnswerTemplate from '../../../../UI/Answers/AnswerTemplate';
 import { FaCss3Alt, FaNpm, FaReact } from 'react-icons/fa';
 import { AiFillHtml5 } from 'react-icons/ai';
 import {
@@ -26,6 +26,9 @@ import {
 	TbLetterT,
 } from 'react-icons/tb';
 import { useTranslation } from 'react-i18next';
+import SkillIcon from './SkillItem';
+import TechList from './TechList';
+import AnswerHeading from '../../../../UI/Answers/AnswerHeading';
 
 const Skills = () => {
 	const [t, i18n] = useTranslation('global');
@@ -77,29 +80,13 @@ const Skills = () => {
 	const techStack = techIcons.filter((icon) => icon.type === 'stack');
 	const otherTech = techIcons.filter((icon) => icon.type === 'other');
 
-	const listRenderHandler = (list) => {
-		return list.map((icon) => (
-			<li key={icon.text}>
-				{icon.icon}{' '}
-				<div
-					className={`${classes.iconText} ${
-						icon.text === 'RestAPI' ? classes.apiText : null
-					}`}
-				>
-					{icon.text}
-				</div>
-			</li>
-		));
-	};
-
 	return (
 		<AnswerTemplate heading="My Skills">
 			<div className={classes.box}>
-				<h3>{t('about.techStack')}</h3>
-				<ul className={classes.tech}>{listRenderHandler(techStack)}</ul>
-				<h3>{t('about.other')}</h3>
-				<ul className={classes.tech}>{listRenderHandler(otherTech)}</ul>
-				<h3>{t('about.traits')}</h3>
+				<TechList list={techStack} heading={t('about.techStack')} />
+				<TechList heading={t('about.other')} list={otherTech} />
+
+				<AnswerHeading>{t('about.traits')}</AnswerHeading>
 				<ul className={classes.traits}>
 					{traits.map((trait, i) => (
 						<li key={i}>{trait}</li>

@@ -24,7 +24,9 @@ const Options = ({ option, onContentChange }) => {
 					{item.text}
 
 					{i === option && (
-						<motion.div layoutId="indicator" className={classes.indicator}><FaReact/></motion.div>
+						<motion.div layoutId="indicator" className={classes.indicator}>
+							{item.icon}
+						</motion.div>
 					)}
 				</motion.li>
 			))}
