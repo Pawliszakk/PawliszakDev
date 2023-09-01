@@ -3,7 +3,7 @@ import SingleProject from './SingleProject';
 
 const ProjectsList = () => {
 	return (
-		<ul>
+		<ul className={classes.list}>
 			<SingleProject />
 			<SingleProject />
 			<SingleProject />

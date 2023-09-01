@@ -66,6 +66,10 @@
 		"trait9": "Communication",
 		"trait10": " Team Collaboration"
 	},
+	"projects": {
+		"heading":"Projects",
+		"text": "Take a look at my work. I create designs that catch the user's eye and are suitable for all devices, from mobile phones to large desktop monitors. In my portfolio you will find websites, blogs, web applications based mainly on technologies around React.js, Next.js and MERN Stack for Full-Stack Applications."
+	},
 	"contact": {
 		"heading": "Get in touch with me!"
 	}

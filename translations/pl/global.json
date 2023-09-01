@@ -67,6 +67,10 @@
 		"trait9": "Komunikatywny",
 		"trait10": "Współpraca zespołowa"
 	},
+	"projects": {
+		"heading": "Projekty",
+		"text": "Sprawdź moje prace. Tworzę projekty, które przyciągają wzrok użytkownika i są Responsywne, dostosowane do każdego urządzenia jakie może posiadać użytkownik. W moim portfolio znajdziesz strony internetowe, blogi, aplikacje internetowe oparte głównie na technologiach React.js, Next.js i MERN Stack dla Full-Stackowych aplikacji"
+	},
 	"contact": {
 		"heading": "Skontaktuj się ze mną!"
 	}

@@ -2,7 +2,7 @@ import classes from './SingleProject.module.css';
 
 const SingleProject = () => {
 	return (
-		<li>
+		<li className={classes.project}>
 			<h1>SingleProject</h1>
 		</li>
 	);

@@ -1,16 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import SectionTitle from '../../UI/SectionComponents/SectionTItle';
 import classes from './HeroText.module.css';
 const HeroText = () => {
+	const [t, i18n] = useTranslation('global');
 	return (
 		<div className={classes.text}>
-			<SectionTitle className={classes.heading}>Projects</SectionTitle>
-			<p>
-				Take a look at my work. I create designs that catch the user's eye and
-				are suitable for all devices, from mobile phones to large desktop
-				monitors. In my portfolio you will find websites, blogs, web
-				applications based mainly on technologies around React.js, Next.js and
-				MERN Stack for Full-Stack Applications.
-			</p>
+			<SectionTitle className={classes.heading}>
+				{t('projects.heading')}
+			</SectionTitle>
+			<p>{t('projects.text')}</p>
 		</div>
 	);
 };
