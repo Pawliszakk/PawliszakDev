@@ -10,17 +10,22 @@
 
 .text {
 	position: absolute;
-
 	width: 150px;
 	bottom: 110%;
 	right: -5%;
-
 	padding: 1em;
 	font-size: 1rem;
 	text-align: left;
 	background-color: var(--main-color-darker);
 	border-radius: 15px;
+	opacity: 0;
+	visibility: hidden;
 	color: var(--text-color);
+	transition: opacity 0.3s, visibility 0.3s;
+}
+.stop:hover .text {
+	opacity: 1;
+	visibility: visible;
 }
 .info {
 	position: absolute;
