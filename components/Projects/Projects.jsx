@@ -1,10 +1,12 @@
-import classes from './Projects.module.css';
+import ProjectsSection from './Projects/ProjectsSection';
+import ProjectsHero from './ProjectsHero/ProjectsHero';
 
 const Projects = () => {
 	return (
-		<section className={classes.projects}>
-			<h1>Strona projects jest w trakcie budowy...</h1>
-		</section>
+		<>
+			<ProjectsHero />
+			<ProjectsSection />
+		</>
 	);
 };
 
