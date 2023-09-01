@@ -2,6 +2,7 @@
 	text-align: center;
 	font-size: 3rem;
 	color: var(--text-color);
+	z-index: 2;
 }
 
 @media (min-width: 576px) {
