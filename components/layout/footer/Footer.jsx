@@ -7,7 +7,7 @@ import {
 	BsFacebook,
 	BsFillEnvelopeAtFill,
 } from 'react-icons/bs';
-import SectionBlock from '../../UI/SectionBlock';
+import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 
 const Footer = () => {
 	const year = new Date().getFullYear();

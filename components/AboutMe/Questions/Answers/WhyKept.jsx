@@ -1,4 +1,4 @@
-import ShowAnimation from '../../../UI/ShowAnimation';
+import ShowAnimation from '../../../UI/Animations/ShowAnimation';
 import classes from './WhyKept.module.css';
 
 const WhyKept = () => {

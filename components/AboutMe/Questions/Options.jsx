@@ -17,8 +17,8 @@ const Options = ({ option, onContentChange }) => {
 				<motion.li
 					initial={{ opacity: 0, y: 40 }}
 					whileInView={{ opacity: 1, y: 0 }}
-					whileTap={{ scale: 0.82 }}
-					transition={{ duration: 0.3, delay: i * 0.1 }}
+					whileTap={{ scale: 0.7 }}
+					whileHover={{ scale: 0.9 }}
 					key={i}
 					onClick={() => onContentChange(i)}
 					className={i === option ? classes.active : null}

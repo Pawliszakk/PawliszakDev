@@ -1,0 +1,37 @@
+:root {
+	--main-white: #fff;
+	--main-cta: #ff4900;
+	--nav-link: #fff;
+	--decoration-icon: #fff;
+	--text-color: #fff;
+	--text-color-darker: #ddd;
+	--footer-icon: #00222c;
+	--footer-icon-bg: #fff;
+	--footer-icon-hover: #d5d3d3;
+	--nav-link-hover: rgba(255, 255, 255, 0.2);
+	--main-color: #031d25;
+	--main-color-darker: #000b0e;
+	--main-color-lighter: #012d3b;
+	--decoration-color: #01090b;
+	--pros-color: #01161b;
+	--pros-shadow: rgba(255, 255, 255, 0.27) 0px 0px 0.25em,
+		rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+	--modal-color: #fff;
+	--roadmap-stop: #010e13;
+}
+[data-theme='light'] {
+	--main-color: #fff;
+	--main-color-darker: #e0e2e2;
+	--main-color-lighter: #b8c3c7;
+	--nav-link: #00222c;
+	--decoration-icon: #000;
+	--text-color: #010b0f;
+	--text-color-darker: #1f0101;
+	--nav-link-hover: rgba(0, 0, 0, 0.3);
+	--decoration-color: #c9d4d4;
+	--pros-color: #9bacac;
+	--pros-shadow: rgba(0, 0, 0, 0.27) 0px 0px 0.25em,
+		rgba(0, 0, 0, 0.05) 0px 0.25em 1em;
+	--modal-color: #222121;
+	--roadmap-stop: #f0e5e5;
+}

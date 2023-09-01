@@ -1,14 +1,13 @@
 import AvatarBlob from '../../UI/AvatarBlob';
-import SectionBlock from '../../UI/SectionBlock';
+import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import classes from './Hero.module.css';
 import HeroText from './HeroText';
-import SlideAnimation from '../../UI/SlideAnimation';
-import ScrollToSection from '../../UI/buttons/ScrollToSection';
+import SlideAnimation from '../../UI/Animations/SlideAnimation';
+import SectionHero from '../../UI/SectionComponents/SectionHero';
 
 const Hero = () => {
 	return (
-		<section className={classes.hero}>
-			<div className={classes.shadow}></div>
+		<SectionHero classNameHero={classes.hero}>
 			<div className={classes.container}>
 				<SlideAnimation left>
 					<AvatarBlob
@@ -24,7 +23,7 @@ const Hero = () => {
 			</div>
 
 			<SectionBlock left className={classes.block} />
-		</section>
+		</SectionHero>
 	);
 };
 

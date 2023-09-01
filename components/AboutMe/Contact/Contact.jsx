@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import AvatarBlob from '../../UI/AvatarBlob';
-import SectionBlock from '../../UI/SectionBlock';
-import SectionTitle from '../../UI/SectionTItle';
+import SectionBlock from '../../UI/SectionComponents/SectionBlock';
+import SectionTitle from '../../UI/SectionComponents/SectionTItle';
 import classes from './Contact.module.css';
 import LinkButton from '../../UI/buttons/LinkButton';
 import Icons from './Icons';

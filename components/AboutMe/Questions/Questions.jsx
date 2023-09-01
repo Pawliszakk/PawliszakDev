@@ -6,7 +6,7 @@ import WhyStarted from './Answers/WhyStarted';
 import WhyKept from './Answers/WhyKept';
 import FuturePlans from './Answers/FuturePlans';
 
-import SectionBlock from '../../UI/SectionBlock';
+import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import Options from './Options';
 
 const Questions = () => {

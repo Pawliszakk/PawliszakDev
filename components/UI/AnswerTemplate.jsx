@@ -1,4 +1,4 @@
-import ShowAnimation from './ShowAnimation';
+import ShowAnimation from './Animations/ShowAnimation';
 import classes from './AnswerTemplate.module.css';
 const AnswerTemplate = ({ children, heading }) => {
 	return (

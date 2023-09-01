@@ -7,8 +7,8 @@ import SkillsList from './SkillList/SkillsList';
 
 import Decorations from './Decorations';
 import Avatar from './Avatar/Avatar';
-import SectionTitle from '../../UI/SectionTItle';
-import SectionBlock from '../../UI/SectionBlock';
+import SectionTitle from '../../UI/SectionComponents/SectionTItle';
+import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import { useTranslation } from 'react-i18next';
 
 const Skills = () => {

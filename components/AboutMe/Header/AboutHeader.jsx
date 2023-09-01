@@ -1,21 +1,20 @@
 import AvatarBlob from '../../UI/AvatarBlob';
-import SectionBlock from '../../UI/SectionBlock';
+import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 
-import SlideAnimation from '../../UI/SlideAnimation';
+import SlideAnimation from '../../UI/Animations/SlideAnimation';
 
 import classes from './AboutHeader.module.css';
 import AboutNote from './AboutNote';
 import { useTranslation } from 'react-i18next';
 
 import ScrollToSection from '../../UI/buttons/ScrollToSection';
+import SectionHero from '../../UI/SectionComponents/SectionHero';
 
 const AboutHeader = () => {
 	const [t, i18n] = useTranslation('global');
 
 	return (
-		<header className={classes.header}>
-			<div className={classes.shadow}></div>
-
+		<SectionHero classNameHero={classes.header}>
 			<div className={classes.box}>
 				<SlideAnimation>
 					<AvatarBlob
@@ -29,7 +28,7 @@ const AboutHeader = () => {
 
 			<ScrollToSection href="#roadmap" />
 			<SectionBlock left className={classes.block} />
-		</header>
+		</SectionHero>
 	);
 };
 

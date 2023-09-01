@@ -1,5 +1,5 @@
-import SectionTitle from '../../UI/SectionTItle';
-import SlideAnimation from '../../UI/SlideAnimation';
+import SectionTitle from '../../UI/SectionComponents/SectionTItle';
+import SlideAnimation from '../../UI/Animations/SlideAnimation';
 import { useTranslation } from 'react-i18next';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 import SpecialLink from '../../UI/buttons/SpecialLink';

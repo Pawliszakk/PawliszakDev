@@ -1,7 +1,7 @@
 import classes from './ProjectDemo.module.css';
 import Image from 'next/image';
 import LinkButton from '../../UI/buttons/LinkButton';
-import SlideFromTop from '../../UI/SlideFromTop';
+import SlideFromTop from '../../UI/Animations/SlideFromTop';
 import { useTranslation } from 'react-i18next';
 
 const ProjectDemo = ({ href, src, alt, title, tech, detail, index }) => {
@@ -23,7 +23,7 @@ const ProjectDemo = ({ href, src, alt, title, tech, detail, index }) => {
 					<div className={classes.buttons}>
 						<LinkButton href={detail}>{t('latestprojects.link1')}</LinkButton>
 						<LinkButton anchor href={href}>
-						{t('latestprojects.link2')}
+							{t('latestprojects.link2')}
 						</LinkButton>
 					</div>
 				</div>

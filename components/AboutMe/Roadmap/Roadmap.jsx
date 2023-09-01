@@ -1,4 +1,4 @@
-import SectionTitle from '../../UI/SectionTItle';
+import SectionTitle from '../../UI/SectionComponents/SectionTItle';
 
 import classes from './Roadmap.module.css';
 import Timeline from './Timeline';
@@ -12,7 +12,7 @@ import {
 } from 'react-icons/bi';
 import { SiNextdotjs, SiExpress } from 'react-icons/si';
 import { ScrollParallax } from 'react-just-parallax';
-import SectionBlock from '../../UI/SectionBlock';
+import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import { useTranslation } from 'react-i18next';
 
 const Roadmap = () => {
