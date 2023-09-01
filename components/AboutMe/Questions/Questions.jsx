@@ -2,7 +2,7 @@ import classes from './Questions.module.css';
 
 import { useState } from 'react';
 import Skills from './Answers/Skills';
-import WhyStartnned from './Answers/WhyStarted';
+import WhyStarted from './Answers/WhyStarted';
 import WhyKept from './Answers/WhyKept';
 import FuturePlans from './Answers/FuturePlans';
 
