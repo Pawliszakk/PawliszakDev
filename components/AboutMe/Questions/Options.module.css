@@ -6,6 +6,7 @@
 	font-size: 1.2rem;
 	cursor: pointer;
 	color: var(--text-color);
+
 }
 .options li {
 	position: relative;
@@ -15,6 +16,7 @@
 	justify-content: center;
 	align-items: center;
 	transition: color 0.3s;
+
 }
 .options li:hover {
 	color: var(--main-cta);
