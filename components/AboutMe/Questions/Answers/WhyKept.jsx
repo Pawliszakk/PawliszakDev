@@ -1,12 +1,8 @@
-import ShowAnimation from '../../../UI/Animations/ShowAnimation';
+import AnswerTemplate from '../../../UI/AnswerTemplate';
 import classes from './WhyKept.module.css';
 
 const WhyKept = () => {
-	return (
-		<ShowAnimation>
-			<h1>Why Kept going</h1>
-		</ShowAnimation>
-	);
+	return <AnswerTemplate heading="Future Plans"></AnswerTemplate>;
 };
 
 export default WhyKept;

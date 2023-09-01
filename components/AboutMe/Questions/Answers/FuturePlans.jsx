@@ -1,12 +1,8 @@
 import ShowAnimation from '../../../UI/Animations/ShowAnimation';
+import AnswerTemplate from '../../../UI/AnswerTemplate';
 import classes from './FuturePlans.module.css';
 const FuturePlans = () => {
-	return (
-		<ShowAnimation>
-			{' '}
-			<h1>my future plans</h1>
-		</ShowAnimation>
-	);
+	return <AnswerTemplate heading="Future Plans"></AnswerTemplate>;
 };
 
 export default FuturePlans;

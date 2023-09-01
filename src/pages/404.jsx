@@ -5,6 +5,7 @@ const Custom404 = () => {
 		<>
 			<Head>
 				<title>PawliszakDev - Page Not Found</title>
+				<meta name="robots" content="follow, noarchive, noindex"></meta>
 			</Head>
 			<ErrorPage />
 		</>

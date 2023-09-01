@@ -1,5 +1,6 @@
 .hero {
 	position: relative;
+
 	background-image: url('/assets/heroBg.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;

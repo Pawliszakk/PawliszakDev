@@ -1,12 +1,8 @@
-import ShowAnimation from '../../../UI/Animations/ShowAnimation';
+import AnswerTemplate from '../../../UI/AnswerTemplate';
 import classes from './WhyStarted.module.css';
 
 const WhyStarted = () => {
-	return (
-		<ShowAnimation>
-			<h1>why i started</h1>
-		</ShowAnimation>
-	);
+	return <AnswerTemplate heading="Why i started"></AnswerTemplate>;
 };
 
 export default WhyStarted;

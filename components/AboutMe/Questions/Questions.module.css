@@ -1,7 +1,6 @@
 .questions {
 	position: relative;
 	background-color: var(--main-color-lighter);
-	text-align: center;
 	background-image: url('/assets/heroBg.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -44,9 +43,12 @@
 	background-color: var(--main-color);
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
 	.box {
 		flex-direction: row;
 		justify-content: space-around;
 	}
+} */
+.apiText {
+	top: -4rem !important;
 }

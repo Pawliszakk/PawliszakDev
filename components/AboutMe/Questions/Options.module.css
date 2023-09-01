@@ -16,12 +16,18 @@
 	align-items: center;
 }
 .options li svg {
-	font-size: 7rem;
 	position: absolute;
+	font-size: 7rem;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	opacity: 0.2;
+}
+.indicator {
+	position: absolute;
+	top: 50%;
+
+	width: 100%;
 }
 .active {
 	color: var(--main-cta);
@@ -43,10 +49,10 @@
 	}
 }
 @media (min-width: 992px) {
-	.options {
+	/* .options {
 		flex-direction: column;
 		gap: 6rem;
-	}
+	} */
 	.options li {
 		font-size: 2.8rem;
 	}
