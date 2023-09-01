@@ -52,7 +52,20 @@
 		"contact": {
 			"heading": "Skontaktuj się",
 			"text": "Jeśli moja droga wzbudziła twoje zainteresowanie, lub być może chciałbyś nawiązać ze mną współpracę, moja skrzynka jest zawsze otwarta. Niezależnie od tego, czy masz pytanie, czy po prostu chcesz się przywitać, kliknij przycisk poniżej i wybierz jak chcesz się ze mną skontakować"
-		}
+		},
+		"techStack": "Tech Stack",
+		"other": "Inne",
+		"traits": "Cechy",
+		"trait1": "Szybko sie uczę",
+		"trait2": "Otwarty na nowości",
+		"trait3": "Angielski B2+",
+		"trait4": "Skupiony na rozwoju",
+		"trait5": "Determinacja",
+		"trait6": "Myślę analitycznie",
+		"trait7": "Kreatywny",
+		"trait8": "Uwaga na szczegóły",
+		"trait9": "Komunikatywny",
+		"trait10": "Współpraca zespołowa"
 	},
 	"contact": {
 		"heading": "Skontaktuj się ze mną!"

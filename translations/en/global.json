@@ -40,7 +40,7 @@
 	},
 	"about": {
 		"header": "About Me",
-	
+
 		"HTML5/CSS3": "In my first 2-3 months of learning frontend, I learned HTML5 semantics, metatags, building website skeletons out of HTML elements. What goes behind HTML, I learned CSS3, topics like responsive web design, specificity in CSS, flexbox, grid, pseudoclasses, pseudoelements, etc.",
 		"SASS/SCSS": "The next step in my learning journey was SCSS. I learned how to work with this pre-processor, how to work with SCSS variables, mixins, @use & @forward. How and why we could work with the Block Element Modifier methodology and make web design much easier.",
 		"JavaScript": "The next step was JavaScript. I started by understanding the basics of JavaScript such as variables, data types, operators, connecting to the API and control structures. I also learned ES6+ features such as const, let, arrow functions, template literals, array and object destructuring, import, export, etc.",
@@ -51,7 +51,20 @@
 		"contact": {
 			"heading": "Contact Me",
 			"text": "If my journey has piqued your interest, perhaps you'd like to collaborate, my inbox is always open. Whether you have a question or just want to say hello, click button below and choose your way to contact me"
-		}
+		},
+		"techStack": "Tech Stack",
+		"other": "Other",
+		"traits": "traits",
+		"trait1": "Fast learner",
+		"trait2": "Open-minded",
+		"trait3": "English B2+",
+		"trait4": "Growth-oriented",
+		"trait5": "Determined",
+		"trait6": "Analytical thinking",
+		"trait7": "Creative",
+		"trait8": "Attention to Detail",
+		"trait9": "Communication",
+		"trait10": " Team Collaboration"
 	},
 	"contact": {
 		"heading": "Get in touch with me!"

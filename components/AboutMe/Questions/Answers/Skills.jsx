@@ -17,9 +17,19 @@ import {
 	SiRedux,
 } from 'react-icons/si';
 import { BsGit } from 'react-icons/bs';
-import { TbJson } from 'react-icons/tb';
+import { MdHttp } from 'react-icons/md';
+import {
+	TbJson,
+	TbLetterR,
+	TbLetterE,
+	TbLetterS,
+	TbLetterT,
+} from 'react-icons/tb';
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+	const [t, i18n] = useTranslation('global');
+
 	const techIcons = [
 		{ icon: <AiFillHtml5 />, text: 'HTML5', type: 'stack' },
 		{ icon: <FaCss3Alt />, text: 'CSS3', type: 'stack' },
@@ -36,16 +46,32 @@ const Skills = () => {
 		{ icon: <FaNpm />, text: 'Npm', type: 'other' },
 		{ icon: <SiEslint />, text: 'Eslint', type: 'other' },
 		{ icon: <SiFramer />, text: 'Framer', type: 'other' },
+		{
+			icon: (
+				<div className={classes.api}>
+					<TbLetterR />
+					<TbLetterE />
+					<TbLetterS />
+					<TbLetterT />
+				</div>
+			),
+			text: 'RestAPI',
+			type: 'other',
+		},
 		{ icon: <TbJson />, text: 'JSON', type: 'other' },
+		{ icon: <MdHttp />, text: 'HTTP', type: 'other' },
 	];
 	const traits = [
-		'Fast learner',
-		'Open-minded',
-		'English B2+',
-		'Growth-oriented',
-		'Determined',
-		'Analytical thinking',
-		'Creative',
+		t('about.trait1'),
+		t('about.trait2'),
+		t('about.trait3'),
+		t('about.trait4'),
+		t('about.trait5'),
+		t('about.trait6'),
+		t('about.trait7'),
+		t('about.trait8'),
+		t('about.trait9'),
+		t('about.trait10'),
 	];
 
 	const techStack = techIcons.filter((icon) => icon.type === 'stack');
@@ -54,7 +80,14 @@ const Skills = () => {
 	const listRenderHandler = (list) => {
 		return list.map((icon) => (
 			<li key={icon.text}>
-				{icon.icon} <div className={classes.iconText}>{icon.text}</div>
+				{icon.icon}{' '}
+				<div
+					className={`${classes.iconText} ${
+						icon.text === 'RestAPI' ? classes.apiText : null
+					}`}
+				>
+					{icon.text}
+				</div>
 			</li>
 		));
 	};
@@ -62,11 +95,11 @@ const Skills = () => {
 	return (
 		<AnswerTemplate heading="My Skills">
 			<div className={classes.box}>
-				<h3>Tech Stack</h3>
+				<h3>{t('about.techStack')}</h3>
 				<ul className={classes.tech}>{listRenderHandler(techStack)}</ul>
-				<h3>Other</h3>
+				<h3>{t('about.other')}</h3>
 				<ul className={classes.tech}>{listRenderHandler(otherTech)}</ul>
-				<h3>Traits</h3>
+				<h3>{t('about.traits')}</h3>
 				<ul className={classes.traits}>
 					{traits.map((trait, i) => (
 						<li key={i}>{trait}</li>

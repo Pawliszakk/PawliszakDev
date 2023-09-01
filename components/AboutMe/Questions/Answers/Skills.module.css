@@ -70,11 +70,19 @@
 	border-radius: 10px;
 	margin: 1em;
 	padding: 1em;
-	transition: color 0.3s, background-color 0.3s;
+	transition: color 0.3s, border-color 0.3s;
 }
 .traits li:hover {
-	color: #000;
-	background-color: #fff;
+	border-color: var(--main-cta);
+	color: var(--main-cta);
+}
+.api svg {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 1.6rem !important;
+}
+.apiText {
+	top: -4rem !important;
 }
 
 @media (min-width: 400px) {
@@ -90,6 +98,9 @@
 	.iconText {
 		font-size: 1.4rem;
 		top: -3rem;
+	}
+	.apiText {
+		top: -5rem !important;
 	}
 }
 
@@ -113,6 +124,9 @@
 	}
 	.iconText {
 		font-size: 1.6rem;
+	}
+	.apiText {
+		top: -5.5rem !important;
 	}
 }
 @media (min-width: 1200px) {

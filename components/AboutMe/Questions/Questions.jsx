@@ -2,7 +2,7 @@ import classes from './Questions.module.css';
 
 import { useState } from 'react';
 import Skills from './Answers/Skills';
-import WhyStarted from './Answers/WhyStarted';
+import WhyStartnned from './Answers/WhyStarted';
 import WhyKept from './Answers/WhyKept';
 import FuturePlans from './Answers/FuturePlans';
 
@@ -24,12 +24,11 @@ const Questions = () => {
 	return (
 		<section className={classes.questions}>
 			<SectionBlock left className={classes.blockTop}></SectionBlock>
-
 			<div className={classes.shadow}></div>
 
 			<div className={classes.box}>
 				<Options option={content} key={1} onContentChange={contentHandler} />
-				<div className={classes.content}>{currentAnswer}</div>
+				{currentAnswer}
 			</div>
 
 			<SectionBlock left className={classes.blockBottom} />
