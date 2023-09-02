@@ -31,3 +31,8 @@
 		font-size: 1.9rem;
 	}
 }
+@media (min-width: 1200px) {
+	.box {
+		max-width: 700px;
+	}
+}
