@@ -2,20 +2,19 @@ import classes from './Questions.module.css';
 
 import { useState } from 'react';
 import Skills from './Answers/Skills/Skills';
-import WhyStarted from './Answers/WhyStarted';
-import WhyKept from './Answers/WhyKept';
-import FuturePlans from './Answers/FuturePlans';
+
+import FuturePlans from './Answers/FuturePlans/FuturePlans';
 
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import Options from './Options';
+import WhatSpecial from './Answers/WhatSpecial/WhatSpecial';
 
 const Questions = () => {
 	const [content, setContent] = useState(0);
 
 	const answersComponents = [
 		{ component: <Skills />, id: 'skills' },
-		{ component: <WhyStarted />, id: 'whyStarted' },
-		{ component: <WhyKept />, id: 'whyKept' },
+		{ component: <WhatSpecial />, id: 'WhatSpecial' },
 		{ component: <FuturePlans />, id: 'futurePlans' },
 	];
 	const currentAnswer = answersComponents[content].component;

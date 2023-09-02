@@ -7,9 +7,8 @@ import { motion } from 'framer-motion';
 const Options = ({ option, onContentChange }) => {
 	const optionsItems = [
 		{ text: 'My Skills', icon: <FaReact /> },
-		{ text: 'Why started', icon: <FaRegLightbulb /> },
-		{ text: 'Why kept going', icon: <BiCodeAlt /> },
-		{ text: 'Willing to do', icon: <TbUserQuestion /> },
+		{ text: 'What makes me stand out', icon: <BiCodeAlt /> },
+		{ text: 'Future Plans', icon: <TbUserQuestion /> },
 	];
 	return (
 		<ul className={classes.options}>
