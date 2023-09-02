@@ -7,7 +7,7 @@ import FuturePlans from './Answers/FuturePlans/FuturePlans';
 
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import Options from './Options';
-import WhatSpecial from './Answers/WhatSpecial/WhatSpecial';
+import WhatSpecial from './Answers/WhatSpecial/WhyMe';
 
 const Questions = () => {
 	const [content, setContent] = useState(0);

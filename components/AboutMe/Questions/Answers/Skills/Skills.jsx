@@ -26,7 +26,7 @@ import {
 	TbLetterT,
 } from 'react-icons/tb';
 import { useTranslation } from 'react-i18next';
-import SkillIcon from './Lists/SkillIcon';
+
 import TechList from './Lists/TechList';
 import AnswerHeading from '../../../../UI/Answers/AnswerHeading';
 

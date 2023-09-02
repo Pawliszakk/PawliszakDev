@@ -2,6 +2,7 @@
 	position: relative;
 	font-size: 2rem;
 	color: var(--main-cta);
+	text-align: left;
 }
 .heading::before {
 	position: absolute;
