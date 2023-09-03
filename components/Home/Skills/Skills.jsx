@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import classes from './Skills.module.scss';
 
-import LinkButton from '../../UI/Buttons/LinkButton';
+import LinkButton from '../../UI/buttons/LinkButton';
 import useDisplay from '@/hooks/useDisplay';
 import SkillsList from './SkillList/SkillsList';
 

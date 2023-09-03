@@ -3,7 +3,7 @@ import AvatarBlob from '../../UI/AvatarBlob';
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import SectionTitle from '../../UI/SectionComponents/SectionTItle';
 import classes from './Contact.module.scss';
-import LinkButton from '../../UI/Buttons/LinkButton';
+import LinkButton from '../../UI/buttons/LinkButton';
 import Icons from './Icons';
 
 const Contact = () => {

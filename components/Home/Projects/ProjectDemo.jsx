@@ -1,6 +1,6 @@
 import classes from './ProjectDemo.module.scss';
 import Image from 'next/image';
-import LinkButton from '../../UI/Buttons/LinkButton';
+import LinkButton from '../../UI/buttons/LinkButton';
 import SlideFromTop from '../../UI/Animations/SlideFromTop';
 import { useTranslation } from 'react-i18next';
 

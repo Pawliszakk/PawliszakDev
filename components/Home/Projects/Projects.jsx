@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import SectionTitle from '../../UI/SectionComponents/SectionTItle';
-import LinkButton from '../../UI/Buttons/LinkButton';
-import SpecialLink from '../../UI/Buttons/SpecialLink';
+import LinkButton from '../../UI/buttons/LinkButton';
+import SpecialLink from '../../UI/buttons/SpecialLink';
 import ProjectDemos from './ProjectDemos';
 import classes from './Projects.module.scss';
 

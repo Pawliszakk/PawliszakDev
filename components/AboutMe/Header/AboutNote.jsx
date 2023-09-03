@@ -2,7 +2,7 @@ import SectionTitle from '../../UI/SectionComponents/SectionTItle';
 import SlideAnimation from '../../UI/Animations/SlideAnimation';
 import { useTranslation } from 'react-i18next';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
-import SpecialLink from '../../UI/Buttons/SpecialLink';
+import SpecialLink from '../../UI/buttons/SpecialLink';
 import classes from './AboutNote.module.scss';
 import NoteContent from './NoteContent';
 

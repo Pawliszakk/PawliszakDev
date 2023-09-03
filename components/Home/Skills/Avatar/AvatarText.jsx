@@ -1,6 +1,6 @@
 import classes from './AvatarText.module.scss';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
-import SpecialLink from '../../../UI/Buttons/SpecialLink';
+import SpecialLink from '../../../UI/buttons/SpecialLink';
 import { useTranslation } from 'react-i18next';
 
 const AvatarText = () => {
