@@ -1,6 +1,6 @@
 import Layout from '../../components/layout/Layout';
 import { ThemeContextProvider } from '../../store/theme-context';
-import '../styles/globals.css';
+import '../styles/globals.scss';
 import '../styles/variables.css';
 import Head from 'next/head';
 import global_en from '../../translations/en/global.json';
