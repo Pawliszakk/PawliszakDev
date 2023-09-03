@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -33,34 +34,34 @@
 	}
 }
 
-@media (min-width: 400px) {
+@media (min-width: $xs) {
 	.logo {
 		a {
 			font-size: 2.6rem;
 		}
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: $m) {
 	.header {
 		padding: 0;
 	}
 }
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.logo {
 		font-size: 3rem;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.logo {
 		font-size: 3.5rem;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.header {
 		padding: 0 5%;
 	}
 }
-@media (min-width: 1400px) {
+@media (min-width: $xxl) {
 	.header {
 		padding: 0 10%;
 	}

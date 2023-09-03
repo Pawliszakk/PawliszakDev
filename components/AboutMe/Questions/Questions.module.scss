@@ -1,3 +1,5 @@
+@use '../../../src/styles/queries.scss' as *;
+
 .questions {
 	position: relative;
 	background-color: var(--main-color-lighter);
@@ -42,7 +44,7 @@
 	background-color: var(--main-color);
 }
 
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.apiText {
 		top: -4rem !important;
 	}

@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .modal {
 	position: fixed;
 	left: 50%;
@@ -21,7 +22,7 @@
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: $xl) {
 	.modal {
 		font-size: 1.2rem;
 	}

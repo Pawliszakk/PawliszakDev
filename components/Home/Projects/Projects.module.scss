@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .projects {
 	position: relative;
 	background-color: var(--main-color);
@@ -25,7 +26,7 @@
 	left: -20%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: $xs) {
 	.projects {
 		p {
 			font-size: 1.6rem;
@@ -33,7 +34,7 @@
 		}
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.projects {
 		p {
 			font-size: 1.8rem;

@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .icons {
 	display: flex;
 	justify-content: center;
@@ -32,7 +33,7 @@
 	top: 5px;
 	right: 5px;
 }
-@media (min-width: 400px) {
+@media (min-width: $xs) {
 	.icons {
 		svg {
 			width: 20px;
@@ -44,7 +45,7 @@
 		font-size: 1.1rem;
 	}
 }
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.icons {
 		svg {
 			width: 30px;
@@ -56,7 +57,7 @@
 		font-size: 1.3rem;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.icons {
 		svg {
 			width: 40px;
@@ -68,7 +69,7 @@
 		font-size: 1.6rem;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.icons {
 		svg {
 			width: 50px;

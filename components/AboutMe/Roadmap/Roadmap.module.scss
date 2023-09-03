@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .roadmap {
 	position: relative;
 	display: flex;
@@ -79,7 +80,7 @@
 	}
 }
 
-@media (min-width: 400px) {
+@media (min-width: $xs) {
 	.icon {
 		width: 150px;
 		height: 150px;
@@ -88,7 +89,7 @@
 		font-size: 1.6rem;
 	}
 }
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.icon {
 		width: 200px;
 		height: 200px;
@@ -98,7 +99,7 @@
 		width: 350px;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.icon {
 		width: 250px;
 		height: 250px;
@@ -108,7 +109,7 @@
 		width: 400px;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $l) {
 	.icon {
 		width: 300px;
 		height: 300px;

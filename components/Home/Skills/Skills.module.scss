@@ -1,3 +1,5 @@
+@use '../../../src/styles/queries.scss' as *;
+
 .skills {
 	position: relative;
 	background-color: #dedede;
@@ -28,7 +30,7 @@
 	background-color: var(--decoration-color);
 }
 
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.container {
 		flex-direction: row;
 		justify-content: space-around;

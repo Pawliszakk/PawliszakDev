@@ -1,3 +1,5 @@
+@use '../../../src/styles/queries.scss' as *;
+
 .heading {
 	text-align: center;
 	font-size: 3rem;
@@ -5,12 +7,12 @@
 	z-index: 2;
 }
 
-@media (min-width: 576px) {
+@media (min-width:$s) {
 	.heading {
 		font-size: 3.5rem;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.heading {
 		font-size: 5rem;
 	}

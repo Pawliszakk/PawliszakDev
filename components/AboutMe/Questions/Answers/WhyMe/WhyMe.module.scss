@@ -1,3 +1,5 @@
+@use '../../../../../src/styles/queries.scss' as *;
+
 .box {
 	margin-top: 2em;
 	color: #fff;
@@ -7,7 +9,7 @@
 	}
 }
 
-@media (min-width: 400px) {
+@media (min-width: $xs) {
 	.box {
 		p {
 			font-size: 1.5rem;
@@ -15,7 +17,7 @@
 	}
 }
 
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.box {
 		max-width: 500px;
 		p {
@@ -23,21 +25,21 @@
 		}
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: $m) {
 	.box {
 		p {
 			font-size: 1.8rem;
 		}
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.box {
 		p {
 			font-size: 1.9rem;
 		}
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.box {
 		max-width: 700px;
 	}

@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .header {
 	margin-top: 10vh;
 	padding-top: 2em;
@@ -35,19 +36,19 @@
 	background-color: var(--main-color);
 }
 
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.blob {
 		width: 400px;
 		height: 400px;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.box {
 		flex-direction: row;
 		gap: 8rem;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.box {
 		gap: 15rem;
 	}
@@ -56,7 +57,7 @@
 		height: 500px;
 	}
 }
-@media (min-width: 1400px) {
+@media (min-width: $xxl) {
 	.box {
 		flex-direction: row;
 		gap: 20rem;

@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .option {
 	padding: 1em;
 	border-radius: 50px;
@@ -53,22 +54,22 @@
 	}
 }
 
-@media (min-width: 400px) {
+@media (min-width: $xs) {
 	.option {
 		font-size: 1.6rem;
 	}
 }
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.option {
 		font-size: 1.8rem;
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: $m) {
 	.option {
 		font-size: 2rem;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.option {
 		font-size: 2.6rem;
 	}

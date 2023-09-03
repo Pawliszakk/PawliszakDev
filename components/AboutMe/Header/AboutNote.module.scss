@@ -1,3 +1,5 @@
+@use '../../../src/styles/queries.scss' as *;
+
 .note {
 	position: relative;
 	width: 300px;
@@ -31,7 +33,7 @@
 	right: 0.5rem;
 }
 
-@media (min-width: 400px) {
+@media (min-width: $xs) {
 	.note {
 		width: 370px;
 		h2 {
@@ -39,7 +41,7 @@
 		}
 	}
 }
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.note {
 		width: 450px;
 		h2 {
@@ -54,7 +56,7 @@
 		top: 4.5rem;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.note {
 		padding: 4rem;
 		p,
@@ -71,7 +73,7 @@
 		left: 1rem;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.note {
 		width: 600px;
 		h2 {

@@ -1,3 +1,4 @@
+@use '../../../../../../src/styles/queries.scss' as *;
 .item {
 	position: relative;
 	transition: color 0.3s;
@@ -50,7 +51,7 @@
 	top: -4rem !important;
 }
 
-@media (min-width: 400px) {
+@media (min-width: $xs) {
 	.box {
 		max-width: 380px;
 	}
@@ -69,7 +70,7 @@
 	}
 }
 
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.box {
 		max-width: 500px;
 	}
@@ -79,7 +80,7 @@
 		}
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: $m) {
 	.box {
 		max-width: 600px;
 	}
@@ -96,7 +97,7 @@
 		top: -5.5rem !important;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.item {
 		svg {
 			font-size: 4rem;

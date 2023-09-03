@@ -1,3 +1,5 @@
+@use '../../../src/styles/queries.scss' as *;
+
 .box {
 	display: flex;
 	justify-content: center;
@@ -14,14 +16,14 @@
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: $m) {
 	.box {
 		width: 50px;
 		height: 50px;
 		font-size: 2.2rem;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.box {
 		font-size: 3rem;
 	}

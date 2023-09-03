@@ -1,3 +1,5 @@
+@use '../../../src/styles/queries.scss' as *;
+
 .mail {
 	top: 10%;
 	left: 0;
@@ -27,7 +29,7 @@
 	opacity: 0.1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $l) {
 	.mail {
 		top: 10%;
 		left: 15%;

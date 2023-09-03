@@ -1,3 +1,5 @@
+@use '../../../src/styles/queries.scss' as *;
+
 .decoration {
 	position: absolute;
 	color: var(--main-color);
@@ -58,19 +60,19 @@
 	}
 }
 
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.nextIcon {
 		width: 170px;
 		height: 170px;
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: $m) {
 	.jsIcon {
 		width: 100px;
 		height: 100px;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: $l) {
 	.reactIcon {
 		width: 1000px;
 		height: 1000px;
@@ -97,7 +99,7 @@
 		}
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.nextIcon {
 		width: 230px;
 		height: 230px;

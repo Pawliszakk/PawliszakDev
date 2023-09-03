@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .overlay {
 	position: fixed;
 	top: 0;
@@ -40,7 +41,7 @@
 	}
 }
 
-@media (min-width: 576px) {
+@media (min-width: $s) {
 	.overlay {
 		p {
 			font-size: 7rem;
@@ -50,7 +51,7 @@
 		}
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: $xl) {
 	.overlay {
 		p {
 			font-size: 8rem;
