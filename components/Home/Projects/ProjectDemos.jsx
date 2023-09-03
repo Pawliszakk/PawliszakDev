@@ -1,6 +1,7 @@
 import classes from './ProjectDemos.module.scss';
 import ProjectDemo from './ProjectDemo';
 import { useTranslation } from 'react-i18next';
+
 const ProjectDemos = () => {
 	const [t, i18n] = useTranslation('global');
 	const projects = [
@@ -18,7 +19,14 @@ const ProjectDemos = () => {
 			href: 'https://www.pawliszakdev.com/',
 			detail: '/projects/pawliszakdev',
 			title: t('latestprojects.titledev'),
-			tech: ['React.js', 'Next.js', 'CSS Modules', 'Framer Motion', 'i18next'],
+			tech: [
+				'React.js',
+				'Next.js',
+				'CSS Modules',
+				'SCSS',
+				'Framer Motion',
+				'i18next',
+			],
 		},
 		{
 			src: '/assets/projects/ecofresh.JPG',
