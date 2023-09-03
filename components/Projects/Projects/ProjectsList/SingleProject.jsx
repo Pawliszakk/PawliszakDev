@@ -1,4 +1,4 @@
-import classes from './SingleProject.module.css';
+import classes from './SingleProject.module.scss';
 
 const SingleProject = () => {
 	return (

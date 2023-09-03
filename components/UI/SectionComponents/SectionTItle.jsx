@@ -1,4 +1,4 @@
-import classes from './SectionTitle.module.css';
+import classes from './SectionTitle.module.scss';
 
 const SectionTitle = ({ children, className }) => {
 	return (

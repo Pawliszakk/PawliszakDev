@@ -1,5 +1,5 @@
 import AvatarBlob from '../UI/AvatarBlob';
-import classes from './ErrorPage.module.css';
+import classes from './ErrorPage.module.scss';
 
 const ErrorPage = () => {
 	return (

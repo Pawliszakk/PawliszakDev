@@ -1,5 +1,5 @@
-import classes from './Options.module.css';
-import { FaReact, FaRegLightbulb } from 'react-icons/fa';
+import classes from './Options.module.scss';
+import { FaReact } from 'react-icons/fa';
 import { BiCodeAlt } from 'react-icons/bi';
 import { TbUserQuestion } from 'react-icons/tb';
 import { motion } from 'framer-motion';
@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Options = ({ option, onContentChange }) => {
 	const optionsItems = [
 		{ text: 'My Skills', icon: <FaReact /> },
-		{ text: 'What makes me stand out', icon: <BiCodeAlt /> },
+		{ text: 'Why Me', icon: <BiCodeAlt /> },
 		{ text: 'Future Plans', icon: <TbUserQuestion /> },
 	];
 	return (
@@ -23,9 +23,7 @@ const Options = ({ option, onContentChange }) => {
 					{item.text}
 
 					{i === option && (
-						<motion.div layoutId="indicator" className={classes.indicator}>
-							{item.icon}
-						</motion.div>
+						<motion.div layoutId="indicator">{item.icon}</motion.div>
 					)}
 				</motion.li>
 			))}

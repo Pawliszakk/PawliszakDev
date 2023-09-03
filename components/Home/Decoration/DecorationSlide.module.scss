@@ -1,0 +1,64 @@
+.decoration {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--decoration-color);
+	text-align: center;
+	padding: 15em 0;
+	overflow: hidden;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 9rem;
+}
+.icon {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	color: var(--main-color);
+	z-index: 0;
+}
+.iconFirst {
+	right: 0%;
+	bottom: 0;
+}
+.iconSecond {
+	left: 0;
+	top: 0;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0) rotate(0);
+	}
+	50% {
+		transform: translateY(5px) rotate(-5deg);
+	}
+	100% {
+		transform: translateY(0) rotate(0);
+	}
+}
+@media (min-width: 768px) {
+	.box {
+		flex-flow: row wrap;
+	}
+}
+@media (min-width: 1200px) {
+	.decoration {
+		padding-top: 6em;
+		padding-bottom: 14em;
+	}
+	.box {
+		gap: 5rem;
+	}
+}
+@media (min-width: 1400px) {
+	.box {
+		gap: 10rem;
+	}
+}

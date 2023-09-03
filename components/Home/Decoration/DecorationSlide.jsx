@@ -1,4 +1,4 @@
-import classes from './DecorationSlide.module.css';
+import classes from './DecorationSlide.module.scss';
 import { HiOutlineDeviceMobile } from 'react-icons/hi';
 import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
 import { ScrollParallax } from 'react-just-parallax';

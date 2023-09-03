@@ -1,0 +1,49 @@
+.pros {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	width: 250px;
+	min-height: 200px;
+	padding: 2em;
+	background-color: var(--pros-color);
+	color: var(--text-color);
+	border-radius: 5px;
+	z-index: 1;
+	box-shadow: var(--pros-shadow);
+	&:hover svg {
+		transform: scale(1.2);
+	}
+	h2 {
+		font-size: 2.6rem;
+		padding: 0.2em 0;
+	}
+	p {
+		font-size: 1.6rem;
+		font-weight: 200;
+	}
+	svg {
+		color: #fff;
+		position: absolute;
+		bottom: -70px;
+		left: -15px;
+		height: 100px;
+		width: 102px;
+		transition: transform 0.3s;
+		z-index: -1;
+	}
+}
+
+@media (min-width: 576px) {
+	.pros {
+		width: 350px;
+		h2 {
+			font-size: 3rem;
+		}
+		p {
+			font-size: 1.8rem;
+		}
+	}
+}

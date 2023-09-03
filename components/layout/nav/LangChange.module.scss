@@ -1,0 +1,28 @@
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	color: var(--nav-link);
+	cursor: pointer;
+	font-size: 3rem;
+	border-radius: 50%;
+	transition: background-color 0.3s;
+	font-weight: 200;
+	&:hover {
+		background-color: var(--nav-link-hover);
+	}
+}
+@media (min-width: 768px) {
+	.box {
+		width: 50px;
+		height: 50px;
+		font-size: 2.2rem;
+	}
+}
+@media (min-width: 1200px) {
+	.box {
+		font-size: 3rem;
+	}
+}

@@ -1,5 +1,5 @@
 import Stop from './Stop';
-import classes from './Timeline.module.css';
+import classes from './Timeline.module.scss';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { FaCss3Alt, FaReact } from 'react-icons/fa';
 import {

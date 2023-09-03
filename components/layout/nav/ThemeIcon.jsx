@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import classes from './ThemeIcon.module.css';
+import classes from './ThemeIcon.module.scss';
 import { motion } from 'framer-motion';
 import { BsSunFill, BsMoonFill } from 'react-icons/bs';
 import ThemeContext from '../../../store/theme-context';

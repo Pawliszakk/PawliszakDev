@@ -1,4 +1,4 @@
-import classes from './AvatarBlob.module.css';
+import classes from './AvatarBlob.module.scss';
 import Image from 'next/image';
 const AvatarBlob = ({ image, alt, className }) => {
 	return (

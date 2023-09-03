@@ -1,4 +1,4 @@
-import classes from './SectionBlock.module.css';
+import classes from './SectionBlock.module.scss';
 
 const SectionBlock = ({ className, left, footer }) => {
 	let direction;

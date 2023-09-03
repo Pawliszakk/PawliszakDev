@@ -1,0 +1,15 @@
+.heading {
+	position: relative;
+	font-size: 2rem;
+	color: var(--main-cta);
+	text-align: left;
+	&::before {
+		position: absolute;
+		content: '';
+		width: 10px;
+		height: 2px;
+		background-color: var(--main-cta);
+		bottom: -3px;
+		left: 0;
+	}
+}

@@ -1,4 +1,4 @@
-import classes from './LinkButton.module.css';
+import classes from './LinkButton.module.scss';
 import { useRouter } from 'next/router';
 
 const LinkButton = ({ href, children, className, anchor, nav }) => {

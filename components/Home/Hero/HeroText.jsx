@@ -1,6 +1,6 @@
 import { Typewriter } from 'react-simple-typewriter';
-import LinkButton from '../../UI/buttons/LinkButton';
-import classes from './HeroText.module.css';
+import LinkButton from '../../UI/Buttons/LinkButton';
+import classes from './HeroText.module.scss';
 import { useTranslation } from 'react-i18next';
 
 const HeroText = () => {

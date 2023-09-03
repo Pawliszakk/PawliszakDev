@@ -1,4 +1,4 @@
-import classes from './SkillIcon.module.css';
+import classes from './SkillIcon.module.scss';
 
 const SkillIcon = ({ icon }) => {
 	const isRestApi = icon.text === 'RestAPI';

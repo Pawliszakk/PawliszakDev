@@ -2,7 +2,7 @@ import { FaReact } from 'react-icons/fa';
 import { SiNextdotjs } from 'react-icons/si';
 import { RiJavascriptFill } from 'react-icons/ri';
 
-import classes from './Decorations.module.css';
+import classes from './Decorations.module.scss';
 
 const Decorations = () => {
 	return (

@@ -1,4 +1,4 @@
-import classes from './ScrollToSection.module.css';
+import classes from './ScrollToSection.module.scss';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 const ScrollToSection = ({ href, className }) => {

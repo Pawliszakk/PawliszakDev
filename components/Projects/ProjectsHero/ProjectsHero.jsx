@@ -1,9 +1,9 @@
 import HeroText from './HeroText';
 import AvatarBlob from '../../UI/AvatarBlob';
 import SectionHero from '../../UI/SectionComponents/SectionHero';
-import classes from './ProjectsHero.module.css';
+import classes from './ProjectsHero.module.scss';
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
-import ScrollToSection from '../../UI/buttons/ScrollToSection';
+import ScrollToSection from '../../UI/Buttons/ScrollToSection';
 import SlideAnimation from '../../UI/Animations/SlideAnimation';
 const ProjectsHero = () => {
 	return (

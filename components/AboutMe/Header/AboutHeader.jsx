@@ -3,11 +3,11 @@ import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 
 import SlideAnimation from '../../UI/Animations/SlideAnimation';
 
-import classes from './AboutHeader.module.css';
+import classes from './AboutHeader.module.scss';
 import AboutNote from './AboutNote';
 import { useTranslation } from 'react-i18next';
 
-import ScrollToSection from '../../UI/buttons/ScrollToSection';
+import ScrollToSection from '../../UI/Buttons/ScrollToSection';
 import SectionHero from '../../UI/SectionComponents/SectionHero';
 
 const AboutHeader = () => {

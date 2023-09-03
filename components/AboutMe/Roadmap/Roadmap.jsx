@@ -1,4 +1,4 @@
-import classes from './Roadmap.module.css';
+import classes from './Roadmap.module.scss';
 import SectionTitle from '../../UI/SectionComponents/SectionTItle';
 import Timeline from './Timeline';
 import { FaReact } from 'react-icons/fa';

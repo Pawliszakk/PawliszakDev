@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
-import classes from './MainNavigation.module.css';
+import classes from './MainNavigation.module.scss';
 import Link from 'next/link';
 import NavList from './NavList';
 import ThemeContext from '../../../store/theme-context';

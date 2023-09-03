@@ -1,5 +1,5 @@
 import SlideFromTop from '../../UI/Animations/SlideFromTop';
-import classes from './Pros.module.css';
+import classes from './Pros.module.scss';
 
 const Pros = ({ title, icon, text, index }) => {
 	return (

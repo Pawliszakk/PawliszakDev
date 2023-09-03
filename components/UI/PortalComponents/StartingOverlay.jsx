@@ -1,4 +1,4 @@
-import classes from './StartingOverlay.module.css';
+import classes from './StartingOverlay.module.scss';
 import { Typewriter } from 'react-simple-typewriter';
 const StartingOverlay = () => {
 	return (

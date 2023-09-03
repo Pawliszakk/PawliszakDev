@@ -1,6 +1,6 @@
 import AvatarBlob from '../../../UI/AvatarBlob';
 
-import classes from './Avatar.module.css';
+import classes from './Avatar.module.scss';
 
 import AvatarText from './AvatarText';
 import SlideAnimation from '../../../UI/Animations/SlideAnimation';

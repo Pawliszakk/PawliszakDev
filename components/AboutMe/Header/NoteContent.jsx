@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-import SpecialLink from '../../UI/buttons/SpecialLink';
+import SpecialLink from '../../UI/Buttons/SpecialLink';
 
 const NoteContent = () => {
 	const [t, i18n] = useTranslation('global');

@@ -1,5 +1,5 @@
 import ContactOption from './ContactOption';
-import classes from './ContactOptions.module.css';
+import classes from './ContactOptions.module.scss';
 import {
 	BsGithub,
 	BsInstagram,

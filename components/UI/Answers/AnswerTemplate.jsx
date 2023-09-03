@@ -1,5 +1,5 @@
 import ShowAnimation from '../Animations/ShowAnimation';
-import classes from './AnswerTemplate.module.css';
+import classes from './AnswerTemplate.module.scss';
 const AnswerTemplate = ({ children, heading, classNameHeading }) => {
 	return (
 		<ShowAnimation className={classes.box}>

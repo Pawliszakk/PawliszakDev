@@ -1,0 +1,109 @@
+.item {
+	position: relative;
+	transition: color 0.3s;
+	&:hover {
+		color: var(--main-cta);
+	}
+	svg {
+		font-size: 3rem;
+		margin: 0.3em 0.3em;
+	}
+}
+.iconText {
+	position: absolute;
+	top: -2.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 5px;
+	background-color: var(--main-cta);
+	color: #000;
+	padding: 0.5em;
+	font-size: 1.2rem;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s, visibility 0.3s;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		border-width: 5px;
+		margin-left: -5px;
+		border-style: solid;
+		border-color: var(--main-cta) transparent transparent transparent;
+	}
+}
+
+.item:hover .iconText {
+	opacity: 1;
+	visibility: visible;
+}
+
+.api {
+	svg {
+		margin: 0 !important;
+		padding: 0 !important;
+		font-size: 1.6rem !important;
+	}
+}
+.apiText {
+	top: -4rem !important;
+}
+
+@media (min-width: 400px) {
+	.box {
+		max-width: 380px;
+	}
+	.item {
+		svg {
+			font-size: 3.2rem;
+		}
+	}
+
+	.iconText {
+		font-size: 1.4rem;
+		top: -3rem;
+	}
+	.apiText {
+		top: -5rem !important;
+	}
+}
+
+@media (min-width: 576px) {
+	.box {
+		max-width: 500px;
+	}
+	.item {
+		svg {
+			font-size: 3.4rem;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.box {
+		max-width: 600px;
+	}
+	.item {
+		svg {
+			font-size: 3.8rem;
+		}
+	}
+
+	.iconText {
+		font-size: 1.6rem;
+	}
+	.apiText {
+		top: -5.5rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.item {
+		svg {
+			font-size: 4rem;
+		}
+	}
+	.iconText {
+		font-size: 1.7rem;
+		top: -3.2rem;
+	}
+}

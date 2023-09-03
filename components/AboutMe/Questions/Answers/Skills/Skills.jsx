@@ -1,4 +1,4 @@
-import classes from './Skills.module.css';
+import classes from './Skills.module.scss';
 import AnswerTemplate from '../../../../UI/Answers/AnswerTemplate';
 import { FaCss3Alt, FaNpm, FaReact } from 'react-icons/fa';
 import { AiFillHtml5 } from 'react-icons/ai';

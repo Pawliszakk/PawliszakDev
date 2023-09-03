@@ -1,6 +1,6 @@
 import { MouseParallax } from 'react-just-parallax';
 import { AiOutlineMail, AiOutlineMessage } from 'react-icons/ai';
-import classes from './Icons.module.css';
+import classes from './Icons.module.scss';
 
 const Icons = () => {
 	return (

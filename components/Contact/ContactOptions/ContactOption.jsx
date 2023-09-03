@@ -1,5 +1,5 @@
 import CopyToClipboard from 'react-copy-to-clipboard';
-import classes from './ContactOption.module.css';
+import classes from './ContactOption.module.scss';
 import { motion } from 'framer-motion';
 
 const ContactOption = ({ icon, href, name, mail, onClick, index }) => {

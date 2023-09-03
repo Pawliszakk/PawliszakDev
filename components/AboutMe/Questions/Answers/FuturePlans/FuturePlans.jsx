@@ -1,7 +1,7 @@
 import AnswerHeading from '../../../../UI/Answers/AnswerHeading';
 import AnswerTemplate from '../../../../UI/Answers/AnswerTemplate';
 
-import classes from './FuturePlans.module.css';
+import classes from './FuturePlans.module.scss';
 
 const FuturePlans = () => {
 	return (

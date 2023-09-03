@@ -1,4 +1,4 @@
-import classes from './Stop.module.css';
+import classes from './Stop.module.scss';
 import { motion } from 'framer-motion';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 const Stop = ({ index, name, icons, text }) => {

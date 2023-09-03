@@ -1,0 +1,82 @@
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	svg {
+		width: 15px;
+		height: 15px;
+	}
+}
+
+.text {
+	position: absolute;
+	width: 150px;
+	bottom: 110%;
+	right: -5%;
+	padding: 1em;
+	font-size: 1rem;
+	text-align: left;
+	background-color: var(--main-color-darker);
+	border-radius: 15px;
+	opacity: 0;
+	visibility: hidden;
+	color: var(--text-color);
+	transition: opacity 0.3s, visibility 0.3s;
+}
+.stop:hover .text {
+	opacity: 1;
+	visibility: visible;
+}
+.info {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+@media (min-width: 400px) {
+	.icons {
+		svg {
+			width: 20px;
+			height: 20px;
+		}
+	}
+	.text {
+		width: 180px;
+		font-size: 1.1rem;
+	}
+}
+@media (min-width: 576px) {
+	.icons {
+		svg {
+			width: 30px;
+			height: 30px;
+		}
+	}
+	.text {
+		width: 250px;
+		font-size: 1.3rem;
+	}
+}
+@media (min-width: 992px) {
+	.icons {
+		svg {
+			width: 40px;
+			height: 40px;
+		}
+	}
+	.text {
+		width: 350px;
+		font-size: 1.6rem;
+	}
+}
+@media (min-width: 1200px) {
+	.icons {
+		svg {
+			width: 50px;
+			height: 50px;
+		}
+	}
+	.text {
+		width: 400px;
+		font-size: 1.7rem;
+	}
+}

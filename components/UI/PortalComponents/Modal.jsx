@@ -1,4 +1,4 @@
-import classes from './Modal.module.css';
+import classes from './Modal.module.scss';
 
 import { motion } from 'framer-motion';
 import Portal from '@/lib/Portal';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import classes from './ScrollToTop.module.css';
+import classes from './ScrollToTop.module.scss';
 
 import useDisplay from '@/hooks/useDisplay';
 import { IoMdArrowRoundUp } from 'react-icons/io';

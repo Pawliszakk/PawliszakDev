@@ -1,0 +1,70 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 10vh;
+	width: 100%;
+	z-index: 10;
+	background: transparent;
+	color: var(--main-white);
+	transition: background-color 0.4s;
+	a {
+		color: var(--main-white);
+	}
+}
+.headerScrolled {
+	background-color: var(--main-color-darker);
+}
+.logo {
+	&:hover {
+		a {
+			color: var(--main-cta);
+		}
+	}
+	a {
+		font-size: 2.2rem;
+		padding: 0 0.5em;
+		font-weight: bold;
+		color: var(--nav-link);
+		transition: color 0.3s;
+	}
+}
+
+@media (min-width: 400px) {
+	.logo {
+		a {
+			font-size: 2.6rem;
+		}
+	}
+}
+@media (max-width: 768px) {
+	.header {
+		padding: 0;
+	}
+}
+@media (min-width: 576px) {
+	.logo {
+		font-size: 3rem;
+	}
+}
+@media (min-width: 992px) {
+	.logo {
+		font-size: 3.5rem;
+	}
+}
+@media (min-width: 1200px) {
+	.header {
+		padding: 0 5%;
+	}
+}
+@media (min-width: 1400px) {
+	.header {
+		padding: 0 10%;
+	}
+	.logo {
+		font-size: 4rem;
+	}
+}

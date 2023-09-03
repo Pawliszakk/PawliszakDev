@@ -1,6 +1,6 @@
 import AvatarBlob from '../../UI/AvatarBlob';
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
-import classes from './Hero.module.css';
+import classes from './Hero.module.scss';
 import HeroText from './HeroText';
 import SlideAnimation from '../../UI/Animations/SlideAnimation';
 import SectionHero from '../../UI/SectionComponents/SectionHero';

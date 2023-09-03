@@ -1,6 +1,6 @@
 import SectionTitle from '../../UI/SectionComponents/SectionTItle';
 import ProjectsList from './ProjectsList/ProjectsList';
-import classes from './ProjectsSection.module.css';
+import classes from './ProjectsSection.module.scss';
 
 const ProjectsSection = () => {
 	return (

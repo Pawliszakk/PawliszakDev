@@ -1,4 +1,4 @@
-import classes from './ProjectDemos.module.css';
+import classes from './ProjectDemos.module.scss';
 import ProjectDemo from './ProjectDemo';
 import { useTranslation } from 'react-i18next';
 const ProjectDemos = () => {

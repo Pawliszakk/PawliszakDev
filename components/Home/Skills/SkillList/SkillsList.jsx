@@ -1,5 +1,5 @@
 import Skill from './Skill';
-import classes from './SkillsList.module.css';
+import classes from './SkillsList.module.scss';
 import { motion } from 'framer-motion';
 
 const SkillsList = () => {

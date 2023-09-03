@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import classes from './Skill.module.css';
+import classes from './Skill.module.scss';
 const Skill = ({ image, text }) => {
 	return (
 		<div className={classes.skill}>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BsClipboardCheck } from 'react-icons/bs';
-import classes from './Contact.module.css';
+import classes from './Contact.module.scss';
 import ContactOptions from './ContactOptions/ContactOptions';
 import AvatarBlob from '../UI/AvatarBlob';
 import SectionBlock from '../UI/SectionComponents/SectionBlock';
@@ -22,7 +22,10 @@ const Contact = () => {
 	}, [isModal]);
 
 	return (
-		<SectionHero classNameHero={classes.contact} classNameShadow={classes.shadow}>
+		<SectionHero
+			classNameHero={classes.contact}
+			classNameShadow={classes.shadow}
+		>
 			<SlideAnimation delay={0.3}>
 				<AvatarBlob
 					className={classes.blob}

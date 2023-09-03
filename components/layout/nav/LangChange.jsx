@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import classes from './LangChange.module.css';
+import classes from './LangChange.module.scss';
 import { useState } from 'react';
 const LangChange = () => {
 	const [isEn, setIsEn] = useState(true);

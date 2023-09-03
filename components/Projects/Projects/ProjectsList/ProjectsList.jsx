@@ -1,4 +1,4 @@
-import classes from './ProjectsList.module.css';
+import classes from './ProjectsList.module.scss';
 import SingleProject from './SingleProject';
 
 const ProjectsList = () => {

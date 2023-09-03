@@ -1,4 +1,4 @@
-import classes from './Questions.module.css';
+import classes from './Questions.module.scss';
 
 import { useState } from 'react';
 import Skills from './Answers/Skills/Skills';
@@ -7,7 +7,7 @@ import FuturePlans from './Answers/FuturePlans/FuturePlans';
 
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 import Options from './Options';
-import WhatSpecial from './Answers/WhatSpecial/WhyMe';
+import WhatSpecial from './Answers/WhyMe/WhyMe';
 
 const Questions = () => {
 	const [content, setContent] = useState(0);
