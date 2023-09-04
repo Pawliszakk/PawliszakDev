@@ -27,14 +27,14 @@
 	z-index: 1;
 }
 .text {
-	z-index: 1;
-	text-align: center;
+	z-index: 12;
+
 	p {
+		background-color: var(--black);
 		max-width: 300px;
 		font-size: 1.4rem;
 		margin-bottom: 2em;
 		border-radius: 20px;
-		background-color: rgba(0, 0, 0, 0.4);
 		padding: 1em;
 	}
 }
