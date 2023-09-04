@@ -1,8 +1,8 @@
-import classes from './ProjectDemos.module.scss';
+import classes from './ProjectsList.module.scss';
 import ProjectCard from '../../UI/ProjectCard/ProjectCard';
 import { useTranslation } from 'react-i18next';
 
-const ProjectDemos = () => {
+const ProjectsList = () => {
 	const [t, i18n] = useTranslation('global');
 	const projects = [
 		{
@@ -39,7 +39,7 @@ const ProjectDemos = () => {
 	];
 
 	return (
-		<div className={classes.box}>
+		<ul className={classes.list}>
 			{projects.map((project, i) => (
 				<ProjectCard
 					key={project.alt}
@@ -52,8 +52,8 @@ const ProjectDemos = () => {
 					index={i}
 				/>
 			))}
-		</div>
+		</ul>
 	);
 };
 
-export default ProjectDemos;
+export default ProjectsList;

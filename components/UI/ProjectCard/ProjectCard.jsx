@@ -1,10 +1,11 @@
-import classes from './ProjectDemo.module.scss';
+import classes from './ProjectCard.module.scss';
 import Image from 'next/image';
-import LinkButton from '../../UI/buttons/LinkButton';
-import SlideFromTop from '../../UI/Animations/SlideFromTop';
+
+import LinkButton from '../buttons/LinkButton';
+import SlideFromTop from '../Animations/SlideFromTop';
 import { useTranslation } from 'react-i18next';
 
-const ProjectDemo = ({ href, src, alt, title, tech, detail, index }) => {
+const ProjectCard = ({ href, src, alt, title, tech, detail, index }) => {
 	const [t, i18n] = useTranslation('global');
 	const techMap = tech.map((tech) => <li key={tech}>{tech}</li>);
 
@@ -32,4 +33,4 @@ const ProjectDemo = ({ href, src, alt, title, tech, detail, index }) => {
 	);
 };
 
-export default ProjectDemo;
+export default ProjectCard;

@@ -1,0 +1,21 @@
+@use '../../../src/styles/queries.scss' as *;
+
+.list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5rem;
+}
+
+@media (min-width: $s) {
+	.list {
+		flex-flow: row wrap;
+		gap: 10rem;
+	}
+}
+@media (min-width: $xl) {
+	.list {
+		gap: 15rem;
+	}
+}
