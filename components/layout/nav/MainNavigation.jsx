@@ -16,9 +16,7 @@ const MainNavigaiton = () => {
 	const isHomePage = '/' === router.pathname;
 
 	const navBarClasses = `${classes.header}  ${
-		isNavScrolled || !isHomePage || isNavActive || !isDark
-			? classes.headerScrolled
-			: null
+		isNavScrolled || isNavActive || !isDark ? classes.headerScrolled : null
 	}`;
 	const mobileNavHandler = () => setIsNavActive((prevState) => !prevState);
 

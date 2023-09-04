@@ -22,7 +22,7 @@ const ProjectsHero = () => {
 					<HeroText />
 				</SlideAnimation>
 			</div>
-			<ScrollToSection href="#projects" />
+			<ScrollToSection href="#projects" className={classes.scroll} />
 			<SectionBlock left className={classes.block} />
 		</SectionHero>
 	);

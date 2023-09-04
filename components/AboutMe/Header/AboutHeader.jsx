@@ -14,7 +14,7 @@ const AboutHeader = () => {
 	const [t, i18n] = useTranslation('global');
 
 	return (
-		<SectionHero classNameHero={classes.header}>
+		<SectionHero>
 			<div className={classes.box}>
 				<SlideAnimation>
 					<AvatarBlob
