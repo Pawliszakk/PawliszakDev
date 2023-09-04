@@ -2,6 +2,8 @@
 	position: relative;
 	font-size: 2rem;
 	color: var(--main-cta);
+	display: flex;
+	align-items: center;
 	text-align: left;
 	&::before {
 		position: absolute;
@@ -11,5 +13,11 @@
 		background-color: var(--main-cta);
 		bottom: -3px;
 		left: 0;
+	}
+	svg {
+		color: var(--main-cta);
+
+		font-size: 2.5rem;
+		margin-left: 0.5em;
 	}
 }

@@ -81,7 +81,7 @@ const Skills = () => {
 	const otherTech = techIcons.filter((icon) => icon.type === 'other');
 
 	return (
-		<AnswerTemplate heading="My Skills">
+		<AnswerTemplate heading={t('about.option1')}>
 			<div className={classes.box}>
 				<TechList list={techStack} heading={t('about.techStack')} />
 				<TechList heading={t('about.other')} list={otherTech} />
