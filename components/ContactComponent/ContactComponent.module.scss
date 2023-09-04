@@ -1,8 +1,8 @@
-@use '../../../src/styles/queries.scss' as *;
+@use '../../src/styles/queries.scss' as *;
 
 .contact {
 	position: relative;
-	background-color: var(--main-color);
+	background-color: var(--main-color-darker);
 	color: var(--text-color);
 	overflow: hidden;
 	z-index: 1;
@@ -12,6 +12,7 @@
 		color: var(--text-color);
 	}
 }
+
 .blob {
 	width: 200px;
 	height: 200px;

@@ -1,16 +1,16 @@
 import { useTranslation } from 'react-i18next';
-import AvatarBlob from '../../UI/AvatarBlob';
-import SectionBlock from '../../UI/SectionComponents/SectionBlock';
-import SectionTitle from '../../UI/SectionComponents/SectionTItle';
-import classes from './Contact.module.scss';
-import LinkButton from '../../UI/buttons/LinkButton';
+import classes from './ContactComponent.module.scss';
 import Icons from './Icons';
+import AvatarBlob from '../UI/AvatarBlob';
+import SectionBlock from '../UI/SectionComponents/SectionBlock';
+import SectionTitle from '../UI/SectionComponents/SectionTItle';
+import LinkButton from '../UI/buttons/LinkButton';
 
-const Contact = () => {
+const ContactComponent = ({ message, home }) => {
 	const [t, i18n] = useTranslation('global');
 
 	return (
-		<section className={classes.contact}>
+		<section className={`${classes.contact} ${home ? classes.home : null} `}>
 			<SectionTitle className={classes.heading}>
 				{t('about.contact.heading')}
 			</SectionTitle>
@@ -21,7 +21,7 @@ const Contact = () => {
 					className={classes.blob}
 				/>
 				<div className={classes.text}>
-					<p>{t('about.contact.text')}</p>
+					<p>{message}</p>
 					<LinkButton href="/contact">{t('nav.contact')}</LinkButton>
 				</div>
 			</div>
@@ -31,4 +31,4 @@ const Contact = () => {
 	);
 };
 
-export default Contact;
+export default ContactComponent;

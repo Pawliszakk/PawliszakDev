@@ -25,6 +25,11 @@
 	top: -30px;
 	left: -20%;
 }
+.blockBottom {
+	background-color: var(--main-color-darker);
+	bottom: 0;
+	right: -20%;
+}
 
 @media (min-width: $xs) {
 	.projects {

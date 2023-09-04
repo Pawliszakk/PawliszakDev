@@ -23,7 +23,7 @@ const Projects = () => {
 				<LinkButton href="/projects">{t('nav.projects')}</LinkButton>
 			</div>
 			<SectionBlock className={classes.block} left />
-			<SectionBlock left footer />
+			<SectionBlock className={classes.blockBottom}  />
 		</section>
 	);
 };
