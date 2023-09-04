@@ -61,6 +61,7 @@ const Timeline = () => {
 			text: t('about.Node.js'),
 		},
 	];
+
 	const stops = roadmapStops.map((stop, i) => (
 		<Stop
 			key={i}

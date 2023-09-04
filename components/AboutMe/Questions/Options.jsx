@@ -3,12 +3,14 @@ import { FaReact } from 'react-icons/fa';
 import { BiCodeAlt } from 'react-icons/bi';
 import { TbUserQuestion } from 'react-icons/tb';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Options = ({ option, onContentChange }) => {
+	const [t, i18n] = useTranslation('global');
 	const optionsItems = [
-		{ text: 'My Skills', icon: <FaReact /> },
-		{ text: 'Why Me', icon: <BiCodeAlt /> },
-		{ text: 'Future Plans', icon: <TbUserQuestion /> },
+		{ text: t('about.option1'), icon: <FaReact /> },
+		{ text: t('about.option2'), icon: <BiCodeAlt /> },
+		{ text: t('about.option3'), icon: <TbUserQuestion /> },
 	];
 	return (
 		<ul className={classes.options}>
@@ -23,7 +25,9 @@ const Options = ({ option, onContentChange }) => {
 					{item.text}
 
 					{i === option && (
-						<motion.div layoutId="indicator">{item.icon}</motion.div>
+						<motion.div layoutId="indicator" className={classes.indicator}>
+							{item.icon}
+						</motion.div>
 					)}
 				</motion.li>
 			))}

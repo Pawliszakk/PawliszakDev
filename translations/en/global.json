@@ -64,10 +64,26 @@
 		"trait7": "Creative",
 		"trait8": "Attention to Detail",
 		"trait9": "Communication",
-		"trait10": " Team Collaboration"
+		"trait10": " Team Collaboration",
+		"option1": "My Skills",
+		"option2": "Why Me",
+		"option3": "Future Plans",
+		"whyMe1": "Working as a front-end developer often requires many hours of concentration and problem-solving. Someone with determination and strong self-discipline will be able to overcome challenges and persevere in addressing coding and design-related issues.",
+		"whyMe1Header": "Determination and self-discipline",
+		"whyMe2": "The ability to think creatively and find innovative solutions in user interface design can significantly set apart a front-end developer. Creating unique and appealing websites demands the capacity to think beyond established patterns.",
+		"whyMe2Header": "Creativity and innovation",
+		"whyMe3": "Front-end developers often need to analyze existing code, solve performance issues, and optimize interfaces. Analytical thinking and the ability to break problems down into smaller, more manageable parts can help in effectively resolving programming challenges.",
+		"whyMe3Header": "Analytical Thinking",
+
+		"future1": "Continue to stay updated with the latest React.js features .Deepen your expertise in these technology to build more complex and interactive web applications.",
+		"future1Header": "Mastering React.js",
+		"future2": "Keep up with evolving web standards, browser capabilities, and best practices to ensure your projects are compliant with the latest technologies and recommendations.",
+		"future2Header": "Stay Current with Web Standards:",
+		"future3": "Frontend development is an ever-evolving field. Make continuous learning a part of your career plan, whether through online courses, workshops, conferences, or self-study.",
+		"future3Header": "Continuous Learning"
 	},
 	"projects": {
-		"heading":"Projects",
+		"heading": "Projects",
 		"text": "Take a look at my work. I create designs that catch the user's eye and are suitable for all devices, from mobile phones to large desktop monitors. In my portfolio you will find websites, blogs, web applications based mainly on technologies around React.js, Next.js and MERN Stack for Full-Stack Applications."
 	},
 	"contact": {

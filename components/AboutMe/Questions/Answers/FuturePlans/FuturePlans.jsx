@@ -1,30 +1,22 @@
+import { useTranslation } from 'react-i18next';
 import AnswerHeading from '../../../../UI/Answers/AnswerHeading';
 import AnswerTemplate from '../../../../UI/Answers/AnswerTemplate';
 
 import classes from './FuturePlans.module.scss';
 
 const FuturePlans = () => {
+	const [t, i18n] = useTranslation('global');
 	return (
 		<AnswerTemplate heading="Future Plans">
 			<div className={classes.box}>
-				<AnswerHeading className={classes.h3}>Mastering React.js</AnswerHeading>
-				<p className={classes.content}>
-					Continue to stay updated with the latest React.js features .Deepen
-					your expertise in these technology to build more complex and
-					interactive web applications.
-				</p>
-				<AnswerHeading>Stay Current with Web Standards:</AnswerHeading>
-				<p className={classes.content}>
-					Keep up with evolving web standards, browser capabilities, and best
-					practices to ensure your projects are compliant with the latest
-					technologies and recommendations.
-				</p>
-				<AnswerHeading>Continuous Learning</AnswerHeading>
-				<p className={classes.content}>
-					Frontend development is an ever-evolving field. Make continuous
-					learning a part of your career plan, whether through online courses,
-					workshops, conferences, or self-study.
-				</p>
+				<AnswerHeading className={classes.h3}>
+					{t('about.future1Header')}
+				</AnswerHeading>
+				<p className={classes.content}>{t('about.future1')}</p>
+				<AnswerHeading>{t('about.future2Header')}</AnswerHeading>
+				<p className={classes.content}>{t('about.future2')}</p>
+				<AnswerHeading>{t('about.future3Header')}</AnswerHeading>
+				<p className={classes.content}>{t('about.future3')}</p>
 			</div>
 		</AnswerTemplate>
 	);

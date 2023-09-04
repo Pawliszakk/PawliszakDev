@@ -32,6 +32,9 @@
 .active {
 	color: var(--main-cta);
 }
+.indicator {
+	position: absolute;
+}
 @media (min-width: $xs) {
 	.options {
 		li {

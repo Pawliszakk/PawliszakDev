@@ -65,7 +65,22 @@
 		"trait7": "Kreatywny",
 		"trait8": "Uwaga na szczegóły",
 		"trait9": "Komunikatywny",
-		"trait10": "Współpraca zespołowa"
+		"trait10": "Współpraca zespołowa",
+		"option1": "Skill'sy",
+		"option2": "Dlaczego ja",
+		"option3": "Plany",
+		"whyMe1": "Budowanie, praca nad projektami front-endowymi wymaga wielu godzin koncentracji i rozwiązywania problemów. Ktoś z determinacją i silną samodyscypliną będzie w stanie pokonywać wyzwania i wytrwale rozwiązywać problemy związane z kodowaniem i projektowaniem.",
+		"whyMe1Header": "Determinacja i dyscyplina",
+		"whyMe2": "Umiejętność myślenia kreatywnie i znajdowania innowacyjnych rozwiązań w projektowaniu interfejsu użytkownika może znacząco wyróżnić front-end developera. Tworzenie unikalnych i atrakcyjnych stron internetowych wymaga zdolności do myślenia poza utartymi schematami.",
+		"whyMe2Header": "Kreatywność i innowacja",
+		"whyMe3": "Front-end developerzy często muszą analizować istniejący kod, rozwiązywać problemy z wydajnością i optymalizować interfejsy. Myślenie analityczne i umiejętność dzielenia problemów na mniejsze, bardziej zarządzalne części mogą pomóc w skutecznym rozwiązywaniu wyzwań programistycznych.",
+		"whyMe3Header": "Myślenie analityczne",
+		"future1": "Kontynuuj śledzenie najnowszych funkcji React.js. Pogłębiaj swoją wiedzę na temat tych technologii, aby tworzyć bardziej złożone i interaktywne aplikacje internetowe.",
+		"future1Header": "Opanowanie React.js",
+		"future2": "Śledź ewoluujące standardy internetowe, możliwości przeglądarek oraz najlepsze praktyki, aby zapewnić, że Twoje projekty są zgodne z najnowszymi technologiami i zaleceniami.",
+		"future2Header": "Bądź na bieżąco ze standardami internetowymi:",
+		"future3": "Frontend development to dziedzina ciągłego rozwoju. Włącz ciągłe uczenie się do swojego planu kariery, czy to poprzez kursy online, warsztaty, konferencje lub samokształcenie.",
+		"future3Header": "Ciągła nauka"
 	},
 	"projects": {
 		"heading": "Projekty",
