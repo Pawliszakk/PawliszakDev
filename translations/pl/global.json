@@ -14,6 +14,9 @@
 			"typewritter3": " Czysty Design",
 			"typewritter4": " Przyjazny Interfejs",
 			"typewritterword": " "
+		},
+		"contact": {
+			"text": "Jeśli moja strona wzbudziła twoje zainteresowanie, lub być może chciałbyś nawiązać ze mną współpracę, moja skrzynka jest zawsze otwarta. Niezależnie od tego, czy masz pytanie, czy po prostu chcesz się przywitać, kliknij przycisk poniżej i wybierz jak chcesz się ze mną skontakować"
 		}
 	},
 	"skills": {
@@ -84,7 +87,10 @@
 	},
 	"projects": {
 		"heading": "Projekty",
-		"text": "Sprawdź moje prace. Tworzę projekty, które przyciągają wzrok użytkownika i są Responsywne, dostosowane do każdego urządzenia jakie może posiadać użytkownik. W moim portfolio znajdziesz strony internetowe, blogi, aplikacje internetowe oparte głównie na technologiach React.js, Next.js i MERN Stack dla Full-Stackowych aplikacji"
+		"text": "Sprawdź moje prace. Tworzę projekty, które przyciągają wzrok użytkownika i są Responsywne, dostosowane do każdego urządzenia jakie może posiadać użytkownik. W moim portfolio znajdziesz strony internetowe, blogi, aplikacje internetowe oparte głównie na technologiach React.js, Next.js i MERN Stack dla Full-Stackowych aplikacji",
+		"contact": {
+			"text": "Jeśli moje projekty wzbudziły twoje zainteresowanie, lub być może chciałbyś nawiązać ze mną współpracę, moja skrzynka jest zawsze otwarta. Niezależnie od tego, czy masz pytanie, czy po prostu chcesz się przywitać, kliknij przycisk poniżej i wybierz jak chcesz się ze mną skontakować"
+		}
 	},
 	"contact": {
 		"heading": "Skontaktuj się ze mną!"

@@ -14,6 +14,9 @@
 			"typewritter3": " Clean Design",
 			"typewritter4": " User Friendly Interface",
 			"typewritterword": "Skilled in"
+		},
+		"contact": {
+			"text": "If my Page has piqued your interest, perhaps you'd like to collaborate, my inbox is always open. Whether you have a question or just want to say hello, click button below and choose your way to contact me"
 		}
 	},
 	"skills": {
@@ -84,7 +87,10 @@
 	},
 	"projects": {
 		"heading": "Projects",
-		"text": "Take a look at my work. I create designs that catch the user's eye and are suitable for all devices, from mobile phones to large desktop monitors. In my portfolio you will find websites, blogs, web applications based mainly on technologies around React.js, Next.js and MERN Stack for Full-Stack Applications."
+		"text": "Take a look at my work. I create designs that catch the user's eye and are suitable for all devices, from mobile phones to large desktop monitors. In my portfolio you will find websites, blogs, web applications based mainly on technologies around React.js, Next.js and MERN Stack for Full-Stack Applications.",
+		"contact": {
+			"text": "If my projects have piqued your interest, perhaps you'd like to collaborate, my inbox is always open. Whether you have a question or just want to say hello, click the button below and choose your method of contact"
+		}
 	},
 	"contact": {
 		"heading": "Get in touch with me!"
