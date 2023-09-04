@@ -1,14 +1,12 @@
 @use '../../../src/styles/queries.scss' as *;
 
 .questions {
-	position: relative;
 	background-color: var(--main-color-lighter);
 	background-image: url('/assets/heroBg.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 0;
-	overflow: hidden;
 }
 .shadow {
 	position: absolute;

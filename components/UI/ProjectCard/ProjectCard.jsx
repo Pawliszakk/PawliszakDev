@@ -5,7 +5,7 @@ import LinkButton from '../buttons/LinkButton';
 import SlideFromTop from '../Animations/SlideFromTop';
 import { useTranslation } from 'react-i18next';
 
-const ProjectCard = ({ href, src, alt, title, tech, detail, index }) => {
+const ProjectCard = ({ href, src, alt, title, tech, github, index }) => {
 	const [t, i18n] = useTranslation('global');
 	const techMap = tech.map((tech) => <li key={tech}>{tech}</li>);
 
@@ -22,7 +22,9 @@ const ProjectCard = ({ href, src, alt, title, tech, detail, index }) => {
 						<ul>{techMap}</ul>
 					</div>
 					<div className={classes.buttons}>
-						<LinkButton href={detail}>{t('latestprojects.link1')}</LinkButton>
+						<LinkButton anchor href={github}>
+							{t('latestprojects.link1')}
+						</LinkButton>
 						<LinkButton anchor href={href}>
 							{t('latestprojects.link2')}
 						</LinkButton>

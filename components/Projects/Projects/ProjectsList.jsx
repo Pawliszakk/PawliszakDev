@@ -9,7 +9,7 @@ const ProjectsList = () => {
 			href: 'https://klimaswiat.pl/',
 			src: '/assets/projects/klimaswiat.JPG',
 			alt: 'Klima Świat Home page snippet',
-			detail: '/projects/klima-swiat',
+			github: 'https://github.com/Pawliszakk/KlimaSwiatNext',
 			title: t('latestprojects.titleklima'),
 			tech: ['Next.js', 'CSS Modules', 'Framer Motion', 'Next Export'],
 		},
@@ -17,7 +17,7 @@ const ProjectsList = () => {
 			src: '/assets/projects/pawliszakdev.JPG',
 			alt: 'PawliszakDev home page snippet',
 			href: 'https://www.pawliszakdev.com/',
-			detail: '/projects/pawliszakdev',
+			github: 'https://github.com/Pawliszakk/PawliszakDev',
 			title: t('latestprojects.titledev'),
 			tech: [
 				'React.js',
@@ -32,7 +32,7 @@ const ProjectsList = () => {
 			src: '/assets/projects/ecofresh.JPG',
 			alt: 'Eco fresh Home page snippet',
 			href: 'https://www.hurtowniaecofresh.pl/',
-			detail: '/projects/eco-fresh',
+			github: 'https://github.com/Pawliszakk/EcoFreshNext',
 			title: t('latestprojects.titleecofresh'),
 			tech: ['Next.js', 'CSS Modules', 'Framer Motion', 'Next Export'],
 		},
@@ -48,7 +48,7 @@ const ProjectsList = () => {
 					alt={project.alt}
 					title={project.title}
 					tech={project.tech}
-					detail={project.detail}
+					github={project.github}
 					index={i}
 				/>
 			))}

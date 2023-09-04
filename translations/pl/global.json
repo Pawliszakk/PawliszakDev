@@ -33,14 +33,14 @@
 	"latestprojects": {
 		"title": "Ostatnie Projekty",
 		"technologies": "Technologie:",
-		"link1": "Dowiedz się wiecej o projekcie",
+		"link1": "Sprawdź na GitHub",
 		"link2": "Zobacz na żywo",
 		"titleklima": "Wizytówka Klima Świat",
 		"titledev": "Moja Strona Portfolio",
 		"titleecofresh": "Wizytówka Eco Fresh",
 		"text1": "Jeśli chciałbyś zgłębić się w mój kod lub zobaczyć więcej projektów, odwiedź mój profil na ",
 		"text2": " lub kliknij przycisk",
-		"button": "poniżej:"
+		"button": "poniżej"
 	},
 	"about": {
 		"header": "O mnie",

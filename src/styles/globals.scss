@@ -33,6 +33,8 @@ body {
 	background-color: var(--main-color);
 }
 section {
+	position: relative;
+	overflow: hidden;
 	padding: 3em 0;
 }
 a {

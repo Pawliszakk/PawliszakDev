@@ -1,8 +1,7 @@
 @use '../../../src/styles/queries.scss' as *;
 .projects {
-	position: relative;
 	background-color: var(--main-color);
-	overflow: hidden;
+
 	span {
 		color: var(--main-cta);
 	}

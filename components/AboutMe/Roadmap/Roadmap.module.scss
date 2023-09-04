@@ -1,11 +1,9 @@
 @use '../../../src/styles/queries.scss' as *;
 .roadmap {
-	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	overflow: hidden;
 	background-color: var(--main-color);
 }
 

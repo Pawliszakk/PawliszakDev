@@ -4,6 +4,7 @@ import { TbWorldSearch, TbDeviceMobileHeart } from 'react-icons/tb';
 import { ScrollParallax } from 'react-just-parallax';
 import Pros from './Pros';
 import { useTranslation } from 'react-i18next';
+import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 
 const DecorationSlide = () => {
 	const [t, i18n] = useTranslation('global');
@@ -44,6 +45,7 @@ const DecorationSlide = () => {
 					className={`${classes.icon} ${classes.iconSecond}`}
 				/>
 			</ScrollParallax>
+			<SectionBlock left className={classes.block} />
 		</section>
 	);
 };

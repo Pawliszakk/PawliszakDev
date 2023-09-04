@@ -1,10 +1,8 @@
 @use '../../../src/styles/queries.scss' as *;
 
 .skills {
-	position: relative;
 	background-color: #dedede;
 	background-color: var(--main-color);
-	overflow: hidden;
 	padding-top: 7rem;
 	padding-bottom: 10rem;
 	z-index: 0;

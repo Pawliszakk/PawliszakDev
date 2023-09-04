@@ -20,7 +20,7 @@ const Skills = () => {
 
 	return (
 		<section className={classes.skills}>
-			<SectionTitle>My Skills</SectionTitle>
+			<SectionTitle>{t('skills.h2')}</SectionTitle>
 			<div className={classes.container}>
 				<Avatar avatar={avatar} />
 				<SkillsList />
