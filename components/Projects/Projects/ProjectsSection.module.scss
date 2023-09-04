@@ -1,3 +1,4 @@
+@use '../../../src/styles/queries.scss' as *;
 .projects {
 	position: relative;
 	display: flex;
@@ -10,4 +11,51 @@
 	bottom: 0;
 	right: -20%;
 	background-color: var(--main-color-darker);
+}
+.icon {
+	position: absolute;
+	color: var(--text-color);
+	z-index: -1;
+	font-size: 10rem;
+	opacity: 0.2;
+}
+.iconFirst {
+	top: 2%;
+	left: 10%;
+	animation: rotateRight 30s infinite linear forwards;
+}
+.iconSecond {
+	bottom: 5%;
+	right: 0;
+	animation: rotateLeft 30s infinite linear forwards;
+}
+
+@keyframes rotateRight {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotateLeft {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+}
+@media (min-width: $l) {
+	.icon {
+		font-size: 15rem;
+	}
+	.iconFirst {
+		top: 10%;
+		left: 5%;
+	}
+	.iconSecond {
+		bottom: 20%;
+		right: 5%;
+	}
 }

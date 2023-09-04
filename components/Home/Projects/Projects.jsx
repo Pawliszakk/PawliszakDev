@@ -5,6 +5,7 @@ import LinkButton from '../../UI/buttons/LinkButton';
 import SpecialLink from '../../UI/buttons/SpecialLink';
 import ProjectDemos from './ProjectDemos';
 import classes from './Projects.module.scss';
+import { FaCode, FaLaptopCode } from 'react-icons/fa';
 
 const Projects = () => {
 	const [t, i18n] = useTranslation('global');
@@ -22,8 +23,10 @@ const Projects = () => {
 				</p>
 				<LinkButton href="/projects">{t('nav.projects')}</LinkButton>
 			</div>
+			<FaLaptopCode className={`${classes.icon} ${classes.iconFirst}`} />
+			<FaCode className={`${classes.icon} ${classes.iconSecond}`} />
 			<SectionBlock className={classes.block} left />
-			<SectionBlock className={classes.blockBottom}  />
+			<SectionBlock className={classes.blockBottom} />
 		</section>
 	);
 };
