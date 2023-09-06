@@ -14,6 +14,7 @@ import {
 	SiFirebase,
 	SiFramer,
 	SiNextdotjs,
+	SiPostman,
 	SiRedux,
 } from 'react-icons/si';
 import { BsGit } from 'react-icons/bs';
@@ -63,6 +64,7 @@ const Skills = () => {
 		},
 		{ icon: <TbJson />, text: 'JSON', type: 'other' },
 		{ icon: <MdHttp />, text: 'HTTP', type: 'other' },
+		{ icon: <SiPostman />, text: 'Postman', type: 'other' },
 	];
 	const traits = [
 		t('about.trait1'),
