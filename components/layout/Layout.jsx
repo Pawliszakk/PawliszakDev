@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
 			<main>{children}</main>
 			<Footer />
 			<ScrollToTop />
-			{/* <StartingOverlay /> */}
+			<StartingOverlay />
 		</>
 	);
 };
