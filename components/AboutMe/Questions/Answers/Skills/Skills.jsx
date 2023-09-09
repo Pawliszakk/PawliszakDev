@@ -13,6 +13,7 @@ import {
 	SiExpress,
 	SiFirebase,
 	SiFramer,
+	SiMongoose,
 	SiNextdotjs,
 	SiPostman,
 	SiRedux,
@@ -50,6 +51,7 @@ const Skills = () => {
 		{ icon: <FaNpm />, text: 'Npm', type: 'other' },
 		{ icon: <SiEslint />, text: 'Eslint', type: 'other' },
 		{ icon: <SiFramer />, text: 'Framer', type: 'other' },
+		{ icon: <SiMongoose />, text: 'Mongoose', type: 'other' },
 		{
 			icon: (
 				<div className={classes.api}>
