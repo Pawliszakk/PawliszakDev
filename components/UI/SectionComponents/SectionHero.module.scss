@@ -1,8 +1,9 @@
+@use '../../../src/styles/queries.scss' as *;
+
 .hero {
 	position: relative;
 	min-height: 100vh;
 	background-image: url('/assets/heroBg.jpg');
-	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 0;
@@ -20,4 +21,10 @@
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.9);
 	z-index: -1;
+}
+
+@media (min-width: $l) {
+	.hero {
+		background-attachment: fixed;
+	}
 }
