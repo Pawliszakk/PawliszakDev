@@ -1,6 +1,6 @@
 import classes from './Skills.module.scss';
 import AnswerTemplate from '../../../../UI/Answers/AnswerTemplate';
-import { FaCss3Alt, FaNpm, FaReact } from 'react-icons/fa';
+import { FaCss3Alt, FaFigma, FaNpm, FaReact } from 'react-icons/fa';
 import { AiFillHtml5 } from 'react-icons/ai';
 import {
 	BiLogoJavascript,
@@ -18,6 +18,7 @@ import {
 	SiPostman,
 	SiRedux,
 } from 'react-icons/si';
+import { GrHeroku } from 'react-icons/gr';
 import { BsGit } from 'react-icons/bs';
 import { MdHttp } from 'react-icons/md';
 import {
@@ -52,6 +53,8 @@ const Skills = () => {
 		{ icon: <SiEslint />, text: 'Eslint', type: 'other' },
 		{ icon: <SiFramer />, text: 'Framer', type: 'other' },
 		{ icon: <SiMongoose />, text: 'Mongoose', type: 'other' },
+		{ icon: <FaFigma />, text: 'Figma', type: 'other' },
+		{ icon: <GrHeroku />, text: 'Heroku', type: 'other' },
 		{
 			icon: (
 				<div className={classes.api}>
