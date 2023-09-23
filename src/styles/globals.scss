@@ -32,6 +32,9 @@ body {
 	font-family: 'Lato', sans-serif;
 	background-color: var(--main-color);
 }
+main {
+	min-height: 100vh;
+}
 section {
 	position: relative;
 	overflow: hidden;
