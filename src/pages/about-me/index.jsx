@@ -1,6 +1,10 @@
 import Head from 'next/head';
-import AboutMe from '../../../components/AboutMe/AboutMe';
+import dynamic from 'next/dynamic';
 
+import LoadingSpinner from '../../../components/UI/LoadingSpinner';
+const AboutMe = dynamic(() => import('../../../components/AboutMe/AboutMe'), {
+	loading: () => <LoadingSpinner />,
+});
 const AboutMePage = () => {
 	return (
 		<>

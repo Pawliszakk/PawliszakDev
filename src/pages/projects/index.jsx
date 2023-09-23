@@ -1,6 +1,13 @@
 import Head from 'next/head';
-import Projects from '../../../components/Projects/Projects';
+import LoadingSpinner from '../../../components/UI/LoadingSpinner';
+import dynamic from 'next/dynamic';
 
+const Projects = dynamic(
+	() => import('../../../components/Projects/Projects'),
+	{
+		loading: () => <LoadingSpinner />,
+	}
+);
 const ProjectsPage = () => {
 	return (
 		<>

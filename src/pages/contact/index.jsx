@@ -1,5 +1,9 @@
 import Head from 'next/head';
-import Contact from '../../../components/Contact/Contact';
+import LoadingSpinner from '../../../components/UI/LoadingSpinner';
+import dynamic from 'next/dynamic';
+const Contact = dynamic(() => import('../../../components/Contact/Contact'), {
+	loading: () => <LoadingSpinner />,
+});
 
 const ContactPage = () => {
 	return (

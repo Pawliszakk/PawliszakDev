@@ -1,7 +1,9 @@
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 
-import Home from '../../components/Home/Home';
-
+const Home = dynamic(() => import('../../components/Home/Home'), {
+	loading: () => <LoadingSpinner />,
+});
 const HomePage = () => {
 	return (
 		<>

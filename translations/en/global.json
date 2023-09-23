@@ -94,5 +94,6 @@
 	},
 	"contact": {
 		"heading": "Get in touch with me!"
-	}
+	},
+	"loading": "Loading..."
 }
