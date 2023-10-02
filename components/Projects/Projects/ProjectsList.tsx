@@ -1,15 +1,7 @@
 import classes from './ProjectsList.module.scss';
 import ProjectCard from '../../UI/ProjectCard/ProjectCard';
 import { useTranslation } from 'react-i18next';
-
-type Project = {
-	href: string;
-	src: string;
-	alt: string;
-	github: string;
-	title: string;
-	tech: string[];
-};
+import { Project } from '../../../src/types/app';
 
 const ProjectsList = () => {
 	const [t, i18n] = useTranslation('global');

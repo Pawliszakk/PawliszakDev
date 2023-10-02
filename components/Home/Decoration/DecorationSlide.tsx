@@ -6,9 +6,15 @@ import Pros from './Pros';
 import { useTranslation } from 'react-i18next';
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 
+type SinglePros = {
+	icon: JSX.Element;
+	title: string;
+	text: string;
+};
+
 const DecorationSlide = () => {
 	const [t, i18n] = useTranslation('global');
-	const prosData = [
+	const prosData: SinglePros[] = [
 		{
 			icon: <HiOutlineDeviceMobile />,
 			title: 'RWD',

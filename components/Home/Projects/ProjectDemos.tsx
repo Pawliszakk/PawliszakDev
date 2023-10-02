@@ -1,10 +1,11 @@
 import classes from './ProjectDemos.module.scss';
 import ProjectCard from '../../UI/ProjectCard/ProjectCard';
 import { useTranslation } from 'react-i18next';
+import { Project } from '../../../src/types/app';
 
 const ProjectDemos = () => {
 	const [t, i18n] = useTranslation('global');
-	const projects = [
+	const projects: Project[] = [
 		{
 			href: 'https://klimaswiat.pl/',
 			src: '/assets/projects/klimaswiat.JPG',
