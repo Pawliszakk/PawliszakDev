@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import classes from './Backdrop.module.scss';
-import Portal from '@/lib/Portal';
+import Portal from '../../../src/lib/Portal';
 
 const Backdrop = ({ onClose }) => {
 	return (
