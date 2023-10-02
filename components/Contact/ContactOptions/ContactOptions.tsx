@@ -7,7 +7,15 @@ import {
 	BsFacebook,
 	BsFillEnvelopeAtFill,
 } from 'react-icons/bs';
-const socials = [
+
+type SingleSocial = {
+	name: string;
+	href?: string;
+	icon: JSX.Element;
+	mail?: boolean;
+};
+
+const socials: SingleSocial[] = [
 	{
 		name: 'Github',
 		href: 'https://github.com/Pawliszakk',
@@ -35,7 +43,11 @@ const socials = [
 	},
 ];
 
-const ContactOptions = ({ showModal }) => {
+interface ContactOptionsProps {
+	showModal: () => void;
+}
+
+const ContactOptions: React.FC<ContactOptionsProps> = ({ showModal }) => {
 	return (
 		<div className={classes.box}>
 			{socials.map((social, i) => (

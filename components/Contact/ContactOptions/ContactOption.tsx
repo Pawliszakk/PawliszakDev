@@ -2,7 +2,23 @@ import CopyToClipboard from 'react-copy-to-clipboard';
 import classes from './ContactOption.module.scss';
 import { motion } from 'framer-motion';
 
-const ContactOption = ({ icon, href, name, mail, onClick, index }) => {
+interface ContactOptionProps {
+	icon: JSX.Element;
+	href: string;
+	name: string;
+	mail?: boolean;
+	onClick: () => void;
+	index: number;
+}
+
+const ContactOption: React.FC<ContactOptionProps> = ({
+	icon,
+	href,
+	name,
+	mail,
+	onClick,
+	index,
+}) => {
 	if (mail) {
 		return (
 			<CopyToClipboard text={name}>
