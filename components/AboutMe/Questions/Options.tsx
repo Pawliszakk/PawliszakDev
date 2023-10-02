@@ -5,7 +5,12 @@ import { TbUserQuestion } from 'react-icons/tb';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
-const Options = ({ option, onContentChange }) => {
+interface OptionsProps {
+	option: number;
+	onContentChange: (number: number) => void;
+}
+
+const Options: React.FC<OptionsProps> = ({ option, onContentChange }) => {
 	const [t, i18n] = useTranslation('global');
 	const optionsItems = [
 		{ text: t('about.option1'), icon: <FaReact /> },

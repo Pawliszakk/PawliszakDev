@@ -18,7 +18,7 @@ const Questions = () => {
 		{ component: <FuturePlans />, id: 'futurePlans' },
 	];
 	const currentAnswer = answersComponents[content].component;
-	const contentHandler = (number) => setContent(number);
+	const contentHandler = (number: number) => setContent(number);
 
 	return (
 		<section className={classes.questions}>

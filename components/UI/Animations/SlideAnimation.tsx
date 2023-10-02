@@ -5,7 +5,7 @@ interface SlideAnimationProps {
 	className?: string;
 	children: ReactNode;
 	left?: boolean;
-	delay: number;
+	delay?: number;
 }
 
 const SlideAnimation: React.FC<SlideAnimationProps> = ({

@@ -1,7 +1,15 @@
 import classes from './Stop.module.scss';
 import { motion } from 'framer-motion';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
-const Stop = ({ index, name, icons, text }) => {
+
+interface StopProps {
+	index: number;
+	name: string;
+	icons: JSX.Element;
+	text: string;
+}
+
+const Stop: React.FC<StopProps> = ({ index, name, icons, text }) => {
 	const isEven = index % 2 === 0;
 
 	return (

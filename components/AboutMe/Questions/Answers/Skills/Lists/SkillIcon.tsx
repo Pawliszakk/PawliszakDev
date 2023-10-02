@@ -1,6 +1,14 @@
 import classes from './SkillIcon.module.scss';
 
-const SkillIcon = ({ icon }) => {
+interface SkillIconProps {
+	icon: {
+		icon: JSX.Element;
+		type: string;
+		text: string;
+	};
+}
+
+const SkillIcon: React.FC<SkillIconProps> = ({ icon }) => {
 	const isRestApi = icon.text === 'RestAPI';
 
 	return (
