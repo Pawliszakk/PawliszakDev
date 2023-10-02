@@ -1,6 +1,15 @@
 import { motion } from 'framer-motion';
+import { ReactNode } from 'react';
 
-const ShowAnimation = ({ children, className }) => {
+interface ShowAnimationProps {
+	children: ReactNode;
+	className?: string;
+}
+
+const ShowAnimation: React.FC<ShowAnimationProps> = ({
+	children,
+	className,
+}) => {
 	return (
 		<motion.div
 			className={className}

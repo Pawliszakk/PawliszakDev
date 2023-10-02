@@ -1,7 +1,22 @@
+import { ReactNode } from 'react';
 import classes from './LinkButton.module.scss';
 import { useRouter } from 'next/router';
 
-const LinkButton = ({ href, children, className, anchor, nav }) => {
+interface LinkButtonProps {
+	href: string;
+	children: ReactNode;
+	className?: string;
+	anchor?: string;
+	nav?: boolean;
+}
+
+const LinkButton: React.FC<LinkButtonProps> = ({
+	href,
+	children,
+	className,
+	anchor,
+	nav,
+}) => {
 	const relAttr = nav ? null : 'noopener';
 	const targetAttr = nav ? null : '_blank';
 	const router = useRouter();

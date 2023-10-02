@@ -1,6 +1,19 @@
 import { motion } from 'framer-motion';
+import { ReactNode } from 'react';
 
-const SlideAnimation = ({ className, children, left, delay }) => {
+interface SlideAnimationProps {
+	className?: string;
+	children: ReactNode;
+	left?: boolean;
+	delay: number;
+}
+
+const SlideAnimation: React.FC<SlideAnimationProps> = ({
+	className,
+	children,
+	left,
+	delay,
+}) => {
 	return (
 		<motion.div
 			className={className}

@@ -6,7 +6,15 @@ import SectionBlock from '../UI/SectionComponents/SectionBlock';
 import SectionTitle from '../UI/SectionComponents/SectionTItle';
 import LinkButton from '../UI/buttons/LinkButton';
 
-const ContactComponent = ({ message, home }) => {
+interface ContactComponentProps {
+	message: string;
+	home?: boolean;
+}
+
+const ContactComponent: React.FC<ContactComponentProps> = ({
+	message,
+	home,
+}) => {
 	const [t, i18n] = useTranslation('global');
 
 	return (

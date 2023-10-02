@@ -1,6 +1,17 @@
 import { motion } from 'framer-motion';
+import { ReactNode } from 'react';
 
-const SlideFromTop = ({ className, children, index }) => {
+interface SlideFromTopProps {
+	className?: string;
+	children: ReactNode;
+	index: number;
+}
+
+const SlideFromTop: React.FC<SlideFromTopProps> = ({
+	className,
+	children,
+	index,
+}) => {
 	return (
 		<motion.div
 			className={className}

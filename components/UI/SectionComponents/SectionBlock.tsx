@@ -1,6 +1,16 @@
 import classes from './SectionBlock.module.scss';
 
-const SectionBlock = ({ className, left, footer }) => {
+interface SectionBlockProps {
+	className?: string;
+	left?: boolean;
+	footer?: boolean;
+}
+
+const SectionBlock: React.FC<SectionBlockProps> = ({
+	className,
+	left,
+	footer,
+}) => {
 	let direction;
 	left ? (direction = classes.left) : (direction = classes.right);
 
