@@ -3,8 +3,16 @@ import classes from './Modal.module.scss';
 import { motion } from 'framer-motion';
 import Portal from '../../../src/lib/Portal';
 import Backdrop from './Backdrop';
+import { ReactNode } from 'react';
 
-const Modal = ({ children, onClose, show, icon }) => {
+interface ModalProps {
+	children: ReactNode;
+	onClose: () => void;
+	show: () => void;
+	icon: JSX.Element;
+}
+
+const Modal: React.FC<ModalProps> = ({ children, onClose, show, icon }) => {
 	return (
 		<>
 			<Portal id="overlay-root">
@@ -22,7 +30,7 @@ const Modal = ({ children, onClose, show, icon }) => {
 					<h2>{children}</h2>
 				</motion.div>
 			</Portal>
-			<Backdrop onClose={onClose} show={show} />
+			<Backdrop onClose={onClose} />
 		</>
 	);
 };

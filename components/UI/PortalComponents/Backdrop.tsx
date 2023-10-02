@@ -2,7 +2,11 @@ import { motion } from 'framer-motion';
 import classes from './Backdrop.module.scss';
 import Portal from '../../../src/lib/Portal';
 
-const Backdrop = ({ onClose }) => {
+interface BackdropProps {
+	onClose: () => void;
+}
+
+const Backdrop: React.FC<BackdropProps> = ({ onClose }) => {
 	return (
 		<Portal id="backdrop">
 			<motion.div
