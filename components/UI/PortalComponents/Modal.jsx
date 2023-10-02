@@ -1,7 +1,7 @@
 import classes from './Modal.module.scss';
 
 import { motion } from 'framer-motion';
-import Portal from '@/lib/Portal';
+import Portal from '../../../src/lib/Portal';
 import Backdrop from './Backdrop';
 
 const Modal = ({ children, onClose, show, icon }) => {
