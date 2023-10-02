@@ -1,4 +1,4 @@
-import Portal from '@/lib/Portal';
+import Portal from '../../src/lib/Portal';
 import classes from './LoadingSpinner.module.scss';
 import { useTranslation } from 'react-i18next';
 

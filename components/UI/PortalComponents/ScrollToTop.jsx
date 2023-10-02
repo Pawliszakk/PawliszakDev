@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 
 import classes from './ScrollToTop.module.scss';
 
-import useDisplay from '@/hooks/useDisplay';
+import useDisplay from '../../../src/hooks/useDisplay';
 import { IoMdArrowRoundUp } from 'react-icons/io';
-import Portal from '@/lib/Portal';
+import Portal from '../../../src/lib/Portal';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const ScrollToTop = () => {

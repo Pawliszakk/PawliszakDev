@@ -2,7 +2,7 @@ import { Sling as Hamburger } from 'hamburger-react';
 import classes from './NavList.module.scss';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import useDisplay from '@/hooks/useDisplay';
+import useDisplay from '../../../src/hooks/useDisplay';
 import ThemeIcon from './ThemeIcon';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
