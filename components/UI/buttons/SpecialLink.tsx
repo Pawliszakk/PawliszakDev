@@ -1,6 +1,14 @@
 import { useRouter } from 'next/router';
 import classes from './SpecialLink.module.scss';
-const SpecialLink = ({ href, children, span }) => {
+import { ReactNode } from 'react';
+
+interface SpecialLinkProps {
+	href: string;
+	children: ReactNode;
+	span?: boolean;
+}
+
+const SpecialLink: React.FC<SpecialLinkProps> = ({ href, children, span }) => {
 	const router = useRouter();
 	const handleRouting = () => router.push(href);
 

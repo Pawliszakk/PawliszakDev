@@ -1,7 +1,16 @@
 import classes from './ScrollToSection.module.scss';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 import { motion } from 'framer-motion';
-const ScrollToSection = ({ href, className }) => {
+
+interface ScrollToSectionProps {
+	href: string;
+	className?: string;
+}
+
+const ScrollToSection: React.FC<ScrollToSectionProps> = ({
+	href,
+	className,
+}) => {
 	return (
 		<motion.a
 			initial={{ y: 120, opacity: 0 }}
