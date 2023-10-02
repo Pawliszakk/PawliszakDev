@@ -8,7 +8,7 @@ import { ReactNode } from 'react';
 interface ModalProps {
 	children: ReactNode;
 	onClose: () => void;
-	show: () => void;
+	show: boolean;
 	icon: JSX.Element;
 }
 
