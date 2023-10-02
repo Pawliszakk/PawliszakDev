@@ -5,7 +5,25 @@ import LinkButton from '../buttons/LinkButton';
 import SlideFromTop from '../Animations/SlideFromTop';
 import { useTranslation } from 'react-i18next';
 
-const ProjectCard = ({ href, src, alt, title, tech, github, index }) => {
+interface ProjectCardProps {
+	href: string;
+	src: string;
+	alt: string;
+	title: string;
+	tech: string[];
+	github: string;
+	index: number;
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+	href,
+	src,
+	alt,
+	title,
+	tech,
+	github,
+	index,
+}) => {
 	const [t, i18n] = useTranslation('global');
 	const techMap = tech.map((tech) => <li key={tech}>{tech}</li>);
 

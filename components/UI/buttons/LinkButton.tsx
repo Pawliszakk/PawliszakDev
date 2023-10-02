@@ -6,7 +6,7 @@ interface LinkButtonProps {
 	href: string;
 	children: ReactNode;
 	className?: string;
-	anchor?: string;
+	anchor?: boolean;
 	nav?: boolean;
 }
 

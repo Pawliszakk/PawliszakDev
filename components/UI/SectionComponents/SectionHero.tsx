@@ -1,5 +1,17 @@
+import { ReactNode } from 'react';
 import classes from './SectionHero.module.scss';
-const SectionHero = ({ children, classNameHero, classNameShadow }) => {
+
+interface SectionHeroProps {
+	children: ReactNode;
+	classNameHero?: string;
+	classNameShadow?: string;
+}
+
+const SectionHero: React.FC<SectionHeroProps> = ({
+	children,
+	classNameHero,
+	classNameShadow,
+}) => {
 	return (
 		<section className={`${classes.hero} ${classNameHero}`}>
 			<div className={`${classes.shadow} ${classNameShadow}`}></div>
