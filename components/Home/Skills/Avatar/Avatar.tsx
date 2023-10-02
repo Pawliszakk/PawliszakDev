@@ -4,7 +4,12 @@ import classes from './Avatar.module.scss';
 
 import AvatarText from './AvatarText';
 import SlideAnimation from '../../../UI/Animations/SlideAnimation';
-const Avatar = ({ avatar }) => {
+
+interface AvatarProps {
+	avatar: string;
+}
+
+const Avatar: React.FC<AvatarProps> = ({ avatar }) => {
 	return (
 		<SlideAnimation className={classes.avatar}>
 			<AvatarBlob
