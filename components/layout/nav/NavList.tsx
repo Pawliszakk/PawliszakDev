@@ -8,7 +8,12 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import LangChange from './LangChange';
 
-const NavList = ({ isNavActive, mobileNavHandler }) => {
+interface NavListProps {
+	isNavActive: boolean;
+	mobileNavHandler: () => void;
+}
+
+const NavList: React.FC<NavListProps> = ({ isNavActive, mobileNavHandler }) => {
 	const [t, i18n] = useTranslation('global');
 
 	const isMobile = useDisplay();

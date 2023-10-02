@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
 
 import classes from './MainNavigation.module.scss';
 import Link from 'next/link';
@@ -11,9 +10,6 @@ const MainNavigaiton = () => {
 	const [isNavActive, setIsNavActive] = useState(false);
 	const [isNavScrolled, setIsNavScrolled] = useState(false);
 	const { isDark } = useContext(ThemeContext);
-	const router = useRouter();
-
-	const isHomePage = '/' === router.pathname;
 
 	const navBarClasses = `${classes.header}  ${
 		isNavScrolled || isNavActive || !isDark ? classes.headerScrolled : null

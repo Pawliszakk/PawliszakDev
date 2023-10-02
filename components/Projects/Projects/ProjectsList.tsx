@@ -2,9 +2,18 @@ import classes from './ProjectsList.module.scss';
 import ProjectCard from '../../UI/ProjectCard/ProjectCard';
 import { useTranslation } from 'react-i18next';
 
+type Project = {
+	href: string;
+	src: string;
+	alt: string;
+	github: string;
+	title: string;
+	tech: string[];
+};
+
 const ProjectsList = () => {
 	const [t, i18n] = useTranslation('global');
-	const projects = [
+	const projects: Project[] = [
 		{
 			href: 'https://klimaswiat.pl/',
 			src: '/assets/projects/klimaswiat.JPG',

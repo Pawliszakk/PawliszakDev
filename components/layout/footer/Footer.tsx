@@ -9,10 +9,16 @@ import {
 } from 'react-icons/bs';
 import SectionBlock from '../../UI/SectionComponents/SectionBlock';
 
+type SingleSocial = {
+	name: string;
+	href: string;
+	icon: JSX.Element;
+};
+
 const Footer = () => {
 	const year = new Date().getFullYear();
 
-	const socials = [
+	const socials: SingleSocial[] = [
 		{
 			name: 'Github',
 			href: 'https://github.com/Pawliszakk',
@@ -47,7 +53,7 @@ const Footer = () => {
 	));
 	return (
 		<footer className={classes.footer}>
-			<SectionBlock left cdclassName={classes.block} />
+			<SectionBlock left className={classes.block} />
 
 			<div className={classes.box}>
 				<Link href="/" className={classes.name}>
