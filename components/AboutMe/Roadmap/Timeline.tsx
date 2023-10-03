@@ -7,8 +7,9 @@ import {
 	BiLogoJavascript,
 	BiLogoMongodb,
 	BiLogoNodejs,
+	BiLogoTypescript,
 } from 'react-icons/bi';
-import { SiNextdotjs, SiExpress, SiTypescript } from 'react-icons/si';
+import { SiNextdotjs, SiExpress } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
 
 const Timeline = () => {
@@ -45,7 +46,7 @@ const Timeline = () => {
 		},
 		{
 			name: 'TYPESCRIPT',
-			icons: <SiTypescript />,
+			icons: <BiLogoTypescript />,
 			text: t('about.typescript'),
 		},
 		{
