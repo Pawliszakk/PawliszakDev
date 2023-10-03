@@ -7,6 +7,7 @@ import {
 	BiLogoMongodb,
 	BiLogoNodejs,
 	BiLogoSass,
+	BiLogoTypescript,
 } from 'react-icons/bi';
 import {
 	SiEslint,
@@ -33,14 +34,21 @@ import { useTranslation } from 'react-i18next';
 import TechList from './Lists/TechList';
 import AnswerHeading from '../../../../UI/Answers/AnswerHeading';
 
+type TechIcon = {
+	icon: JSX.Element;
+	text: string;
+	type: 'stack' | 'other';
+};
+
 const Skills = () => {
 	const [t, i18n] = useTranslation('global');
 
-	const techIcons = [
+	const techIcons: TechIcon[] = [
 		{ icon: <AiFillHtml5 />, text: 'HTML5', type: 'stack' },
 		{ icon: <FaCss3Alt />, text: 'CSS3', type: 'stack' },
 		{ icon: <BiLogoSass />, text: 'Sass', type: 'stack' },
 		{ icon: <BiLogoJavascript />, text: 'JavaScript', type: 'stack' },
+		{ icon: <BiLogoTypescript />, text: 'Typescript', type: 'stack' },
 		{ icon: <FaReact />, text: 'React', type: 'stack' },
 		{ icon: <SiRedux />, text: 'Redux', type: 'stack' },
 		{ icon: <SiNextdotjs />, text: 'Next.js', type: 'stack' },

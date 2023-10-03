@@ -16,14 +16,14 @@ const SkillsList = () => {
 				<Skill image="/assets/techStack/js.png" text="JS ES6+" />
 			</div>
 			<div className={classes.column}>
+				<Skill image="/assets/techStack/typescript.png" text="TYPESCRIPT" />
 				<Skill image="/assets/techStack/react.png" text="REACT.JS" />
 				<Skill image="/assets/techStack/redux.png" text="REDUX" />
 				<Skill image="/assets/techStack/next.png" text="NEXT.JS" />
-				<Skill image="/assets/techStack/mongo.png" text="MONGODB" />
 			</div>
 			<div className={classes.column}>
 				<Skill image="/assets/techStack/sass.png" text="SASS" />
-				<Skill image="/assets/techStack/firebase.png" text="FIREBASE" />
+				<Skill image="/assets/techStack/mongo.png" text="MONGODB" />
 				<Skill image="/assets/techStack/node.png" text="NODE.JS" />
 			</div>
 		</motion.div>

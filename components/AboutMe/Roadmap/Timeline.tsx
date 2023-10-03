@@ -8,7 +8,7 @@ import {
 	BiLogoMongodb,
 	BiLogoNodejs,
 } from 'react-icons/bi';
-import { SiNextdotjs, SiExpress } from 'react-icons/si';
+import { SiNextdotjs, SiExpress, SiTypescript } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
 
 const Timeline = () => {
@@ -42,6 +42,11 @@ const Timeline = () => {
 			name: 'NEXT.JS',
 			icons: <SiNextdotjs />,
 			text: t('about.Next.js'),
+		},
+		{
+			name: 'TYPESCRIPT',
+			icons: <SiTypescript />,
+			text: t('about.typescript'),
 		},
 		{
 			name: 'MERN STACK',
