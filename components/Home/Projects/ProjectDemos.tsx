@@ -21,8 +21,8 @@ const ProjectDemos = () => {
 			github: 'https://github.com/Pawliszakk/PawliszakDev',
 			title: t('latestprojects.titledev'),
 			tech: [
-				'React.js',
 				'Next.js',
+				'Typescript',
 				'CSS Modules',
 				'SCSS',
 				'Framer Motion',
@@ -35,7 +35,13 @@ const ProjectDemos = () => {
 			href: 'https://www.hurtowniaecofresh.pl/',
 			github: 'https://github.com/Pawliszakk/EcoFreshNext',
 			title: t('latestprojects.titleecofresh'),
-			tech: ['Next.js', 'CSS Modules', 'Framer Motion', 'Next Export'],
+			tech: [
+				'Next.js',
+				'Typescript',
+				'CSS Modules',
+				'Framer Motion',
+				'Next Export',
+			],
 		},
 	];
 
