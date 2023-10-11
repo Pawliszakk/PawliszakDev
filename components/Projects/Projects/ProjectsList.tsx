@@ -46,7 +46,7 @@ const ProjectsList = () => {
 	];
 
 	return (
-		<ul className={classes.list}>
+		<div className={classes.box}>
 			{projects.map((project, i) => (
 				<ProjectCard
 					key={project.alt}
@@ -59,7 +59,7 @@ const ProjectsList = () => {
 					index={i}
 				/>
 			))}
-		</ul>
+		</div>
 	);
 };
 

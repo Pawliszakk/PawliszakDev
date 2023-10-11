@@ -1,6 +1,6 @@
 @use '../../../src/styles/queries.scss' as *;
 
-.list {
+.box {
 	margin-top: 3rem;
 	display: flex;
 	justify-content: center;
@@ -10,13 +10,13 @@
 }
 
 @media (min-width: $s) {
-	.list {
+	.box {
 		flex-flow: row wrap;
 		gap: 10rem;
 	}
 }
 @media (min-width: $xl) {
-	.list {
+	.box {
 		gap: 15rem;
 		margin-top: 0;
 	}
