@@ -33,7 +33,11 @@
 	width: 225px;
 	height: 360px;
 	position: relative;
+	img {
+		object-fit: cover;
+	}
 }
+
 .text {
 	padding: 2em 1em;
 	display: flex;
