@@ -3,7 +3,7 @@ import classes from './SpecialLink.module.scss';
 import { ReactNode } from 'react';
 
 interface SpecialLinkProps {
-	href?: string;
+	href: string;
 	children: ReactNode;
 	span?: boolean;
 }

@@ -17,7 +17,8 @@ const NoteContent = () => {
 				My background is website and <span>web application development</span>. I
 				love spending time coding and facing new challenges. I've spent
 				countless hours on frontend development in the last few months, as my{' '}
-				<SpecialLink>GitHub</SpecialLink> profile shows.
+				<SpecialLink href="https://github.com/Pawliszakk">GitHub</SpecialLink>{' '}
+				profile shows.
 			</p>
 			<p>
 				I am also a graduate of a technical school for{' '}
@@ -42,7 +43,8 @@ const NoteContent = () => {
 				Uwielbiam spędzać czas na programowaniu i podejmowaniu nowych wyzwań. W
 				ciągu ostatnich kilkunastu miesięcy spędziłem wiele godzin nad rozwojem
 				w świecie front-endu, o czym świadczy między innymi mój profil na{' '}
-				<SpecialLink>GitHubie</SpecialLink>.
+				<SpecialLink href="https://github.com/Pawliszakk">GitHubie</SpecialLink>
+				.
 			</p>
 			<p>
 				Jestem również absolwentem <span>technikum informatycznego</span>, w
