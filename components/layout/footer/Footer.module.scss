@@ -65,6 +65,10 @@
 	svg {
 		z-index: 0;
 	}
+	span {
+		position: absolute;
+		opacity: 0;
+	}
 }
 @keyframes iconAnimation {
 	0% {

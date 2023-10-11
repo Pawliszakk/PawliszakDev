@@ -40,15 +40,16 @@ const Footer = () => {
 			icon: <BsFacebook />,
 		},
 	];
-	const socialsIcons = socials.map((link) => (
+	const socialsIcons = socials.map((link, i) => (
 		<a
-			key={link.name}
+			key={i}
 			href={link.href}
 			target="_blank"
 			className={classes.social}
 			rel="noopener"
 		>
 			{link.icon}
+			<span>{link.name}</span>
 		</a>
 	));
 	return (
