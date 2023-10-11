@@ -9,7 +9,16 @@ interface SkillProps {
 const Skill: React.FC<SkillProps> = ({ image, text }) => {
 	return (
 		<div className={classes.skill}>
-			<Image src={image} alt={`${text} icon`} width={40} height={40} />
+			<div className={classes.image}>
+				<Image
+					src={image}
+					alt={`${text} icon`}
+					width={40}
+					height={40}
+					layout="responsive"
+				/>
+			</div>
+
 			<p>{text}</p>
 		</div>
 	);

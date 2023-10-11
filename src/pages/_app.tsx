@@ -39,6 +39,7 @@ export default function App({ Component, pageProps }) {
 					sizes="180x180"
 				/>
 				<link rel="shortcut icon" href="/assets/icons/favicon.ico" />
+		
 			</Head>
 			<I18nextProvider i18n={i18next}>
 				<ThemeContextProvider>
