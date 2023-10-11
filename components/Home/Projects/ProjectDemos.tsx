@@ -12,7 +12,13 @@ const ProjectDemos = () => {
 			alt: 'Klima Świat Home page snippet',
 			github: 'https://github.com/Pawliszakk/KlimaSwiatNext',
 			title: t('latestprojects.titleklima'),
-			tech: ['Next.js', 'CSS Modules', 'Framer Motion', 'Next Export'],
+			tech: [
+				'Next.js',
+				'CSS Modules',
+				'Framer Motion',
+				'Next Export',
+				'Typescript',
+			],
 		},
 		{
 			src: '/assets/projects/pawliszakdev.JPG',
