@@ -3,4 +3,8 @@
 	margin-top: 1em;
 	color: var(--main-cta);
 	font-size: 6rem;
+	span {
+		position: absolute;
+		opacity: 0;
+	}
 }

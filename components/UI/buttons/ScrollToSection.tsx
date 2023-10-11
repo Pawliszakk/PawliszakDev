@@ -21,6 +21,7 @@ const ScrollToSection: React.FC<ScrollToSectionProps> = ({
 			className={`${classes.btn} ${className}`}
 		>
 			<BsFillArrowDownCircleFill />
+			<span>Przejdź niżej</span>
 		</motion.a>
 	);
 };

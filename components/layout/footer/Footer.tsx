@@ -64,6 +64,7 @@ const Footer = () => {
 					{socialsIcons}
 					<Link href="/contact" className={classes.social}>
 						<BsFillEnvelopeAtFill />
+						<span>Mail</span>
 					</Link>
 				</div>
 				<p className={classes.year}>{year}</p>
