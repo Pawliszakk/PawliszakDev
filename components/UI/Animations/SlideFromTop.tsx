@@ -18,6 +18,7 @@ const SlideFromTop: React.FC<SlideFromTopProps> = ({
 			initial={{ opacity: 0, x: -50, y: -50 }}
 			whileInView={{ opacity: 1, x: 0, y: 0 }}
 			transition={{ delay: index * 0.4 }}
+			viewport={{ once: true }}
 		>
 			{children}
 		</motion.div>

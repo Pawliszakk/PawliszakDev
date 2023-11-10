@@ -18,6 +18,7 @@ const Stop: React.FC<StopProps> = ({ index, name, icons, text }) => {
 			whileInView={{ opacity: 1, x: isEven ? -20 : 20 }}
 			transition={{ delay: index === 0 ? 0.3 : 0.3 + index * 0.1 }}
 			className={classes.stop}
+			viewport={{ once: true }}
 		>
 			<p>{name}</p>
 			<div className={classes.icons}>{icons}</div>

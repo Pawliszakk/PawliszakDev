@@ -17,6 +17,7 @@ const ScrollToSection: React.FC<ScrollToSectionProps> = ({
 			whileHover={{ scale: 0.9 }}
 			whileTap={{ scale: 0.5 }}
 			whileInView={{ y: 0, opacity: 1 }}
+			viewport={{ once: true }}
 			href={href}
 			className={`${classes.btn} ${className}`}
 		>

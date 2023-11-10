@@ -20,6 +20,7 @@ const SlideAnimation: React.FC<SlideAnimationProps> = ({
 			initial={{ opacity: 0, x: left ? 50 : -50 }}
 			whileInView={{ opacity: 1, x: 0 }}
 			transition={{ delay: delay ? delay : 0.3 }}
+			viewport={{ once: true }}
 		>
 			{children}
 		</motion.div>

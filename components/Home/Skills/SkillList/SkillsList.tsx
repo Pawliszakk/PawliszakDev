@@ -9,6 +9,7 @@ const SkillsList = () => {
 			initial={{ opacity: 0, x: 50 }}
 			whileInView={{ opacity: 1, x: 0 }}
 			transition={{ delay: 0.3 }}
+			viewport={{ once: true }}
 		>
 			<div className={classes.column}>
 				<Skill image="/assets/techStack/html.png" text="HTML5" />
