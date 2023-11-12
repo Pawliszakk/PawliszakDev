@@ -7,6 +7,14 @@ const ProjectsList = () => {
 	const [t, i18n] = useTranslation('global');
 	const projects: Project[] = [
 		{
+			href: 'https://todo-app-full-stack-dun.vercel.app/',
+			src: '/assets/projects/taskpro.JPG',
+			alt: 'Klima Świat Home page snippet',
+			github: 'https://github.com/Pawliszakk/KlimaSwiatNext',
+			title: t('latestprojects.titleklima'),
+			tech: ['Next.js', 'MongoDB', 'Formik', 'Node.js', 'Typescript', 'JWT'],
+		},
+		{
 			href: 'https://klimaswiat.pl/',
 			src: '/assets/projects/klimaswiat.JPG',
 			alt: 'Klima Świat Home page snippet',
