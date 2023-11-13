@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { AnimatePresence, motion } from 'framer-motion';
+
 import { BsClipboardCheck } from 'react-icons/bs';
 import classes from './Contact.module.scss';
 import ContactOptions from './ContactOptions/ContactOptions';
 import AvatarBlob from '../UI/AvatarBlob';
 import SectionBlock from '../UI/SectionComponents/SectionBlock';
-import { AnimatePresence, motion } from 'framer-motion';
 import Modal from '../UI/PortalComponents/Modal';
 import SlideAnimation from '../UI/Animations/SlideAnimation';
-import { useTranslation } from 'react-i18next';
 import SectionHero from '../UI/SectionComponents/SectionHero';
 
 const Contact = () => {

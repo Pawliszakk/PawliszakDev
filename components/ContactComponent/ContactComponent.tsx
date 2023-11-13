@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+
 import classes from './ContactComponent.module.scss';
 import Icons from './Icons';
 import AvatarBlob from '../UI/AvatarBlob';
