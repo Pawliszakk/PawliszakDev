@@ -10,10 +10,12 @@ import {
 	BiLogoTypescript,
 } from 'react-icons/bi';
 import {
+	SiCypress,
 	SiEslint,
 	SiExpress,
 	SiFirebase,
 	SiFramer,
+	SiJest,
 	SiMongoose,
 	SiNextdotjs,
 	SiPostman,
@@ -54,6 +56,8 @@ const Skills = () => {
 		{ icon: <SiNextdotjs />, text: 'Next.js', type: 'stack' },
 		{ icon: <BiLogoNodejs />, text: 'Node.js', type: 'stack' },
 		{ icon: <SiExpress />, text: 'Express', type: 'stack' },
+		{ icon: <SiJest />, text: 'Jest', type: 'stack' },
+		{ icon: <SiCypress />, text: 'Cypress', type: 'stack' },
 		{ icon: <BsGit />, text: 'Git', type: 'other' },
 		{ icon: <BiLogoMongodb />, text: 'MongoDB', type: 'other' },
 		{ icon: <SiFirebase />, text: 'Firebase', type: 'other' },
